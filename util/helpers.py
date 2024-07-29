@@ -143,6 +143,7 @@ DICTIONARY: tuple[Snippet] = (
     Snippet("live location", "трансляция геопозиции", "торған урын күрһәтеү"),
     Snippet("exception", "исключение", "айырма"),
     Snippet("tag", "тег", "тамға"),
+    Snippet("anonymous", "анонимный", "имзаһыҙ"),
 )
 
 
