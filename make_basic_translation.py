@@ -28,8 +28,8 @@ def process_batch(
             ):
                 used_snippets.add(snippet)
         example_strs.append(f"{id+1}.")
-        example_strs.append(task.text_en)
-        example_strs.append(task.text_ru)
+        example_strs.append(f'"""{task.text_en}"""')
+        example_strs.append(f'"""{task.text_ru}"""')
         example_strs.append("")
         example_count += 1
     if not used_snippets:
