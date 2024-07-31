@@ -4,8 +4,6 @@ set -eux -o pipefail
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
-cd ${SCRIPT_DIR}/../data/default
-
 do_download() {
   lang=$1
   curl https://translations.telegram.org/${lang}/android/export -o android.xml
@@ -18,16 +16,30 @@ do_download() {
   curl https://translations.telegram.org/${lang}/unigram/export -o unigram.xml
 }
 
-[ "$#" = "1" ]
-
-if [ "$1" == "--default" ]; then
+download_defaults() {
   cd ${SCRIPT_DIR}/../data/default/en
   do_download "en"
 
   cd ${SCRIPT_DIR}/../data/default/ru
   do_download "ru"
-else
-  cd ${SCRIPT_DIR}/../data/canonical/$1
+}
 
+download_canonical() {
+  cd ${SCRIPT_DIR}/../data/canonical/$1
   do_download $1
+}
+
+[ "$#" = "1" ]
+
+cd ${SCRIPT_DIR}/../data
+
+if [ "$1" == "--all" ]; then
+  download_defaults
+  for lang in bashkort-alifba tatar-cyrill; do
+    download_canonical $lang
+  done
+elif [ "$1" == "--default" ]; then
+  download_defaults
+else
+  download_canonical $1
 fi

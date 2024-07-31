@@ -2954,7 +2954,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
-
+"lng_stickers_box_edit_name_about" = "Придумайте название для набора.";
 
 
 "lng_in_dlg_photo" = "Фотография";
@@ -3189,8 +3189,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_add_to_side_menu_done" = "Бот добавлен в главное меню.";
 "lng_bot_no_scan_qr" = "Считывание QR-кодов ботами не поддерживается в приложениях для компьютера. Воспользуйтесь одним из мобильных приложений Telegram.";
 
-
-
+"lng_bot_status_users#one" = "{count} пользователь";
+"lng_bot_status_users#other" = "{count} пользователей";
 
 "lng_typing" = "печатает";
 "lng_user_typing" = "{user} печатает";
@@ -5346,15 +5346,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_recent_none" = "Здесь появятся последние\nрезультаты поиска.";
 "lng_recent_chats" = "Чаты";
 "lng_recent_channels" = "Каналы";
-
+"lng_recent_apps" = "Приложения";
 "lng_channels_none_title" = "Каналов пока нет...";
 "lng_channels_none_about" = "Вы не подписаны ни на один канал.";
 "lng_channels_your_title" = "Каналы в списке чатов";
 "lng_channels_your_more" = "Все";
 "lng_channels_your_less" = "Свернуть";
 "lng_channels_recommended" = "Похожие каналы";
-
-
+"lng_bot_apps_your" = "Используемые приложения";
+"lng_bot_apps_popular" = "Популярные приложения";
 
 "lng_font_box_title" = "Выберите семейство шрифтов";
 "lng_font_default" = "По умолчанию";
@@ -5734,6 +5734,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_earn_balance_button#many" = "Вывести {emoji} {count}";
 "lng_bot_earn_credits_out_minimal_link#few" = "{count} звёзд";
 "lng_bot_earn_credits_out_minimal_link#many" = "{count} звёзд";
+"lng_bot_status_users#few" = "{count} пользователя";
+"lng_bot_status_users#many" = "{count} пользователей";
 "lng_bot_sure_add" = "Назначить";
 "lng_bot_sure_add_title" = "Назначить администратором";
 "lng_business_limit_reached#few" = "Можно создать не более {count} сообщений.";
