@@ -120,7 +120,7 @@ def main():
         )
     print("Batch count:", len(batches))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         future_to_batch = {
             executor.submit(process_batch, batch, chatgpt_client): batch
             for batch in batches

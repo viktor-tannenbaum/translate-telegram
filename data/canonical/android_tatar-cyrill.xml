@@ -759,6 +759,7 @@
     <string name="TypeLocationGroup">Публичная ссылка</string>
     <string name="TypeLocationGroupEdit">Нажмите, чтобы добавить ссылку</string>
     <string name="ChoosePhoto">Фото сайларга</string>
+    <string name="ChoosePhotoForSticker">Create a sticker from a photo</string>
     <string name="AddImage">Добавить изображение</string>
     <string name="ChoosePhotoOrVideo">Фото яисә видео сайлагыз</string>
     <string name="AddPhoto">Яңа фото билгеләү</string>
@@ -8981,6 +8982,8 @@
     <string name="StarsNeededTitle_one">Требуется %d звезда</string>
     <string name="StarsNeededTitle_other">Требуется %d звезды</string>
     <string name="StarsNeededText">Купите **звёзды** для оплаты в **%s** и других мини-приложениях.</string>
+    
+    
     <string name="CaptionAbove">Перенести подпись наверх</string>
     <string name="CaptionBelow">Перенести подпись вниз</string>
     <string name="AddFactCheck">Разъяснение</string>
@@ -9134,13 +9137,13 @@
     <string name="ProfileBotOpenAppInfoOwnerLink">https://telegram.org/tos/mini-apps/ru</string>
     <string name="ProfileBotPreviewTab">Предпросмотр</string>
     <string name="ProfileBotPreviewEmptyTitle">Без предпросмотра</string>
-    <string name="ProfileBotPreviewEmptyText_one">Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.</string>
-    <string name="ProfileBotPreviewEmptyText_other">Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.</string>
+    <string name="ProfileBotPreviewEmptyText_one">Загрузите до %d демонстрационного видео и снимка экрана мини-приложения.</string>
+    <string name="ProfileBotPreviewEmptyText_other">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
     <string name="ProfileBotPreviewEmptyButton">Добавить предпросмотр</string>
     <string name="BotPreviewEmpty">изображений пока нет</string>
     <string name="Images_one">%d изображение</string>
     <string name="Images_other">%d изображения</string>
-    <string name="ProfileBotPreviewFooterGeneral">Этот предпросмотр будет отображаться у всех пользователей, кроме тех, для которых Вы добавили перевод.</string>
+    <string name="ProfileBotPreviewFooterGeneral">Этот предпросмотр будет отображаться у всех пользователей, для которых \nне был добавлен перевод.</string>
     <string name="ProfileBotPreviewFooterLanguage">Этот предпросмотр будет отображаться у всех пользователей с языком интерфейса: %s.</string>
     <string name="ProfileBotPreviewFooterCreateTranslation">Создать перевод</string>
     <string name="ProfileBotPreviewFooterDeleteTranslation">Удалить этот перевод</string>
@@ -9246,6 +9249,47 @@
     <string name="WebNoSearchedHistory">Ничего не найдено</string>
     <string name="WebNoBookmarks">Закладки не найдены</string>
     <string name="WebForward">Перейти вперёд</string>
+    <string name="BotPrivacyPolicy">Privacy Policy</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   <!-- new from translations.telegram.org -->
 
@@ -10082,10 +10126,10 @@
   <string name="PeopleCanJoinViaLink">Ссылку могут использовать %s человек</string>
   <string name="PhotoSavedToDownloadsHint">Фото сохранено в Загрузки.</string>
   <string name="PremiumStickerToolteip">Premium-стикер из этого набора.</string>
-  <string name="ProfileBotPreviewEmptyText_zero">Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_two">Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_few">Загрузите до %d снимков экрана и видео для демонстрации мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_many">Загрузите до %d снимков экрана и видео для демонстрации мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_zero">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_two">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_few">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_many">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
   <string name="PsaInfo_psa">Вы видите официальное сообщение от руководителя Telegram в связи с происходящим конфликтом.</string>
   <string name="PsaMessageInfo_psa">Вы видите официальное сообщение от руководителя Telegram в связи с происходящим конфликтом.</string>
   <string name="PsaMessage_psa">Объявление</string>

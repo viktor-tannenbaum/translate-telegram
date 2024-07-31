@@ -59,7 +59,7 @@ ba = Dictionary(
     ),
 )
 
-ta = Dictionary(
+tt = Dictionary(
     snippets=(
         Snippet("chat", "чат", "чат"),
         Snippet("secret", "секретный", "яшерен"),
@@ -111,8 +111,8 @@ def load_dictionary(iso_language_code: str) -> Dictionary:
     if iso_language_code == "ba":
         return ba
 
-    if iso_language_code == "ta":
-        return ta
+    if iso_language_code == "tt":
+        return tt
 
     raise ValueError(f"Unsupported language code: {iso_language_code}")
 
@@ -121,7 +121,7 @@ def get_language_name(iso_language_code: str) -> str:
     if iso_language_code == "ba":
         return "Bashkir"
 
-    if iso_language_code == "ta":
+    if iso_language_code == "tt":
         return "Tatar"
 
     raise ValueError(f"Unsupported language code: {iso_language_code}")

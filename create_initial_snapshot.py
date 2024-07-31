@@ -46,6 +46,7 @@ def main():
 
     snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.output_language_code}.json"
     snapshot = helpers.Snapshot(snapshot_path)
+    assert len(snapshot.phrases) == 0, "Snapshot already exists"
 
     for name, phrase in canonical_phrases.items():
         default_phrase = default_phrases[name]
