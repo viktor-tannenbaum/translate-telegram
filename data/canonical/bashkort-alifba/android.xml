@@ -759,6 +759,7 @@
     <string name="TypeLocationGroup">Публичная ссылка</string>
     <string name="TypeLocationGroupEdit">Нажмите, чтобы добавить ссылку</string>
     <string name="ChoosePhoto">"Фото һайларға "</string>
+    <string name="ChoosePhotoForSticker">Создание стикера из фотографии</string>
     <string name="AddImage">Добавить изображение</string>
     <string name="ChoosePhotoOrVideo">Фото йәки видео һайлағыҙ</string>
     <string name="AddPhoto">Фотоһүрәт һайларға</string>
@@ -6877,9 +6878,9 @@
     <string name="LoginEmailResetInTime">Почта будет сброшена через %1$s.\n*Сбросить сейчас через SMS*</string>
     <string name="LoginEmailResetInSinglePattern">%1$s</string>
     <string name="LoginEmailResetInDoublePattern">%1$s и %2$s</string>
-    <string name="LoginEmailResetTitle">Сбросить почту</string>
+    <string name="LoginEmailResetTitle">Почтаны яңыртыу</string>
     <string name="LoginEmailResetMessage">Почту для входа можно изменить, если Вы авторизованы в Telegram на другом устройстве. В противном случае, если у Вас нет доступа к электронной почте %1$s, её можно сбросить при помощи кода из **SMS** через **%2$s**.</string>
-    <string name="LoginEmailResetButton">Сбросить почту</string>
+    <string name="LoginEmailResetButton">Кереү почтаһын яңыртыу</string>
     <string name="LoginEmailResetPremiumRequiredTitle">"Тик Telegram Premium менән "</string>
     <string name="LoginEmailResetPremiumRequiredMessage">В связи с высокой стоимостью SMS в Вашей стране сбросить этот адрес электронной почты с помощью кода из SMS можно только при наличии подписки **Telegram Premium**.\n\nВы можете попросить друга приобрести подарочную подписку для Вашего аккаунта\n**%1$s**</string>
     <string name="LoginEmailResetPleaseWait">Сброс почты. Пожалуйста, подождите...</string>
@@ -8981,6 +8982,8 @@
     <string name="StarsNeededTitle_one">Требуется %d звезда</string>
     <string name="StarsNeededTitle_other">Требуется %d звезды</string>
     <string name="StarsNeededText">Купите **звёзды** для оплаты в **%s** и других мини-приложениях.</string>
+    
+    
     <string name="CaptionAbove">Перенести подпись наверх</string>
     <string name="CaptionBelow">Перенести подпись вниз</string>
     <string name="AddFactCheck">Разъяснение</string>
@@ -9246,6 +9249,47 @@
     <string name="WebNoSearchedHistory">Ничего не найдено</string>
     <string name="WebNoBookmarks">Закладки не найдены</string>
     <string name="WebForward">Перейти вперёд</string>
+    <string name="BotPrivacyPolicy">Политика конфиденциальности</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   <!-- new from translations.telegram.org -->
 

@@ -26,9 +26,8 @@ if [ "$1" == "--default" ]; then
 
   cd ${SCRIPT_DIR}/../data/default/ru
   do_download "ru"
-
-elif [ "$1" == "--all" ]; then
-  cd ${SCRIPT_DIR}/../canonical/$1
+else
+  cd ${SCRIPT_DIR}/../data/canonical/$1
 
   do_download $1
 fi

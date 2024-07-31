@@ -1448,6 +1448,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_profile_enable_notifications" = "Белдереүҙәр";
 "lng_profile_send_message" = "Хәбәр ебәреү";
+
+
+
 "lng_info_add_as_contact" = "Бәйләнеш өҫтәргә ";
 
 "lng_profile_suggest_photo" = "Профиль фотоһын тәҡдим итергә";
@@ -1822,6 +1825,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_action_took_screenshot" = "{from} скриншот эшләне!";
 "lng_action_you_took_screenshot" = "Һеҙ скриншот яһанығыҙ!";
+
 
 
 
@@ -2304,6 +2308,17 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 "lng_business_title" = "Telegram Business";
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2870,6 +2885,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
+
+
+
+
+
 "lng_switch_stickers" = "Стикерҙар";
 
 "lng_switch_gifs" = "GIF";
@@ -2882,6 +2902,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gifs_no_saved" = "Әлегә һаҡланған GIF юҡ.";
 
 "lng_inline_bot_no_results" = "Табылманы.";
+
+
+
+
+
+
+
 
 
 
@@ -3152,6 +3179,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 "lng_bot_side_menu_new" = "ЯҢЫ";
+
+
 
 
 
@@ -5283,6 +5312,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_contact_add" = "ӨҪТӘРГӘ";
 "lng_contact_send_message" = "ЯҘЫРҒА";
+
+
+
 
 
 
