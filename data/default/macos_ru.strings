@@ -10958,7 +10958,7 @@
 
 
 "BotInfo.OpenApp" = "Открыть приложение";
-"BotInfo.LaunchInfo" = "Размещая это мини-приложение, Вы принимаете [Пользовательское соглашение Telegram для разработчиков](https://telegram.org/mini-apps/ru).";
+"BotInfo.LaunchInfo" = "Размещая это мини-приложение, Вы принимаете [Пользовательское соглашение Telegram для разработчиков](https://telegram.org/tos/bot-developers).";
 
 
 "WebBrowser.Error" = "**Что-то пошло не так.**\nПопробуйте позже.";
