@@ -1,5 +1,5 @@
 import argparse
-import json
+from pathlib import Path
 
 import util.helpers as helpers
 
@@ -25,9 +25,9 @@ def make_strings(translation: list[tuple[str, str]]) -> str:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--default_data_dir", type=str, required=True)
+    parser.add_argument("--default_data_dir", type=Path, required=True)
     parser.add_argument("--default_languague_code", type=str, required=True)
-    parser.add_argument("--canonical_data_dir", type=str, required=True)
+    parser.add_argument("--canonical_data_dir", type=Path, required=True)
     parser.add_argument("--canonical_languague_code", type=str, required=True)
     parser.add_argument("--platform", type=str, required=True)
     parser.add_argument("--snapshots_dir", type=str, required=True)
