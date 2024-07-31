@@ -1,10 +1,14 @@
 import json
+import pathlib
 import re
 import typing
 
 import bs4
 
 from . import dictionaries
+
+
+Path = pathlib.Path
 
 
 class Phrase(typing.NamedTuple):
@@ -19,10 +23,14 @@ class Task(typing.NamedTuple):
 
 
 class Snapshot:
-    def __init__(self, filename: str):
-        self.filename: str = filename
+    def __init__(
+        self, snapshots_dir: Path, language_code: str, platform: str
+    ) -> None:
+        self.filename: Path = (
+            snapshots_dir / language_code / platform
+        ).with_suffix(".json")
         self.phrases: dict[str, str] = json.loads(
-            open(filename, "rb").read().decode("utf-8")
+            open(self.filename, "rb").read().decode("utf-8")
         )
 
     def save(self) -> None:
@@ -42,7 +50,7 @@ class Snapshot:
         return name in self.phrases
 
 
-def parse_xml(filename: str) -> list[Phrase]:
+def parse_xml(filename: Path) -> list[Phrase]:
     data = open(filename, "rb").read().decode("utf-8")
     soup = bs4.BeautifulSoup(data, features="xml")
     res = []
@@ -60,7 +68,7 @@ def parse_xml(filename: str) -> list[Phrase]:
     return res
 
 
-def parse_strings(filename: str) -> list[Phrase]:
+def parse_strings(filename: Path) -> list[Phrase]:
     lines = open(filename, "rb").read().decode("utf-8").splitlines()
     res = {}
     for line in lines:
@@ -78,26 +86,19 @@ def parse_strings(filename: str) -> list[Phrase]:
     return [Phrase(name, text) for name, text in res.items()]
 
 
-def load_phrases(base_path: str, platform: str, language: str) -> list[Phrase]:
-    filepath_prefix = f"{base_path}/{platform}"
+def load_phrases(
+    base_path: Path, language_code: str, platform: str
+) -> list[Phrase]:
+    file_basename: Path = base_path / language_code / platform
     if platform in ("android", "android_x", "unigram"):
-        return parse_xml(f"{filepath_prefix}_{language}.xml")
+        return parse_xml(file_basename.with_suffix(".xml"))
     else:
-        return parse_strings(f"{filepath_prefix}_{language}.strings")
+        return parse_strings(file_basename.with_suffix(".strings"))
 
 
-def load_tasks(base_path: str, platform: str) -> list[Task]:
-    filepath_prefix = f"{base_path}/{platform}"
-    if platform in ("android", "android_x", "unigram"):
-        phrases_en: list[Phrase] = parse_xml(f"{filepath_prefix}_en.xml")
-        phrases_ru: list[Phrase] = parse_xml(f"{filepath_prefix}_ru.xml")
-    else:
-        phrases_en: list[Phrase] = parse_strings(
-            f"{filepath_prefix}_en.strings"
-        )
-        phrases_ru: list[Phrase] = parse_strings(
-            f"{filepath_prefix}_ru.strings"
-        )
+def load_tasks(defaults_dir: Path, platform: str) -> list[Task]:
+    phrases_en: list[Phrase] = load_phrases(defaults_dir, "en", platform)
+    phrases_ru: list[Phrase] = load_phrases(defaults_dir, "ru", platform)
 
     dict_ru = {phrase.name: phrase for phrase in phrases_ru}
     tasks = []
