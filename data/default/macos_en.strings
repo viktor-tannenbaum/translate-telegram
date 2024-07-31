@@ -33,6 +33,9 @@
 
 "Peer.Status.show" = "when?";
 
+/* do not translate key with 'countable' suffix */
+
+"Peer.Status.Member_countable" = "%d";
 "Peer.Status.Member_zero" = "%d members";
 "Peer.Status.Member_one" = "%d member";
 "Peer.Status.Member_two" = "%d members";
@@ -58,6 +61,8 @@
 "Peer.Status.Users_many" = "%d users";
 "Peer.Status.Users_other" = "%d users";
 
+/* do not translate key with 'countable' suffix */
+"Peer.Status.Member.Online_countable" = "%d";
 "Peer.Status.Member.Online_zero" = "%d online";
 "Peer.Status.Member.Online_one" = "%d online";
 "Peer.Status.Member.Online_two" = "%d online";
@@ -66,6 +71,8 @@
 "Peer.Status.Member.Online_other" = "%d online";
 
 
+/* do not translate key with 'countable' suffix */
+"Peer.Status.minAgo_countable" = "%d";
 "Peer.Status.minAgo_zero" = "last seen %d minutes ago";
 "Peer.Status.minAgo_one" = "last seen %d minute ago";
 "Peer.Status.minAgo_two" = "last seen %d minutes ago";
@@ -192,6 +199,8 @@
 "Message.ActionsPanel.EmptySelected" = "Select messages";
 
 
+/* do not translate key with 'countable' suffix */
+"Message.ActionsPanel.SelectedCount_countable" = "%d";
 "Message.ActionsPanel.SelectedCount_zero" = "%d messages selected";
 "Message.ActionsPanel.SelectedCount_one" = "%d message selected";
 "Message.ActionsPanel.SelectedCount_two" = "%d messages selected";
@@ -200,6 +209,8 @@
 "Message.ActionsPanel.SelectedCount_other" = "%d messages selected";
 
 
+/* do not translate key with 'countable' suffix */
+"Message.AccessoryPanel.Forwarded_countable" = "%d";
 "Message.AccessoryPanel.Forwarded_zero" = "%d forwarded messages";
 "Message.AccessoryPanel.Forwarded_one" = "%d forwarded message";
 "Message.AccessoryPanel.Forwarded_two" = "%d forwarded messages";
@@ -209,6 +220,8 @@
 
 
 
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.Title_countable" = "%d";
 "ForwardModalAction.Title_zero" = "Forwarding messages";
 "ForwardModalAction.Title_one" = "Forwarding message";
 "ForwardModalAction.Title_two" = "Forwarding messages";
@@ -226,6 +239,8 @@
  _other
  */
 
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.description_countable" = "%d %@";
 "ForwardModalAction.description_zero" = "Select a user or chat to forward messages from %@";
 "ForwardModalAction.description_one" = "Select a user or chat to forward message from %@";
 "ForwardModalAction.description_two" = "Select a user or chat to forward messages from %@";
@@ -410,7 +425,7 @@
 "AccountSettings.Filters" = "Chat Folders";
 "AccountSettings.Premium" = "Telegram Premium";
 "AccountSettings.GiftPremium" = "Premium Gifting";
-"AccountSettings.Stars" = "Your Stars";
+"AccountSettings.Stars" = "My Stars";
 
 
 "AccountSettings.StickersAndEmoji" = "Stickers and Emoji";

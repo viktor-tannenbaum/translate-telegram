@@ -9587,6 +9587,7 @@ Sorry for the inconvenience.";
 "Story.ContextPrivacy.LabelEveryone" = "Все";
 "Story.Context.Privacy" = "Кто видит историю";
 "Story.Context.Edit" = "Изменить историю";
+"Story.Context.EditCover" = "Изменить обложку";
 "Story.Context.SaveToProfile" = "Опубликовать в профиле";
 "Story.Context.RemoveFromProfile" = "Удалить из профиля";
 "Story.ToastRemovedFromProfileText" = "История удалена из Вашего профиля";
@@ -12290,7 +12291,7 @@ Sorry for the inconvenience.";
 "Stars.Purchase.StarsNeeded_1" = "Требуется %@ звезда";
 "Stars.Purchase.StarsNeeded_any" = "Требуется %@ звезды";
 "Stars.Purchase.StarsNeededInfo" = "Купите звёзды для оплаты в **%@** и других мини-приложениях.";
-"Stars.Purchase.StarsNeededUnlockInfo" = "Купите звёзды для оплаты доступа к медиаконтенту и цифровых товаров в мини-приложениях.";
+"Stars.Purchase.StarsNeededUnlockInfo" = "Купите звёзды для получения медиаконтента и оплаты в мини-приложениях.";
 
 "Stars.Purchase.Stars_1" = "%@ звезда";
 "Stars.Purchase.Stars_any" = "%@ звезды";
@@ -12491,6 +12492,8 @@ Sorry for the inconvenience.";
 "WebApp.Miniapp" = "мини-приложение";
 "WebApp.Share" = "Поделиться";
 
+"Stars.Purchase.GiftStars" = "Подарить звёзды";
+"Stars.Purchase.GiftInfo" = "Звёзды позволят **%1$@** открывать контент и получать услуги в Telegram. [Примеры >]()";
 
 
 
@@ -12506,37 +12509,169 @@ Sorry for the inconvenience.";
 
 
 
+"Notification.StarsGift.Sent" = "%1$@ отправил(а) Вам подарок стоимостью %2$@";
+"Notification.StarsGift.SentYou" = "Вы отправили подарок стоимостью %@";
+
+"Notification.StarsGift.Title_1" = "%@ звезда";
+"Notification.StarsGift.Title_any" = "%@ звезды";
+"Notification.StarsGift.Subtitle" = "Используйте звёзды, чтобы открывать контент и получать услуги в Telegram.";
+"Notification.StarsGift.SubtitleYou" = "Звёзды позволят %@ открывать контент и получать услуги в Telegram.";
+
+"Bot.Settings" = "Настройки бота";
+
+"Browser.ErrorTitle" = "Произошла ошибка";
+
+"Browser.ContextMenu.Open" = "Открыть";
+"Browser.ContextMenu.OpenInNewTab" = "Открыть в новой вкладке";
+"Browser.ContextMenu.AddToReadingList" = "Добавить в список для чтения";
+"Browser.ContextMenu.CopyLink" = "Копировать ссылку";
+"Browser.ContextMenu.Share" = "Поделиться";
+
+"WebBrowser.Telegram" = "Telegram";
+
+"Monetization.Proceeds.Ton.Info" = "Покупка рекламы и получение вознаграждений возможны не ранее чем через 3 дня после поступления TON на баланс.";
+"Monetization.Proceeds.Stars.Info" = "Покупка рекламы и получение вознаграждений возможны не ранее чем через 21 день после поступления звёзд на баланс.";
+"Monetization.Proceeds.TonAndStars.Info" = "Покупка рекламы и получение вознаграждений за звёзды или TON возможны не ранее чем через 21 день или 3 дня после их поступления на баланс соответственно.";
+
+"Stars.Transaction.FragmentUnknown_URL" = "https://fragment.com/stars";
+"Conversation.StatusBotSubscribers_1" = "%d пользователь";
+"Conversation.StatusBotSubscribers_any" = "%d пользователей";
+
+"Story.Editor.Add" = "Добавить";
+
+"WebBrowser.LinkForwardTooltip.Chat.One" = "Ссылка отправлена в чат **%@**";
+"WebBrowser.LinkForwardTooltip.TwoChats.One" = "Ссылка отправлена в чаты **%@** и **%@**";
+"WebBrowser.LinkForwardTooltip.ManyChats.One" = "Ссылка отправлена в чат **%@** и ещё %@";
+"WebBrowser.LinkForwardTooltip.SavedMessages.One" = "Ссылка отправлена в **Избранное**";
+
+"Stars.Intro.StarsSent_1" = "Отправлена %@ звезда.";
+"Stars.Intro.StarsSent_any" = "Отправлено %@ звезды.";
+"Stars.Intro.StarsSent.ViewChat" = "Перейти в чат";
+
+"Stars.Gift.Received.Title" = "Подарок Вам";
+"Stars.Gift.Received.Text" = "Используйте звёзды, чтобы открывать контент и получать услуги в Telegram. [Примеры >]()";
+
+"Stars.Gift.Sent.Title" = "Подарок от Вас";
+"Stars.Gift.Sent.Text" = "Звёзды позволят %@ открывать контент и получать услуги в Telegram. [Примеры >]()";
+
+"WebBrowser.Reload" = "Обновить";
+"WebBrowser.Share" = "Поделиться";
+"WebBrowser.AddBookmark" = "Добавить в закладки";
+
+"WebBrowser.LinkAddedToBookmarks" = "Ссылка добавлена в [Закладки]() и\nотправлена в чат **Избранное**.";
+
+"WebBrowser.AddressBar.RecentlyVisited" = "ПОСЛЕДНИЕ ПОСЕЩЕНИЯ";
+"WebBrowser.AddressBar.RecentlyVisited.Clear" = "Очистить";
+
+"WebBrowser.AddressBar.Bookmarks" = "ЗАКЛАДКИ";
+"WebBrowser.AddressBar.ShowMore" = "Показать больше";
+
+"WebBrowser.OpenLinksIn.Title" = "ОТКРЫВАТЬ ССЫЛКИ В";
+
+
+
+"WebBrowser.ClearCookies" = "Удалить файлы cookie";
+"WebBrowser.ClearCookies.Info" = "Вы можете удалить все файлы cookie в браузере Telegram. После этого необходимо будет снова авторизоваться на большинстве сайтов.";
+"WebBrowser.ClearCookies.Succeed" = "Файлы cookie удалены.";
+
+"WebBrowser.Exceptions.Title" = "НЕ ОТКРЫВАТЬ ВО ВСТРОЕННОМ БРАУЗЕРЕ";
+"WebBrowser.Exceptions.AddException" = "Добавить сайт";
+"WebBrowser.Exceptions.Clear" = "Очистить список";
+"WebBrowser.Exceptions.Info" = "Эти сайты всегда будут открываться в браузере по умолчанию.";
+
+"WebBrowser.Exceptions.Create.Title" = "Добавить сайт";
+"WebBrowser.Exceptions.Create.Text" = "Укажите домен, ссылки с которым не будут открываться в Telegram.";
+"WebBrowser.Exceptions.Create.Placeholder" = "Адрес сайта";
+
+"WebBrowser.Exceptions.ClearConfirmation.Text" = "Вы точно хотите очистить этот список?";
+"WebBrowser.Exceptions.ClearConfirmation.Clear" = "Очистить";
+
+"WebBrowser.ClearCookies.ClearConfirmation.Text" = "Вы точно хотите удалить файлы cookie?";
+"WebBrowser.ClearCookies.ClearConfirmation.Clear" = "Удалить";
+
+"WebBrowser.ClearCache" = "Очистить кэш";
+"WebBrowser.ClearCache.ClearConfirmation.Text" = "Вы точно хотите очистить кэш?";
+"WebBrowser.ClearCache.ClearConfirmation.Clear" = "Очистить";
+"WebBrowser.ClearCache.Succeed" = "Кэш очищен.";
+
+
+"WebBrowser.Done" = "Готово";
+
+"AccessDenied.LocationWeather" = "Telegram требуется доступ к геопозиции, чтобы Вы могли добавлять в истории виджет погоды.\n\nПерейдите в настройки Вашего устройства > Конфиденциальность и безопасность > Службы геолокации и разрешите Telegram доступ к геопозиции.";
+
+"Story.Editor.TooltipWeatherLimitText" = "В историю можно добавить только один стикер с погодой.";
+
+"WebBrowser.AddressPlaceholder" = "Адрес сайта";
+
+"WebBrowser.Bookmarks.Title" = "Закладки";
+"WebBrowser.Bookmarks.BookmarkCurrent" = "Добавить открытую страницу";
+
+"Story.Privacy.ChooseCover" = "Выбрать обложку истории";
+"Story.Privacy.ChooseCoverInfo" = "Выберите кадр, который будет отображаться в качестве обложки истории в Вашем профиле.";
+"Story.Privacy.ChooseCoverChannelInfo" = "Выберите кадр, который будет отображаться в качестве обложки истории в профиле канала.";
+"Story.Privacy.ChooseCoverGroupInfo" = "Выберите кадр, который будет отображаться в качестве обложки истории в профиле группы.";
+
+"ChatList.Search.FilterApps" = "Приложения";
+"ChatList.Search.SectionPopularApps" = "ПОПУЛЯРНЫЕ ПРИЛОЖЕНИЯ";
+"ChatList.Search.SectionRecentApps" = "ИСПОЛЬЗУЕМЫЕ ПРИЛОЖЕНИЯ";
+"ChatList.Search.Apps.Empty.Text" = "Приложения не найдены";
+
+"VoiceChat.MicrophoneModes" = "Режимы микрофона";
+
+"MiniAppList.Title" = "Примеры";
+"MiniAppList.ListSectionHeader" = "ПРИЛОЖЕНИЯ, ПРИНИМАЮЩИЕ ЗВЁЗДЫ";
+
+"PeerInfo.PaneBotPreviews" = "Предпросмотр";
+"PeerInfo.OpenAppButton" = "Открыть приложение";
+"PeerInfo.AppFooterAdmin" = "Размещая это мини-приложение, Вы принимаете [Пользовательское соглашение Telegram для разработчиков](https://telegram.org/tos/bot-developers/ru).";
+"PeerInfo.AppFooter" = "Открывая это мини-приложение, Вы принимаете [Условия использования мини-приложений](https://telegram.org/tos/mini-apps/ru).";
+"BotPreviews.MenuAddPreview" = "Добавить предпросмотр";
+"BotPreviews.MenuReorder" = "Изменить порядок";
+"BotPreviews.MenuDeleteLanguage" = "Удалить %@";
+"BotPreviews.SubtitleLoading" = "загрузка";
+"BotPreviews.SubtitleEmpty" = "предпросмотров нет";
+"BotPreviews.SubtitleCount_1" = "%d предпросмотр";
+"BotPreviews.SubtitleCount_any" = "%d предпросмотров";
+"BotPreviews.SheetDeleteTitle_1" = "Удалить %d предпросмотр?";
+"BotPreviews.SheetDeleteTitle_any" = "Удалить %d предпросмотров?";
+"BotPreviews.LanguageTab.Main" = "Основной";
+"BotPreviews.LanguageTab.Add" = "+ Добавить язык";
+"BotPreviews.Empty.Title" = "Без предпросмотра";
+"BotPreviews.Empty.Text_1" = "Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.";
+"BotPreviews.Empty.Text_any" = "Загрузите до %d снимка экрана и видео для демонстрации мини-приложения.";
+"BotPreviews.Empty.Add" = "Добавить предпросмотр";
+"BotPreviews.Empty.AddTranslation" = "Создать перевод";
+"BotPreviews.Empty.DeleteTranslation" = "Удалить этот перевод";
+"BotPreviews.Empty.Separator" = "или";
+"BotPreviews.AlertTooManyPreviews_1" = "Вы можете добавить не более 1 предпросмотра.";
+"BotPreviews.AlertTooManyPreviews_any" = "Вы можете добавить не более 12 предпросмотров.";
+"BotPreviews.DeleteTranslationAlert.Title" = "Удалить перевод";
+"BotPreviews.DeleteTranslationAlert.Text" = "Удалить этот перевод?";
+"BotPreviews.TranslationFooter.Text" = "Этот предпросмотр будет отображаться у всех пользователей с языком интерфейса: %@.";
+"BotPreviews.DefaultFooter.Text" = "Этот предпросмотр будет отображаться по умолчанию. Вы также можете добавить переводы на другие языки.";
+"BotPreviews.SelectLanguage.Title" = "Добавить перевод";
+"BotPreview.ViewContextDelete" = "Удалить предпросмотр";
 
 
 
 
+"Story.Cover" = "Обложка истории";
+"Story.SaveCover" = "Сохранить обложку";
 
+"WebBrowser.CopyLink" = "Копировать ссылку";
+"WebBrowser.DeleteBookmark" = "Удалить закладку";
+"WebBrowser.RemoveRecent" = "Убрать из недавних";
 
+"Stars.Intro.Transaction.Gift.Title" = "Подарок Вам";
+"Stars.Intro.Transaction.Gift.UnknownUser" = "Неизвестный пользователь";
 
+"WebApp.PrivacyPolicy" = "Политика конфиденциальности";
 
+"Conversation.OpenProfile" = "ОТКРЫТЬ ПРОФИЛЬ";
 
+"Stars.Intro.GiftStars" = "Подарить звёзды друзьям";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"MediaPicker.CreateSticker" = "Создание стикера из фотографии";
 
 
 /* new from translations.telegram.org */
@@ -12575,6 +12710,14 @@ Sorry for the inconvenience.";
 "BoostGift.PrepaidGiveawayCount_many" = "%@ x Telegram Premium";
 "BoostGift.QuantityBoosts_3_10" = "%@ ГОЛОСА";
 "BoostGift.QuantityBoosts_many" = "%@ ГОЛОСОВ";
+"BotPreviews.AlertTooManyPreviews_3_10" = "Вы можете добавить не более 12 предпросмотров.";
+"BotPreviews.AlertTooManyPreviews_many" = "Вы можете добавить не более 12 предпросмотров.";
+"BotPreviews.Empty.Text_3_10" = "Загрузите до %d снимков экрана и видео для демонстрации мини-приложения.";
+"BotPreviews.Empty.Text_many" = "Загрузите до %d снимков экрана и видео для демонстрации мини-приложения.";
+"BotPreviews.SheetDeleteTitle_3_10" = "Удалить %d предпросмотра?";
+"BotPreviews.SheetDeleteTitle_many" = "Удалить %d предпросмотров?";
+"BotPreviews.SubtitleCount_3_10" = "%d предпросмотра";
+"BotPreviews.SubtitleCount_many" = "%d предпросмотров";
 "Business.Chatbots" = "Скоро в Telegram";
 "Business.Links.ItemClickCount_3_10" = "%d нажатия";
 "Business.Links.ItemClickCount_many" = "%d нажатий";
@@ -12861,6 +13004,8 @@ Sorry for the inconvenience.";
 "Conversation.PinnedGiveaway.Finished.Winners_many" = "%@ победителей объявлены";
 "Conversation.PinnedGiveaway.Ongoing.Winners_3_10" = "%@ победителя будут объявлены";
 "Conversation.PinnedGiveaway.Ongoing.Winners_many" = "%@ победителей будут объявлены";
+"Conversation.StatusBotSubscribers_3_10" = "%d пользователя";
+"Conversation.StatusBotSubscribers_many" = "%d пользователей";
 "Conversation.TitleComments_3_10" = "[%@]комментария";
 "Conversation.TitleComments_many" = "[%@]комментариев";
 "Conversation.TitleReplies_3_10" = "[%@] ответа";
@@ -13082,6 +13227,8 @@ Sorry for the inconvenience.";
 "Notification.PremiumGift.Months_many" = "%@ месяцев";
 "Notification.PremiumPrize.Months_3_10" = "**%@** месяца";
 "Notification.PremiumPrize.Months_many" = "**%@** месяцев";
+"Notification.StarsGift.Title_3_10" = "%@ звезды";
+"Notification.StarsGift.Title_many" = "%@ звёзд";
 "Notification.TopicClosed" = "Тема закрыта";
 "Notification.TopicClosedAuthor" = "%1$@ закрыл(а) тему";
 "Notification.TopicCreated" = "Тема создана";
@@ -13348,6 +13495,8 @@ Sorry for the inconvenience.";
 "SponsoredMessageInfoScreen.Text" = "В отличие от других приложений, Telegram не использует Ваши личные данные для таргетирования рекламы. Рекламные сообщения в Telegram зависят исключительно от тематики публичных каналов, в которых они отображаются. Это означает, что личные данные пользователей не собираются и не анализируются для отображения рекламы и все пользователи, просматривающие тот или иной канал в Telegram, видят одинаковые рекламные сообщения.\n\nВ отличие от других приложений, Telegram не отслеживает, перешли ли Вы по рекламному сообщению, и не создает на Вас «досье» на основе Вашей активности. Мы также предупреждаем перед открытием внешних ссылок в рекламных сообщениях, чтобы третьи стороны не могли шпионить за нашими пользователями. Мы считаем, что каждый имеет право на неприкосновенность частной жизни и технологические платформы должны это уважать.\n\nTelegram предлагает бесплатный и неограниченный сервис сотням миллионов пользователей, что влечёт за собой значительные расходы на оборудование и датацентры. Чтобы сохранять независимость и оставаться верным своим ценностям, Telegram разработал платный инструмент для продвижения каналов и сообщений с учётом заботы о конфиденциальности пользователей. Мы приветствуем ответственных рекламодателей по адресу:\n[url]\nРекламные сообщения в настоящее время работают в тестовом режиме. Как только они будут полностью запущены и позволят Telegram покрывать основные расходы, мы начнём делиться доходами от рекламы с владельцами публичных каналов, в которых выводятся рекламные сообщения.\n\nРеклама в интернете должна перестать быть синонимом нарушения конфиденциальности пользователей. Давайте вместе изменим то, как функционируют технологические компании.";
 "Stars.Intro.PurchasedText.Stars_3_10" = "%@ звезды";
 "Stars.Intro.PurchasedText.Stars_many" = "%@ звёзд";
+"Stars.Intro.StarsSent_3_10" = "Отправлено %@ звезды.";
+"Stars.Intro.StarsSent_many" = "Отправлено %@ звёзд.";
 "Stars.Purchase.Stars_3_10" = "%@ звезды";
 "Stars.Purchase.Stars_many" = "%@ звёзд";
 "Stars.Purchase.StarsNeeded_3_10" = "Требуется %@ звезды";

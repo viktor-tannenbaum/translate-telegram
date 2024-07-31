@@ -51,7 +51,9 @@ def parse_xml(filename: str) -> list[Phrase]:
         name = entry.attrs["name"]
         text = entry.text
         assert text.find('"""') == -1
-        assert name not in keys
+        if name in keys:
+            print("Problematic key: " + name)
+            continue
         keys.add(name)
         res.append(Phrase(name, text))
 
@@ -78,7 +80,7 @@ def parse_strings(filename: str) -> list[Phrase]:
 
 def load_phrases(base_path: str, platform: str, language: str) -> list[Phrase]:
     filepath_prefix = f"{base_path}/{platform}"
-    if platform in ("android", "android_x"):
+    if platform in ("android", "android_x", "unigram"):
         return parse_xml(f"{filepath_prefix}_{language}.xml")
     else:
         return parse_strings(f"{filepath_prefix}_{language}.strings")

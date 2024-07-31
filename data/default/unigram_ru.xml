@@ -8892,7 +8892,7 @@
     
     
     
-    <string name="MenuTelegramStars">Ваши звёзды</string>
+    <string name="MenuTelegramStars">Мои звёзды</string>
     <string name="TelegramStars">Звёзды Telegram</string>
     <string name="TelegramStarsInfo">Звёзды Telegram приобретаются для оплаты \nконтента и услуг в мини-приложениях.</string>
     <string name="TelegramStarsChoose">Выбрать количество</string>

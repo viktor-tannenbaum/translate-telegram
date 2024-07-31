@@ -2670,7 +2670,7 @@ Unused sets are archived when you add more.";
 
 
 
-"Login.ContinueWithLocalization" = "Рус телендә дауам итеү";
+"Login.ContinueWithLocalization" = "Башҡорт телендә дауам итергә";
 
 
 
@@ -3453,7 +3453,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"Passport.Identity.MainPage" = "Төп бит";
 
 
 
@@ -9609,6 +9609,7 @@ Sorry for the inconvenience.";
 
 
 
+
 "Profile.AvatarStoryCount_1" = "%d хикәйә";
 "Profile.AvatarStoryCount_any" = "%d хикәйә";
 
@@ -12485,6 +12486,140 @@ Sorry for the inconvenience.";
 
 
 "ChatList.DeleteForMe" = "Миндә генә юйырға";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

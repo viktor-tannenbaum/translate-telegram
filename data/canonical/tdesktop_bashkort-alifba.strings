@@ -6,7 +6,7 @@ For license and copyright information please follow this link:
 https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL 
 */
 
-"lng_switch_to_this" = "Рус телендә дауам итеү";
+"lng_switch_to_this" = "Башҡорт телендә дауам итергә";
 
 "lng_menu_contacts" = "Бәйләнештәр";
 "lng_menu_calls" = "Шылтыратыуҙар";
@@ -3117,7 +3117,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
-
+"lng_bot_start" = "БАШЛАРҒА";
 
 
 

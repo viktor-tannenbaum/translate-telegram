@@ -1951,7 +1951,7 @@
 "StarsNeededTitle_one" = "Требуется %d звезда";
 "StarsNeededTitle_other" = "Требуется %d звезды";
 "StarsNeededText" = "Купите **звёзды** для оплаты в **%s** и других мини-приложениях.";
-"MenuTelegramStars" = "Ваши звёзды";
+"MenuTelegramStars" = "Мои звёзды";
 "StarsCount_one" = "%d звезда";
 "StarsCount_other" = "%d звезды";
 "StarsTransactionID" = "ID операции";

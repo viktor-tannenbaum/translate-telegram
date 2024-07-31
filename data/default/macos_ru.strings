@@ -33,7 +33,9 @@
 
 "Peer.Status.show" = "когда?";
 
+/* do not translate key with 'countable' suffix */
 
+"Peer.Status.Member_countable" = "%d";
 
 "Peer.Status.Member_one" = "%d участник";
 
@@ -59,7 +61,8 @@
 "Peer.Status.Users_many" = "%d пользователей";
 "Peer.Status.Users_other" = "%d пользователей";
 
-
+/* do not translate key with 'countable' suffix */
+"Peer.Status.Member.Online_countable" = "%d";
 
 "Peer.Status.Member.Online_one" = "%d в сети";
 
@@ -68,7 +71,8 @@
 "Peer.Status.Member.Online_other" = "%d в сети";
 
 
-
+/* do not translate key with 'countable' suffix */
+"Peer.Status.minAgo_countable" = "%d";
 
 "Peer.Status.minAgo_one" = "был(а) %d минуту назад";
 
@@ -195,7 +199,8 @@
 "Message.ActionsPanel.EmptySelected" = "Выберите сообщения";
 
 
-
+/* do not translate key with 'countable' suffix */
+"Message.ActionsPanel.SelectedCount_countable" = "%d";
 
 "Message.ActionsPanel.SelectedCount_one" = "Выбрано %d сообщение";
 
@@ -204,7 +209,8 @@
 "Message.ActionsPanel.SelectedCount_other" = "Выбрано %d cooбщений";
 
 
-
+/* do not translate key with 'countable' suffix */
+"Message.AccessoryPanel.Forwarded_countable" = "%d";
 
 "Message.AccessoryPanel.Forwarded_one" = "%d пересланное сообщение";
 
@@ -214,7 +220,8 @@
 
 
 
-
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.Title_countable" = "%d";
 
 "ForwardModalAction.Title_one" = "Пересылка сообщения";
 
@@ -232,7 +239,8 @@
  _other
  */
 
-
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.description_countable" = "%d %@";
 
 "ForwardModalAction.description_one" = "Выберите пользователя или чат для пересылки сообщения от: %@";
 
@@ -417,7 +425,7 @@
 "AccountSettings.Filters" = "Папки с чатами";
 "AccountSettings.Premium" = "Telegram Premium";
 "AccountSettings.GiftPremium" = "Подарить Premium";
-"AccountSettings.Stars" = "Ваши звёзды";
+"AccountSettings.Stars" = "Мои звёзды";
 
 
 "AccountSettings.StickersAndEmoji" = "Стикеры и эмодзи";

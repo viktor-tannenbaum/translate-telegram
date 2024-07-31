@@ -2605,7 +2605,7 @@
     <string name="DebugMenuClearMediaCache">Очистить кэш отправки файлов</string>
     <string name="DebugMenuCallSettings">Настройки звонков</string>
     <string name="DebugMenuClearWebViewCache">Очистить кэш WebView</string>
-    <string name="DebugMenuClearWebViewCookies">Очистить cookie в WebView</string>
+    <string name="DebugMenuClearWebViewCookies">Очистить cookie WebView</string>
     <string name="DebugMenuEnableWebViewDebug">Включить отладку WebView</string>
     <string name="DebugMenuDisableWebViewDebug">Отключить отладку WebView</string>
     <string name="DebugMenuWebViewDebugEnabled">Отладка включена</string>
@@ -3875,7 +3875,7 @@
     <string name="ActionInviteUser">un1 вступил(а) в группу по ссылке-приглашению</string>
     <string name="ActionInviteUserFolder">un1 вступил(а) в группу по ссылке на папку</string>
     <string name="ActionKickUser">un1 удалил(а) un2</string>
-    <string name="ActionRefunded">un1 refunded back %1$s</string>
+    <string name="ActionRefunded">Возвращено %1$s от un1</string>
     <string name="ActionLeftUser">un1 покинул(а) группу</string>
     <string name="ActionAddUser">un1 добавил(а) un2</string>
     <string name="ActionRemovedPhoto">un1 удалил(а) фото группы</string>
@@ -8707,7 +8707,7 @@
     <string name="MonetizationProceedsStarsInfoLink">https://telegram.org/tos/stars/ru</string>
     <string name="MonetizationProceedsTONInfo">Покупка рекламы и получение вознаграждений возможны не ранее чем через 3 дня после поступления TON на баланс.</string>
     <string name="MonetizationProceedsTONInfoLink">https://telegram.org/tos/content-creator-rewards/ru</string>
-    <string name="MonetizationProceedsStarsTONInfo">Покупка рекламы и получение вознаграждений за звёзды и TON возможны не ранее чем через 21 день и 3 дня после их поступления на баланс соответственно.</string>
+    <string name="MonetizationProceedsStarsTONInfo">Покупка рекламы и получение вознаграждений за звёзды или TON возможны не ранее чем через 21 день или 3 дня после их поступления на баланс соответственно.</string>
     <string name="MonetizationProceedsStarsTONInfoLink">https://telegram.org/tos/content-creator-rewards/ru</string>
     <string name="MonetizationProceedsInfoTONLink">https://telegram.org/tos/content-creator-rewards/ru</string>
     <string name="MonetizationBalanceInfoLink">https://telegram.org/tos/content-creator-rewards/ru</string>
@@ -8945,7 +8945,7 @@
     <string name="EnterPIN">Введите код</string>
     <string name="AppLocked">Приложение заблокировано</string>
     <string name="Confirm">"Подтвердить "</string>
-    <string name="MenuTelegramStars">Ваши звёзды</string>
+    <string name="MenuTelegramStars">Мои звёзды</string>
     <string name="TelegramStars">Звёзды Telegram</string>
     <string name="TelegramStarsInfo">Звёзды Telegram приобретаются для оплаты \nконтента и услуг в мини-приложениях.</string>
     <string name="TelegramStarsChoose">Выберите количество</string>
@@ -9102,8 +9102,8 @@
     <string name="ActionGiftStarsSubtitle">Звёзды позволяют **%s** открывать контент и получать услуги в Telegram.</string>
     <string name="ActionGiftStarsSubtitleYou">Используйте звёзды, чтобы открывать контент и получать услуги в Telegram.</string>
     <string name="ActionGiftStarsView">Посмотреть</string>
-    <string name="StarsGiftReceived">Полученный подарок</string>
-    <string name="StarsGiftSent">Отправленный подарок</string>
+    <string name="StarsGiftReceived">Подарок Вам</string>
+    <string name="StarsGiftSent">Подарок от Вас</string>
     <string name="StarsGiftSentPopup">Звёзды отправлены!</string>
     <string name="StarsGiftSentPopupInfo_one">**%1$d звезда** отправлена в подарок %2$s.</string>
     <string name="StarsGiftSentPopupInfo_other">**%1$d звезды** отправлено в подарок %2$s.</string>
@@ -9130,19 +9130,19 @@
     <string name="ProfileBotOpenApp">Открыть приложение</string>
     <string name="ProfileBotOpenAppInfo">Открывая это мини-приложение, Вы принимаете **Условия использования мини-приложений**.</string>
     <string name="ProfileBotOpenAppInfoLink">https://telegram.org/tos/mini-apps/ru</string>
-    <string name="ProfileBotOpenAppInfoOwner">Размещая это мини-приложение, Вы принимаете **Условия использования мини-приложений**.</string>
+    <string name="ProfileBotOpenAppInfoOwner">Размещая это мини-приложение, Вы принимаете **Пользовательское соглашение Telegram для разработчиков**.</string>
     <string name="ProfileBotOpenAppInfoOwnerLink">https://telegram.org/tos/mini-apps/ru</string>
     <string name="ProfileBotPreviewTab">Предпросмотр</string>
     <string name="ProfileBotPreviewEmptyTitle">Без предпросмотра</string>
-    <string name="ProfileBotPreviewEmptyText_one">Загрузите до %d снимка экрана и видео для демонстрации возможностей мини-приложения.</string>
-    <string name="ProfileBotPreviewEmptyText_other">Загрузите до %d снимка экрана и видео для демонстрации возможностей мини-приложения.</string>
+    <string name="ProfileBotPreviewEmptyText_one">Загрузите до %d демонстрационного видео и снимка экрана мини-приложения.</string>
+    <string name="ProfileBotPreviewEmptyText_other">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
     <string name="ProfileBotPreviewEmptyButton">Добавить предпросмотр</string>
     <string name="BotPreviewEmpty">изображений пока нет</string>
     <string name="Images_one">%d изображение</string>
     <string name="Images_other">%d изображения</string>
-    <string name="ProfileBotPreviewFooterGeneral">Этот предпросмотр будет отображаться у всех пользователей, кроме тех, для которых Вы добавили перевод.</string>
-    <string name="ProfileBotPreviewFooterLanguage">Этот предпросмотр будет отображаться у всех пользователей, выбравших %s язык интерфейса.</string>
-    <string name="ProfileBotPreviewFooterCreateTranslation">Перевести</string>
+    <string name="ProfileBotPreviewFooterGeneral">Этот предпросмотр будет отображаться у всех пользователей, для которых \nне был добавлен перевод.</string>
+    <string name="ProfileBotPreviewFooterLanguage">Этот предпросмотр будет отображаться у всех пользователей с языком интерфейса: %s.</string>
+    <string name="ProfileBotPreviewFooterCreateTranslation">Создать перевод</string>
     <string name="ProfileBotPreviewFooterDeleteTranslation">Удалить этот перевод</string>
     <string name="ProfileBotPreviewLanguageChoose">Добавить перевод</string>
     <string name="ProfileBotAddPreview">Добавить предпросмотр</string>
@@ -9174,7 +9174,7 @@
     <string name="AppsClearSearch">Журнал приложений</string>
     <string name="AppsClearSearchAlert">Удалить %s из истории использования приложений?</string>
     <string name="WebBookmark">В закладки</string>
-    <string name="WebBookmarkedToast">Закадка со ссылкой добавлена\nв чат **Избранное**.</string>
+    <string name="WebBookmarkedToast">Закладка со ссылкой добавлена\nв чат **Избранное**.</string>
     
     
     
@@ -9212,21 +9212,21 @@
     <string name="BrowserSettingsEnableInfo">Включите, чтобы ссылки открывались в Telegram, а не в стороннем браузере.</string>
     <string name="BrowserSettingsCacheClear">Очистить кэш</string>
     <string name="BrowserSettingsCookiesClear">Удалить файлы cookie</string>
-    <string name="BrowserSettingsCacheClearText">Очистить кэш браузера%s?</string>
-    <string name="BrowserSettingsCookiesClearText">Очистить файлы cookie в браузере%s?\n\nЭто может привести к выходу из учётных записей на сайтах, где Вы сейчас авторизованы.</string>
+    <string name="BrowserSettingsCacheClearText">Вы точно хотите очистить кэш браузера%s?</string>
+    <string name="BrowserSettingsCookiesClearText">Вы точно хотите очистить файлы cookie в браузере%s?\n\nЭто может привести к выходу из учётных записей на сайтах, где Вы сейчас авторизованы.</string>
     <string name="BrowserSettingsCookiesInfo">Вы можете удалить все файлы cookie и кэш встроеного браузера и мини-приложений.</string>
     <string name="BrowserSettingsHistoryShow">Просмотреть историю</string>
     <string name="BrowserSettingsHistoryClear">Удалить историю</string>
     <string name="BrowserSettingsHistoryPages_one">%d страница</string>
     <string name="BrowserSettingsHistoryPages_other">%d страницы</string>
-    <string name="BrowserSettingsHistoryClearText">Очистить историю браузера с %s?</string>
+    <string name="BrowserSettingsHistoryClearText">Вы точно хотите очистить историю браузера с %s?</string>
     <string name="BrowserSettingsNeverOpenInTitle">Не открывать во встроенном браузере</string>
     <string name="BrowserSettingsNeverOpenInAdd">Добавить сайт</string>
     <string name="BrowserSettingsNeverOpenInRemove">Удалить</string>
     <string name="BrowserSettingsNeverOpenInClearList">Очистить список</string>
     <string name="BrowserSettingsNeverOpenInInfo">Ссылки на эти сайты всегда будут открываться в стороннем браузере.</string>
     <string name="BrowserSettingsAddTitle">Добавить сайт</string>
-    <string name="BrowserSettingsAddText">Укажите домен, ссылки с которым не будут открываться во встроенном браузере.</string>
+    <string name="BrowserSettingsAddText">Укажите домен, ссылки с которым не будут открываться\nво встроенном браузере.</string>
     <string name="BrowserSettingsAddHint">Адрес сайта</string>
     <string name="InappBrowser">Встроенный браузер</string>
     <string name="InappBrowserInfo">Открывать ссылки в приложении</string>
@@ -9961,10 +9961,10 @@
   <string name="ProfileBirthdayValueYear_two">%2$s (%1$d года)</string>
   <string name="ProfileBirthdayValueYear_few">%2$s (%1$d года)</string>
   <string name="ProfileBirthdayValueYear_many">%2$s (%1$d лет)</string>
-  <string name="ProfileBotPreviewEmptyText_zero">Загрузите до %d снимка экрана и видео для демонстрации возможностей мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_two">Загрузите до %d снимка экрана и видео для демонстрации возможностей мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_few">Загрузите до %d снимков экрана и видео для демонстрации возможностей мини-приложения.</string>
-  <string name="ProfileBotPreviewEmptyText_many">Загрузите до %d снимков экрана и видео для демонстрации возможностей мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_zero">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_two">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_few">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
+  <string name="ProfileBotPreviewEmptyText_many">Загрузите до %d демонстрационных видео и снимков экрана мини-приложения.</string>
   <string name="ProfileMyStories">Мои истории</string>
   <string name="ProfileStoriesArchiveCount_two">%d истории в архиве</string>
   <string name="PsaInfo_psa">Вы видите официальное сообщение от руководителя Telegram в связи с происходящим конфликтом.</string>

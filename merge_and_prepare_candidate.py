@@ -54,6 +54,8 @@ def main():
         if phrase.text == default_phrase.text:
             continue
         translation[phrase.name] = phrase.text
+    
+    print(len(translation))
 
     for name, text in snapshot.phrases.items():
         if name in translation:

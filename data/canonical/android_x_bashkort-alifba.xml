@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  
+  <string name="language_continueInLanguage">Башҡорт телендә дауам итергә</string>
 
   
   
@@ -564,7 +564,7 @@
   
   
   
-  
+  <string name="BotStart">БАШЛАРҒА</string>
   
   
   
