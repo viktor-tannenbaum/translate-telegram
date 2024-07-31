@@ -8,12 +8,12 @@ do_translate() {
   lang=$1
   platform=$2
   iso_code=$3
-  python3 make_basic_translation.py                 \
-    --defaults_dir data/default                     \
-    --platform ${platform}                          \
-    --telegram_language_code=${lang}                \
-    --iso_language_code=${iso_code}                 \
-    --snapshots_dir data/snapshots                  \
+  python3 make_basic_translation.py \
+    --defaults_dir data/default \
+    --platform ${platform} \
+    --telegram_language_code=${lang} \
+    --iso_language_code=${iso_code} \
+    --snapshots_dir data/snapshots \
     --prompt_template_filename util/prompt.template \
     --openai_api_key=${OPENAI_API_TOKEN}
 }
