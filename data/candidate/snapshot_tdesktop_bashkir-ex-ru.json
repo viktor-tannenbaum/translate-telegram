@@ -5909,7 +5909,7 @@
   "lng_status_lastseen_today": "бөгөн {time} булған",
   "lng_status_lastseen_when": "ҡасан?",
   "lng_status_lastseen_yesterday": "кисә {time} булған",
-  "lng_status_offline": "бик күптән булған",
+  "lng_status_offline": "күптән булған",
   "lng_status_online": "селтәрҙә",
   "lng_status_recently": "яңыраҡ булған",
   "lng_status_service_notifications": "хеҙмәт белдереүҙәре",

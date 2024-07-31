@@ -4076,7 +4076,7 @@
   "Peer.Status.justNow": "була ғына",
   "Peer.Status.lastMonth": "был айҙа булған",
   "Peer.Status.lastWeek": "был аҙнала булған",
-  "Peer.Status.longTimeAgo": "бик күптән булған",
+  "Peer.Status.longTimeAgo": "күптән булған",
   "Peer.Status.minAgo_few": "%d минут элек булған",
   "Peer.Status.minAgo_many": "%d минут элек булған",
   "Peer.Status.minAgo_one": "%d минут элек булған",
