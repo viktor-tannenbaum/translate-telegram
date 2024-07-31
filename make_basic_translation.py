@@ -1,17 +1,20 @@
 import argparse
-import collections
 import concurrent.futures
 import datetime
-import json
+import functools
 import re
+import typing
 
 import util.chatgpt as chatgpt
 import util.helpers as helpers
+import util.dictionaries as dictionaries
 
 
-Batch = collections.namedtuple(
-    "Batch", ["tasks", "prompt_template", "dictionary"]
-)
+class Batch(typing.NamedTuple):
+    tasks: list[helpers.Task]
+    prompt_template: str
+    language_name: str
+    dictionary: dictionaries.Dictionary
 
 
 def process_batch(
@@ -21,7 +24,7 @@ def process_batch(
     example_count = 0
     used_snippets = set()
     for id, task in enumerate(batch.tasks):
-        for snippet in batch.dictionary:
+        for snippet in batch.dictionary.snippets:
             if (
                 task.text_en.lower().find(snippet.en) != -1
                 or task.text_ru.lower().find(snippet.ru) != -1
@@ -33,12 +36,13 @@ def process_batch(
         example_strs.append("")
         example_count += 1
     if not used_snippets:
-        used_snippets = batch.dictionary[:5]
+        used_snippets = batch.dictionary.snippets[:5]
 
     footer = "\n".join(example_strs)
     prompt = batch.prompt_template.format(
+        language_name=batch.language_name,
         example_count=example_count,
-        dictionary=helpers.format_dictionary(used_snippets),
+        snippets=helpers.format_snippets(used_snippets),
         footer=footer,
     )
 
@@ -60,6 +64,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", type=str, required=True)
     parser.add_argument("--platform", type=str, required=True)
+    parser.add_argument("--telegram_language_code", type=str, required=True)
+    parser.add_argument("--iso_language_code", type=str, required=True)
     parser.add_argument("--snapshots_dir", type=str, required=True)
     parser.add_argument("--prompt_template_filname", type=str, required=True)
     parser.add_argument("--openai_api_key", type=str, required=True)
@@ -70,11 +76,10 @@ def main():
     )
 
     PROMPT_TEMPLATE = open(args.prompt_template_filname).read()
+    LANGUAGE_NAME = dictionaries.get_language_name(args.iso_language_code)
 
-    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}.json"
-    snapshot: dict[str, str] = json.loads(
-        open(snapshot_path, "rb").read().decode("utf-8")
-    )
+    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.telegram_language_code}.json"
+    snapshot = helpers.Snapshot(snapshot_path)
 
     tasks: list[helpers.Task] = helpers.load_tasks(
         args.data_dir, args.platform
@@ -83,6 +88,10 @@ def main():
     tasks = [task for task in tasks if task.text_en.strip()]
     tasks = [task for task in tasks if task.name not in snapshot]
     tasks.sort(key=lambda task: task.name)
+
+    dictionary: dictionaries.Dictionary = dictionaries.load_dictionary(
+        args.iso_language_code
+    )
 
     BATCH_SIZE = 32
 
@@ -95,7 +104,8 @@ def main():
                 Batch(
                     tasks=slice,
                     prompt_template=PROMPT_TEMPLATE,
-                    dictionary=helpers.DICTIONARY,
+                    language_name=LANGUAGE_NAME,
+                    dictionary=dictionary,
                 )
             )
             slice = []
@@ -104,11 +114,13 @@ def main():
             Batch(
                 tasks=slice,
                 prompt_template=PROMPT_TEMPLATE,
-                dictionary=helpers.DICTIONARY,
+                language_name=LANGUAGE_NAME,
+                dictionary=dictionary,
             )
         )
+    print("Batch count:", len(batches))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         future_to_batch = {
             executor.submit(process_batch, batch, chatgpt_client): batch
             for batch in batches
@@ -121,15 +133,8 @@ def main():
             else:
                 print(f"Done batch at {datetime.datetime.now()}")
                 for phrase in phrases:
-                    snapshot[phrase.name] = phrase.text
-                open(
-                    snapshot_path,
-                    "wb",
-                ).write(
-                    json.dumps(
-                        snapshot, indent=2, sort_keys=True, ensure_ascii=False
-                    ).encode("utf-8")
-                )
+                    snapshot.update_phrase(phrase)
+                snapshot.save()
 
 
 if __name__ == "__main__":

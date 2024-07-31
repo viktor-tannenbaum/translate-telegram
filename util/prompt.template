@@ -1,4 +1,4 @@
-I need you to translate a number of text strings used by Telegram mobile app into bashkir language. For each example I'll give you English and Russian versions of the text string in triple quotes and I need you to produce the translations (also in triple quotes). Each example consists of three lines: the example number with a dot, the english version of the text string and the russian version of the text string. You must produce the result in the same order with the same example numbers. Your response must consist of translated examples only, without any preambule. Here is how it could look like:
+I need you to translate a number of text strings used by Telegram mobile app into {language_name} language. For each example I'll give you English and Russian versions of the text string in triple quotes and I need you to produce the translations (also in triple quotes). Each example consists of three lines: the example number with a dot, the english version of the text string and the russian version of the text string. You must produce the result in the same order with the same example numbers. Your response must consist of translated examples only, without any preambule. Here is how it could look like:
 
 The input:
 
@@ -16,9 +16,9 @@ Your response:
 2. """Яҡшы"""
 
 
-I also provide you a dictionary to use for the translating in a form of three side translation "English - Russian - Bashkir". It is VERY IMPORTANT that you use the translations from this dictionary. Here it is:
+I also provide you a dictionary to use for the translating in a form of three side translation "English - Russian - {language_name}". It is VERY IMPORTANT that you use the translations from this dictionary. Here it is:
 
-{dictionary}
+{snippets}
 
 
 There are {example_count} text strings to translate. Make the translations not longer than in the examples as they will need to be shown on phone screens (this is VERY important). Here are the examples:

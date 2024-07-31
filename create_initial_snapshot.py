@@ -31,12 +31,8 @@ def main():
     parser.add_argument("--canonical_languague_code", type=str, required=True)
     parser.add_argument("--platform", type=str, required=True)
     parser.add_argument("--snapshots_dir", type=str, required=True)
-    parser.add_argument("--output_dir", type=str, required=True)
     parser.add_argument("--output_language_code", type=str, required=True)
     args = parser.parse_args()
-
-    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.output_language_code}.json"
-    snapshot = helpers.Snapshot(snapshot_path)
 
     canonical_phrases: list[helpers.Phrase] = helpers.load_phrases(
         args.canonical_data_dir, args.platform, args.canonical_languague_code
@@ -45,35 +41,19 @@ def main():
         args.default_data_dir, args.platform, args.default_languague_code
     )
 
+    canonical_phrases = {phrase.name: phrase for phrase in canonical_phrases}
     default_phrases = {phrase.name: phrase for phrase in default_phrases}
 
-    translation = {}
+    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.output_language_code}.json"
+    snapshot = helpers.Snapshot(snapshot_path)
 
-    for phrase in canonical_phrases:
-        default_phrase = default_phrases[phrase.name]
+    for name, phrase in canonical_phrases.items():
+        default_phrase = default_phrases[name]
         if phrase.text == default_phrase.text:
             continue
-        translation[phrase.name] = phrase.text
+        snapshot.phrases[name] = phrase.text
 
-    for name, text in snapshot.phrases.items():
-        if name in translation:
-            continue
-        translation[name] = text
-
-    translation = sorted(translation.items())
-    half = len(translation) // 2
-
-    output_files_format = f"{args.output_dir}/{args.platform}_{args.output_language_code}_{{id}}.{{ext}}"
-    if args.platform in ("android", "android_x", "unigram"):
-        output = open(output_files_format.format(id=1, ext="xml"), "wb")
-        output.write(make_xml(translation[:half]))
-        output = open(output_files_format.format(id=2, ext="xml"), "wb")
-        output.write(make_xml(translation[half:]))
-    else:
-        output = open(output_files_format.format(id=1, ext="strings"), "wb")
-        output.write(make_strings(translation[:half]))
-        output = open(output_files_format.format(id=2, ext="strings"), "wb")
-        output.write(make_strings(translation[half:]))
+    snapshot.save()
 
 
 if __name__ == "__main__":

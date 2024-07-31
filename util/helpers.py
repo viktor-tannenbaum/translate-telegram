@@ -1,14 +1,45 @@
-import collections
+import json
 import re
+import typing
 
 import bs4
 
-Phrase = collections.namedtuple("Phrase", ["name", "text"])
-Task = collections.namedtuple("Task", ["name", "text_en", "text_ru"])
-Snippet = collections.namedtuple("Snippet", ["en", "ru", "ba"])
-TranslationPack = collections.namedtuple(
-    "TranslationPack", ["platform", "language_code", "phrases"]
-)
+from . import dictionaries
+
+
+class Phrase(typing.NamedTuple):
+    name: str
+    text: str
+
+
+class Task(typing.NamedTuple):
+    name: str
+    text_en: str
+    text_ru: str
+
+
+class Snapshot:
+    def __init__(self, filename: str):
+        self.filename: str = filename
+        self.phrases: dict[str, str] = json.loads(
+            open(filename, "rb").read().decode("utf-8")
+        )
+
+    def save(self) -> None:
+        open(self.filename, "wb").write(
+            json.dumps(
+                self.phrases, indent=2, ensure_ascii=False, sort_keys=True
+            ).encode("utf-8")
+        )
+
+    def update_phrase(self, phrase: Phrase) -> None:
+        self.phrases[phrase.name] = phrase.text
+
+    def get_phrase(self, name: str) -> Phrase:
+        return Phrase(name, self.phrases[name])
+
+    def __contains__(self, name: str) -> bool:
+        return name in self.phrases
 
 
 def parse_xml(filename: str) -> list[Phrase]:
@@ -55,7 +86,7 @@ def load_phrases(base_path: str, platform: str, language: str) -> list[Phrase]:
 
 def load_tasks(base_path: str, platform: str) -> list[Task]:
     filepath_prefix = f"{base_path}/{platform}"
-    if platform in ("android", "android_x"):
+    if platform in ("android", "android_x", "unigram"):
         phrases_en: list[Phrase] = parse_xml(f"{filepath_prefix}_en.xml")
         phrases_ru: list[Phrase] = parse_xml(f"{filepath_prefix}_ru.xml")
     else:
@@ -103,51 +134,8 @@ def merge_translations(
     return list(result.values())
 
 
-DICTIONARY: tuple[Snippet] = (
-    Snippet("chat", "чат", "әңгәмә"),
-    Snippet("secret", "секретный", "серле"),
-    Snippet("story", "история", "хикәйә"),
-    Snippet("voice message", "голосовое сообщение", "тауышлы хәбәр"),
-    Snippet("folder", "папка", "тупланма"),
-    Snippet("wallpaper", "обои", "ерлек"),
-    Snippet("group", "группа", "төркөм"),
-    Snippet("link", "ссылка", "һылтанма"),
-    Snippet("history", "история", "тарих"),
-    Snippet("last seen", "был(а)", "булған"),
-    Snippet("recently", "недавно", "яңыраҡ"),
-    Snippet("gallery", "галерея", "һүрәтхана"),
-    Snippet("app", "приложение", "ҡушымта"),
-    Snippet("number", "номер", "һандар"),
-    Snippet("phone number", "номер телефона", "телефон һандары"),
-    Snippet("contact", "контакт", "бәйләнеш"),
-    Snippet("unpin", "открепить", "төшөрөргә"),
-    Snippet("save", "сохранить", "һаҡларға"),
-    Snippet("saved", "сохраненный", "һаҡланған"),
-    Snippet("channel", "канал", "канал"),
-    Snippet("forward", "переслать", "тапшырырға"),
-    Snippet("forwarded", "переслано", "тапшырылған"),
-    Snippet("settings", "настройки", "көйләүҙәр"),
-    Snippet("profile", "профиль", "сәхифә"),
-    Snippet("saved messages", "избранное", "һаҡланмалар"),
-    Snippet("password", "пароль", "серһүҙ"),
-    Snippet("notification", "оповещение", "белдереү"),
-    Snippet("poll", "опрос", "һорашыу"),
-    Snippet("video message", "видеосообщение", "видеохәбәр"),
-    Snippet("audio message", "аудиосообщение", "аудиохәбәр"),
-    Snippet("member", "участник", "ҡатнашыусы"),
-    Snippet("subscriber", "подписчик", "яҙылыусы"),
-    Snippet("comment", "комментарий", "фекер"),
-    Snippet("network", "сеть", "селтәр"),
-    Snippet("online", "в сети", "селтәрҙә"),
-    Snippet("pinned", "закрепленный", "беркетелгән"),
-    Snippet("live location", "трансляция геопозиции", "торған урын күрһәтеү"),
-    Snippet("exception", "исключение", "айырма"),
-    Snippet("tag", "тег", "тамға"),
-    Snippet("anonymous", "анонимный", "имзаһыҙ"),
-)
-
-
-def format_dictionary(dictionary: list[Snippet]) -> str:
+def format_snippets(snippets: dictionaries.Snippet) -> str:
     return "\n".join(
-        f"{snippet.en} - {snippet.ru} - {snippet.ba}" for snippet in dictionary
+        f"{snippet.en} - {snippet.ru} - {snippet.target}"
+        for snippet in snippets
     )
