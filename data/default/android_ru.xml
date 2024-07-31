@@ -759,6 +759,7 @@
     <string name="TypeLocationGroup">Публичная ссылка</string>
     <string name="TypeLocationGroupEdit">Нажмите, чтобы добавить ссылку</string>
     <string name="ChoosePhoto">Выбрать фото</string>
+    <string name="ChoosePhotoForSticker">Create a sticker from a photo</string>
     <string name="AddImage">Добавить изображение</string>
     <string name="ChoosePhotoOrVideo">Выберите фотографию или видео</string>
     <string name="AddPhoto">Выбрать фотографию</string>
@@ -8981,6 +8982,8 @@
     <string name="StarsNeededTitle_one">Требуется %d звезда</string>
     <string name="StarsNeededTitle_other">Требуется %d звезды</string>
     <string name="StarsNeededText">Купите **звёзды** для оплаты в **%s** и других мини-приложениях.</string>
+    
+    
     <string name="CaptionAbove">Перенести подпись наверх</string>
     <string name="CaptionBelow">Перенести подпись вниз</string>
     <string name="AddFactCheck">Разъяснение</string>
@@ -9246,6 +9249,47 @@
     <string name="WebNoSearchedHistory">Ничего не найдено</string>
     <string name="WebNoBookmarks">Закладки не найдены</string>
     <string name="WebForward">Перейти вперёд</string>
+    <string name="BotPrivacyPolicy">Privacy Policy</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   <!-- new from translations.telegram.org -->
 

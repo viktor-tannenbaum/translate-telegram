@@ -10958,7 +10958,7 @@
 
 
 "BotInfo.OpenApp" = "Open App";
-"BotInfo.LaunchInfo" = "By publishing this mini app, you agree to the [Telegram Terms of Service for Developers](https://telegram.org/tos/mini-apps).";
+"BotInfo.LaunchInfo" = "By publishing this mini app, you agree to the [Telegram Terms of Service for Developers](https://telegram.org/tos/bot-developers).";
 
 
 "WebBrowser.Error" = "**Something went wrong, sorry.**\nPlease try again later.";
