@@ -3347,7 +3347,7 @@
   "Conversation.ScheduledVoiceChatStartsTomorrowShort": "Иртәгә %@ башлана",
   "Conversation.Search": "Эҙләү",
   "Conversation.SearchByName.Placeholder": "Ҡатнашыусыларҙы эҙләү",
-  "Conversation.SearchByName.Prefix": "от: ",
+  "Conversation.SearchByName.Prefix": "кемдән:",
   "Conversation.SearchNoResults": "Нәтижәләр юҡ",
   "Conversation.SearchPlaceholder": "Әңгәмәлә эҙләү",
   "Conversation.SecretChatContextBotAlert": "Иғтибар итегеҙ, боттар өсөнсө яҡтан эшләнгән. Бот исеменән һуң индергән символдар бот эшләүсегә ебәрелә.",
