@@ -493,7 +493,7 @@
   "CanJoin_many": "тағы %1$d ҡушыла ала",
   "CanJoin_other": "тағы %1$d ҡушыла ала",
   "Cancel": "Баш тартыу",
-  "CancelPollAlertText": "Һеҙ был һорашыуҙы юйырға ышаныслыһығыҙмы?",
+  "CancelPollAlertText": "Был һорашыуҙы ысынлап та юйырға теләйһегеҙме?",
   "CancelPollAlertTitle": "Һорашыуҙы юйырға?",
   "CantBoostTooOften": "Йыш күтәреп булмай!",
   "CantBoostTooOftenDescription": "Каналдың күтәреүен көнөнә бер тапҡыр ғына үҙгәртә алаһығыҙ. **%s** эсендә күтәрә алаһығыҙ.",
