@@ -253,7 +253,7 @@
   "ChatEmptyChat": "Бында әле хәбәрҙәр юҡ",
   "ChatForwardActionHeader": "Хәбәрҙәрҙе тапшырырға",
   "ChatHistory": "Яңы ҡатнашыусылар өсөн әңгәмә тарихы",
-  "ChatListDeleteAndLeaveGroupConfirmation": "{chat} әңгәмәһенән сығырға һәм уны юйырға ысынлап та теләйһегеҙме?",
+  "ChatListDeleteAndLeaveGroupConfirmation": "{chat} әңгәмәһенән ысынлап та сығырға һәм уны юйырға теләйһегеҙме?",
   "ChatListDeleteChatConfirmation": "{chat} менән әңгәмәне ысынлап та юйырға теләйһегеҙме?",
   "ChatListDeleteForCurrentUser": "Тик үҙемдән генә юйырға",
   "ChatListDeleteForEveryone": "Үҙемдән һәм {user} юйырға",
