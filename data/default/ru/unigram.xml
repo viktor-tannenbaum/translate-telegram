@@ -157,6 +157,8 @@
     <string name="SetEmojiStatus">Установить эмодзи-статус</string>
     <string name="ChangeEmojiStatus">Сменить статус</string>
     <string name="Settings">Настройки</string>
+    
+    
     <string name="Contacts">Контакты</string>
     <string name="NewGroup">Создать группу</string>
     
@@ -254,11 +256,11 @@
     <string name="DeleteChatUser">Удалить чат</string>
     <string name="HiddenName">Удалённый аккаунт</string>
     
-    
-    
-    
-    
-    
+    <string name="ChooseBot">Выбрать бота</string>
+    <string name="ChooseUser">Выбрать пользователя</string>
+    <string name="ChooseUsers">Выбрать пользователей</string>
+    <string name="ChooseGroup">Выбрать группу</string>
+    <string name="ChooseChannel">Выбрать канал</string>
     
     
     
@@ -547,6 +549,7 @@
     
     <string name="ChannelAdministrators">Администраторы</string>
     
+    
     <string name="ChannelDelete">Удалить канал</string>
     <string name="ChannelDeleteMenu">Удалить канал</string>
     <string name="ChannelDeleteAlert">Важно! Если удалить канал, все подписчики и все сообщения в нём будут потеряны. Всё равно удалить?</string>
@@ -559,9 +562,9 @@
     <string name="ActionCreateChannel">Канал создан</string>
     <string name="ActionGiftInbound">un1 отправил(а) Вам подарок стоимостью **un2**</string>
     <string name="ActionGiftOutbound">Вы отправили подарок стоимостью **un2**</string>
-    
-    
-    
+    <string name="ActionGiftPremiumTitle">Telegram Premium</string>
+    <string name="ActionGiftPremiumSubtitle">на {0}</string>
+    <string name="ActionGiftPremiumView">Подробнее</string>
     <string name="ActionChannelChangedPhoto">Изменено фото канала</string>
     <string name="ActionChannelChangedVideo">Фотография канала обновлена</string>
     <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
@@ -612,7 +615,7 @@
     <string name="ChannelJoined">Вы подписались на этот канал</string>
     
     <string name="ChannelMegaJoined">Вы вступили в эту группу</string>
-    
+    <string name="ChannelRemoveUser">Удалить из канала</string>
     <string name="ChannelCantSendMessage">К сожалению, Вы не можете отправлять сообщения в этот канал.</string>
     
     
@@ -753,6 +756,7 @@
     <string name="TypePublic">Публичный</string>
     <string name="TypePrivateGroup">Частная</string>
     <string name="TypePublicGroup">Публичная</string>
+    
     
     
     
@@ -1142,6 +1146,7 @@
     <string name="OpenChannel">ПЕРЕЙТИ В КАНАЛ</string>
     <string name="OpenMessage">ПЕРЕЙТИ К СООБЩЕНИЮ</string>
     
+    
     <string name="SponsoredMessage">реклама</string>
     
     
@@ -1239,6 +1244,8 @@
     <string name="OpenInExternalApp">Открыть в...</string>
     <string name="SendItems">Отправить {0}</string>
     
+    <string name="SendAsFile">Отправить без сжатия</string>
+    <string name="SendAsFiles">Отправить без сжатия</string>
     <string name="OpenUrlTitle">Открыть ссылку</string>
     <string name="OpenUrlAlert2">Перейти по ссылке {0}?</string>
     <string name="OpenUrlOption1">Авторизоваться на {0} как **{1}**</string>
@@ -1652,6 +1659,16 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="NotificationInvitedToGroup">{0} пригласил(а) вас в «{1}»</string>
     
     
@@ -1886,6 +1903,8 @@
     
     
     
+    
+    
     <string name="CreateNewContact">Создать новый контакт</string>
     
     
@@ -2009,8 +2028,8 @@
     <string name="AddToStickers">Добавить в стикеры</string>
     
     <string name="AddToFavorites">Добавить в избранные</string>
-    
-    
+    <string name="AddedToFavorites">Стикер добавлен в избранные.</string>
+    <string name="RemovedFromFavorites">Стикер удалён из избранных</string>
     
     <string name="RecentStickers">Недавние</string>
     <string name="FavoriteStickers">Избранные</string>
@@ -2561,10 +2580,9 @@
     <string name="SecretChat">Секретные чаты</string>
     
     
-    
-    
     <string name="Emoji">Эмодзи</string>
     <string name="LargeEmoji">Крупные эмодзи</string>
+    
     
     
     
@@ -3358,9 +3376,6 @@
     <string name="ClearSearchAlert">Очистить историю поиска?</string>
     
     
-    
-    
-    
     <string name="ClearSearchAlertTitle">Очистить историю поиска</string>
     
     <string name="ClearSearchSingleAlertTitle">История поиска</string>
@@ -3404,7 +3419,7 @@
     
     
     
-    
+    <string name="GifSavedHint">Добавлено в сохранённые GIF.</string>
     
     
     
@@ -3465,7 +3480,7 @@
     
     
     <string name="PleaseEnterCurrentPasswordTransfer">Введите пароль, чтобы подтвердить передачу прав.</string>
-    
+    <string name="PleaseEnterCurrentPasswordWithdraw">Для получения вознаграждения введите пароль.</string>
     <string name="PleaseEnterFirstPassword">Введите пароль</string>
     
     
@@ -3785,8 +3800,8 @@
     
     <string name="BotWebViewSettings">Настройки</string>
     <string name="BotWebViewOpenBot">Показать бота</string>
-    
-    
+    <string name="BotWebViewToS">Условия использования</string>
+    <string name="BotWebViewToSLink">https://telegram.org/tos/mini-apps</string>
     <string name="BotWebViewReloadPage">Обновить страницу</string>
     <string name="BotWebViewDeleteBot">Убрать из меню</string>
     <string name="BotWebViewRequestAllow">Разрешить</string>
@@ -3795,8 +3810,8 @@
     <string name="BotWebViewCloseAnyway">Всё равно закрыть</string>
     <string name="BotWebViewRequestWriteTitle">Разрешить отправку сообщений</string>
     <string name="BotWebViewRequestWriteMessage">Разрешить этому боту писать Вам?</string>
-    
-    
+    <string name="BotMultiContactsSelectorLimit_one">Можно выбрать не более {0} пользователя.</string>
+    <string name="BotMultiContactsSelectorLimit_other">Можно выбрать не более {0} пользователей.</string>
     <!--button titles-->
     <string name="Done">Готово</string>
     <string name="Open">Открыть</string>
@@ -3861,6 +3876,7 @@
     <string name="ActionInviteUser">un1 вступил(а) в группу по ссылке-приглашению</string>
     <string name="ActionInviteUserFolder">un1 вступил(а) в группу по ссылке на папку</string>
     <string name="ActionKickUser">un1 удалил(а) un2</string>
+    <string name="ActionRefunded">Возвращено {0} от un1</string>
     <string name="ActionLeftUser">un1 покинул(а) группу</string>
     <string name="ActionAddUser">un1 добавил(а) un2</string>
     <string name="ActionRemovedPhoto">un1 удалил(а) фото группы</string>
@@ -4122,6 +4138,7 @@
     <string name="TosUpdateDecline">К сожалению, других вариантов нет.&#160;В отличие от других сервисов, мы не используем Ваши данные для рекламы и иных коммерческих целей. На серверах хранится только та информация, которая позволяет Вам полноценно пользоваться Telegram. Вы можете регулировать доступ к своим данным в настройках приложения, в разделе Конфиденциальность и безопасность.\n\nЕсли Вы не готовы предоставить минимальные нужные данные , увы, мы не сможем обеспечить работу Telegram.</string>
     <string name="TosDeclineDeleteAccount">Внимание: в этом случае Ваш аккаунт в Telegram будет необратимо удален вместе со всей информацией, которую Вы храните на серверах Telegram.\n\nВажно: Вы можете отменить удаление и сначала экспортировать данные аккаунта, чтобы не потерять их. (Для этого зайдите в аккаунт через свежую версию Telegram для ПК и выберите Настройки &gt; Экспорт данных из Telegram.)</string>
     <!--permissions-->
+    
     
     
     
@@ -5804,7 +5821,7 @@
     
     <string name="AddToGroup">Принять в группу</string>
     <string name="AddToChannel">Принять в канал</string>
-    
+    <string name="AddToGroupOrChannel">Добавить в группу или канал</string>
     
     <string name="Dismiss">Отклонить</string>
     
@@ -6087,6 +6104,14 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="SoundAddedSubtitle">Теперь Вы можете выбрать этот звук для уведомлений о новых сообщениях в **настройках уведомлений**.</string>
     
     
@@ -6347,6 +6372,8 @@
     <string name="PremiumPreviewEmojiStatusDescription">Возможность установить рядом с именем один из тысяч эмодзи в качестве статуса.</string>
     <string name="PremiumPreviewTranslations">Перевод в реальном времени</string>
     <string name="PremiumPreviewTranslationsDescription">Динамический перевод сообщений на иностранных языках в чатах и каналах.</string>
+    
+    
     <string name="PremiumPreviewWallpaper">Обои для Вас и собеседника</string>
     <string name="PremiumPreviewWallpaperDescription">Возможность установить обои в личном чате для себя и собеседника.</string>
     <string name="PremiumPreviewProfileColor">Цвета имени и профиля</string>
@@ -7030,11 +7057,12 @@
     <string name="FolderLinkOtherAdminLimitError">Одну из групп в этой папке нельзя добавить, так как у одного из администраторов слишком много групп и каналов.</string>
     <string name="BotSettingsChangedAlert">Вы изменили настройки бота. Применить изменения?</string>
     
-    
+    <string name="BotPublicLink">Публичная ссылка</string>
     
     
     <string name="BotEditIntro">Изменить приветствие</string>
     <string name="BotEditCommands">Изменить команды</string>
+    
     <string name="BotChangeSettings">Изменить настройки бота</string>
     <string name="BotManageInfo">Управлять ботом можно с помощью @BotFather.</string>
     
@@ -7246,6 +7274,8 @@
     
     
     
+    
+    
     <string name="NoArchivedStoriesTitle">Историй пока нет…</string>
     <string name="NoArchivedStoriesSubtitle">Загрузите новую историю — \nона появится здесь.</string>
     
@@ -7370,6 +7400,7 @@
     <string name="StoryContactsHint">Историю могут видеть только контакты **{0}**.</string>
     <string name="ExpiredViewsStub">Список просмотревших доступен **24 часа** после окончания показа истории.</string>
     <string name="ArchivedStories">Архив историй</string>
+    
     
     
     
@@ -7575,6 +7606,7 @@
     
     <string name="Likes_one">Понравилось {0} пользователю</string>
     <string name="Likes_other">Понравилось {0} пользователей</string>
+    
     
     
     
@@ -8673,6 +8705,13 @@
     <string name="MonetizationBalance">Доступно</string>
     <string name="MonetizationBalanceInfo">Вы можете вывести своё вознаграждение при помощи Fragment — сторонней платформы, которую рекламодатели используют для оплаты своих объявлений. **Подробнее &gt;**</string>
     
+    
+    
+    
+    
+    
+    
+    
     <string name="MonetizationBalanceInfoNotAvailable">В ближайшие несколько недель Вы сможете вывести своё вознаграждение при помощи Fragment — сторонней платформы, которую рекламодатели используют для оплаты своих объявлений. **Подробнее &gt;**</string>
     <string name="MonetizationTransactions">История операций</string>
     
@@ -8694,6 +8733,16 @@
     <string name="MonetizationTransactionDetailRefund">Возврат средств</string>
     <string name="MonetizationGraphImpressions">Показы рекламы</string>
     <string name="MonetizationGraphRevenue">Вознаграждение за рекламу</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -8892,10 +8941,16 @@
     
     
     
+    
+    
+    
+    
+    
     <string name="MenuTelegramStars">Мои звёзды</string>
     <string name="TelegramStars">Звёзды Telegram</string>
     <string name="TelegramStarsInfo">Звёзды Telegram приобретаются для оплаты \nконтента и услуг в мини-приложениях.</string>
     <string name="TelegramStarsChoose">Выбрать количество</string>
+    <string name="TelegramStarsGift">Подарить звёзды друзьям</string>
     <string name="StarsCount_one">{0} звезда</string>
     <string name="StarsCount_other">{0} звезды</string>
     <string name="StarsTOS">Приобретая звёзды, Вы принимаете **условия** Telegram.</string>
@@ -8905,13 +8960,20 @@
     <string name="StarsTransactionsIncoming">Зачисления</string>
     <string name="StarsTransactionsOutgoing">Списания</string>
     <string name="StarsTransactionInApp">Покупка в приложении</string>
+    
+    
     <string name="StarsTransactionBot">Бот для покупки звёзд</string>
     <string name="StarsTransactionUnsupported">Покупка в приложении</string>
+    
     <string name="StarsTransactionFragment">Покупка на Fragment</string>
+    <string name="StarsTransactionWithdrawFragment">Вывод через Fragment</string>
     <string name="StarsAcquired">Звёзды зачислены!</string>
     <string name="StarsAcquiredInfo_other">Ваш баланс пополнен на **{0} звезды**.</string>
     <string name="StarsPurchaseCompleted">Спасибо за покупку!</string>
     <string name="StarsPurchaseCompletedInfo_other">Вы приобрели «**{1}**» у **{2}** за **{0} звезды**.</string>
+    
+    
+    
     <string name="StarsConfirmPurchaseTitle">Подтверждение покупки</string>
     <string name="StarsConfirmPurchaseText_one">Вы точно хотите приобрести «**{1}**» у **{2}** за **{0} звезду**?</string>
     <string name="StarsConfirmPurchaseText_other">Вы точно хотите приобрести «**{1}**» у **{2}** за **{0} звезды**?</string>
@@ -8922,6 +8984,8 @@
     <string name="StarsNeededText">Купите **звёзды** для оплаты в **{0}** и других мини-приложениях.</string>
     
     
+    <string name="CaptionAbove">Перенести подпись наверх</string>
+    <string name="CaptionBelow">Перенести подпись вниз</string>
     <string name="AddFactCheck">Добавить разъяснение</string>
     <string name="EditFactCheck">Изменить разъяснение</string>
     <string name="FactCheck">Проверка фактов</string>
@@ -8932,6 +8996,281 @@
     
     <string name="FactCheckEdited">Разъяснение изменено.</string>
     <string name="FactCheckDeleted">Разъяснение удалено.</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="StarsTransactionSource">Через</string>
+    
+    
+    <string name="Fragment">Fragment</string>
+    <string name="StarsTransactionRecipient">От</string>
+    <string name="StarsTransactionID">ID операции</string>
+    <string name="StarsTransactionIDCopied">Идентификатор операции скопирован</string>
+    <string name="StarsTransactionDate">Дата</string>
+    
+    
+    <string name="StarsTransactionTOS">Прочесть **условия** покупки и использования звёзд.</string>
+    
+    
+    <string name="StarsRefunded">Возврат</string>
+    <string name="StarsFailed">Ошибка</string>
+    <string name="StarsPending">В обработке</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="StoryOpenLink">Открыть ссылку &gt;</string>
+    <string name="BotStarsOverview">Поступления</string>
+    <string name="BotStarsOverviewAvailableBalance">Доступный баланс</string>
+    <string name="BotStarsOverviewTotalBalance">Всего вознаграждений</string>
+    
+    <string name="BotStarsAvailableBalance">Доступно</string>
+    <string name="BotStarsOverviewInfo">Покупка рекламы и получение вознаграждений за звёзды возможны не ранее чем через 21 день после поступления звёзд на баланс.</string>
+    <string name="BotStarsWithdrawInfo">Вы можете обменять звёзды на вознаграждение с помощью Fragment или оплатить ими рекламу своего бота. **Подробнее &gt;**</string>
+    <string name="BotStarsWithdrawInfoLink">https://telegram.org/privacy</string>
+    <string name="BotStarsButtonWithdrawUntil">Вывести через Fragment</string>
+    <string name="BotStarsButtonWithdrawAll">Вывести всё через Fragment</string>
+    
+    
+    
+    
+    <string name="BotStarsWithdrawPlaceholder">Укажите количество для вывода</string>
+    <string name="BotStarsButtonWithdraw_one">Вывести {0}&#11088;&#65039; через Fragment</string>
+    <string name="BotStarsButtonWithdraw_other">Вывести {0}&#11088;&#65039; через Fragment</string>
+    <string name="BotStarsChartRevenue">Поступления звёзд</string>
+    <string name="BotStarsWithdrawMinLimit_other">Вывести можно не менее **{0} звезды**.</string>
+    
+    
+    
+    
+    
+    
+    <string name="BotStarsWithdrawalToast">Вывод будет доступен через **{0}**.</string>
+    
+    
+    
+    
+    
+    
+    <string name="PaidMediaButton">Сделать контент платным</string>
+    <string name="PaidMediaPriceButton">Изменить цену</string>
+    
+    
+    <string name="StarsTransactionMedia">Медиаконтент</string>
+    <string name="PaidContentTitle">Платный контент</string>
+    <string name="PaidContentPriceTitle">Стоимость доступа</string>
+    <string name="PaidContentInfo">Пользователи смогут просмотреть этот контент после отправки указанного количества звёзд Вашему каналу. **Подробнее &gt;**</string>
+    <string name="PaidContentInfoLink">https://telegram.org/tos/stars/ru</string>
+    <string name="PaidContentButton">Сделать просмотр платным</string>
+    <string name="PaidContentUpdateButton">Сохранить цену</string>
+    <string name="PaidContentClearButton">Оставить просмотр бесплатным</string>
+    <string name="StarMediaPurchase">Покупка медиаконтента</string>
+    
+    
+    <string name="UnlockPaidContent_one">Раскрыть за &#11088;&#65039;{0}</string>
+    <string name="UnlockPaidContent_other">Раскрыть за &#11088;&#65039;{0}</string>
+    
+    
+    <string name="StarsConfirmPurchaseMedia_SinglePhoto">**фотографию**</string>
+    <string name="StarsConfirmPurchaseMedia_SingleVideo">**видеозапись**</string>
+    <string name="StarsConfirmPurchaseMedia_Photos_one">**{0} фото**</string>
+    <string name="StarsConfirmPurchaseMedia_Photos_other">**{0} фото**</string>
+    <string name="StarsConfirmPurchaseMedia_Videos_one">**{0} видео**</string>
+    <string name="StarsConfirmPurchaseMedia_Videos_other">**{0} видео**</string>
+    
+    
+    
+    
+    
+    <string name="GiftStarsTitle">Подарить звёзды</string>
+    <string name="GiftStarsSubtitle">Звёзды позволят **{0}** открывать контент и получать услуги в Telegram.</string>
+    <string name="GiftStarsSubtitleLinkName">**Примеры &gt;**</string>
+    <string name="ActionGiftStarsTitle_one">{0} звезда</string>
+    <string name="ActionGiftStarsTitle_other">{0} звезды</string>
+    <string name="ActionGiftStarsSubtitle">Звёзды позволяют **{0}** открывать контент и получать услуги в Telegram.</string>
+    <string name="ActionGiftStarsSubtitleYou">Используйте звёзды, чтобы открывать контент и получать услуги в Telegram.</string>
+    <string name="ActionGiftStarsView">Посмотреть</string>
+    <string name="StarsGiftReceived">Подарок Вам</string>
+    <string name="StarsGiftSent">Подарок от Вас</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="AppsTab">Приложения</string>
+    <string name="ProfileBotOpenApp">Открыть приложение</string>
+    <string name="ProfileBotOpenAppInfo">Открывая это мини-приложение, Вы принимаете **Условия использования мини-приложений**.</string>
+    <string name="ProfileBotOpenAppInfoLink">https://telegram.org/tos/mini-apps/ru</string>
+    
+    
+    <string name="ProfileBotPreviewTab">Предпросмотр</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="SearchAppsMine">Используемые приложения</string>
+    <string name="SearchAppsPopular">Популярные приложения</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -8967,6 +9306,10 @@
   <string name="ActionDeletedInviteLink">un1 удалил(а) ссылку-приглашение {0}</string>
   
   <string name="ActionEditedInviteLinkToSame">un1 изменил(а) ссылку-приглашение {0}</string>
+  
+  
+  <string name="ActionGiftStarsTitle_few">{0} звезды</string>
+  <string name="ActionGiftStarsTitle_many">{0} звёзд</string>
   <string name="ActionGroupCallEnded">Видеочат завершен ({0})</string>
   
   
@@ -9299,6 +9642,35 @@
   
   
   
+  
+  <string name="BotMultiContactsSelectorLimit_few">Можно выбрать не более {0} пользователей.</string>
+  <string name="BotMultiContactsSelectorLimit_many">Можно выбрать не более {0} пользователей.</string>
+  
+  
+  
+  
+  
+  
+  <string name="BotStarsButtonWithdraw_few">Вывести {0}&#11088;&#65039; через Fragment</string>
+  <string name="BotStarsButtonWithdraw_many">Вывести {0}&#11088;&#65039; через Fragment</string>
+  
+  
+  
+  
+  
+  <string name="BotStarsWithdrawMinLimit_one">Вывести можно не менее **{0} звезды**.</string>
+  
+  <string name="BotStarsWithdrawMinLimit_few">Вывести можно не менее **{0} звёзд**.</string>
+  <string name="BotStarsWithdrawMinLimit_many">Вывести можно не менее **{0} звёзд**.</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="BusinessHoursProfileInYourTime">{0} по Вашему времени</string>
   
   
@@ -9365,6 +9737,8 @@
   
   
   
+  
+  
   <string name="ClearHistoryMessageMultiple_one">Вы точно хотите удалить из Избранного сообщения из {0} чата?</string>
   
   <string name="ClearHistoryMessageMultiple_few">Вы точно хотите удалить из Избранного сообщения из {0} чатов?</string>
@@ -9376,6 +9750,9 @@
   <string name="ClearHistoryTitleMultiple_many">Удалить сообщения из {0} чатов</string>
   <string name="ClearHistoryTitleSingle">Удалить сообщения от {0}</string>
   <string name="ClearRecentEmoji">Удалить недавние эмодзи?</string>
+  
+  
+  
   
   
   
@@ -9418,7 +9795,15 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
   <string name="FilterRemoveFromAlertFullText">В папку нельзя добавить больше 100 чатов.</string>
+  
   
   
   
@@ -9480,6 +9865,14 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="KeepMediaInfo">Фото, видео и другие файлы, которые Вы **не смотрели** в течение этого срока, будут удалены с устройства для экономии места на телефоне.\n\nВсе медиа останутся в облаке Telegram, при необходимости Вы сможете загрузить их снова.</string>
   <string name="KickFromSupergroup">Ограничить права</string>
   
@@ -9490,11 +9883,24 @@
   
   
   
+  
+  
+  
+  
   <string name="MaximumReactionsValue_few">{0} реакции</string>
   <string name="MaximumReactionsValue_many">{0} реакций</string>
   
   
   <string name="MessageContainsEmojiPacks_one">В этом сообщении эмодзи из **{0}** набора.</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -9531,7 +9937,31 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="OpenUrlAlert">Открыть URL {0}?</string>
+  
+  
+  
+  
   
   
   
@@ -9556,6 +9986,7 @@
   
   
   
+  
   <string name="PollOptions">Варианты ответа</string>
   
   
@@ -9574,6 +10005,10 @@
   
   <string name="ProfileBirthdayValueYear_few">{1} ({0} года)</string>
   <string name="ProfileBirthdayValueYear_many">{1} ({0} лет)</string>
+  
+  
+  
+  
   <string name="ProfileMyStories">Мои истории</string>
   
   
@@ -9727,6 +10162,10 @@
   
   
   
+  
+  
+  
+  
   <string name="StarsAcquiredInfo_one">Ваш баланс пополнен на **{0} звезду**.</string>
   
   <string name="StarsAcquiredInfo_few">Ваш баланс пополнен на **{0} звезды**.</string>
@@ -9735,6 +10174,26 @@
   
   <string name="StarsConfirmPurchaseButton_few">Подтвердить и заплатить &#11088;&#65039; {0} звезды</string>
   <string name="StarsConfirmPurchaseButton_many">Подтвердить и заплатить &#11088;&#65039; {0} звёзд</string>
+  <string name="StarsConfirmPurchaseMedia1">Раскрыть {0} в **{1}** за **{2}**?</string>
+  <string name="StarsConfirmPurchaseMedia2">Раскрыть {0} и {1} в **{2}** за **{3}**?</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <string name="StarsConfirmPurchaseMedia_Photos_few">**{0} фото**</string>
+  <string name="StarsConfirmPurchaseMedia_Photos_many">**{0} фото**</string>
+  
+  
+  <string name="StarsConfirmPurchaseMedia_Videos_few">**{0} видео**</string>
+  <string name="StarsConfirmPurchaseMedia_Videos_many">**{0} видео**</string>
   
   
   <string name="StarsConfirmPurchaseText_few">Вы точно хотите приобрести «**{1}**» у **{2}** за **{0} звезды**?</string>
@@ -9743,6 +10202,14 @@
   
   <string name="StarsCount_few">{0} звезды</string>
   <string name="StarsCount_many">{0} звёзд</string>
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   <string name="StarsNeededTitle_few">Требуется {0} звезды</string>
@@ -9781,6 +10248,11 @@
   
   <string name="StoriesUnpinned_few">{0} истории откреплены.</string>
   <string name="StoriesUnpinned_many">{0} историй откреплены.</string>
+  
+  
+  
+  
+  
   
   
   
@@ -9886,6 +10358,14 @@
   
   
   
+  <string name="UnlockPaidContent_few">Раскрыть за &#11088;&#65039;{0}</string>
+  <string name="UnlockPaidContent_many">Раскрыть за &#11088;&#65039;{0}</string>
+  
+  
+  
+  
+  
+  
   
   
   
@@ -9895,6 +10375,7 @@
   <string name="UserRestrictionsBy">Ограничил(а): {0}</string>
   
   <string name="UserRestrictionsUntil">Срок ограничений</string>
+  
   
   <string name="ViewDetails">ПОДРОБНЕЕ</string>
   
@@ -9944,6 +10425,11 @@
   <string name="BoostLevelPlus">Уровень {0}+</string>
   <string name="BoostLevelUnlocks">На уровне {0} доступны:</string>
   <string name="BoostsMaxLevelReachedDescription">В **{0}** достигнут **{1}**.</string>
+  <string name="BotDAU_one">{0} пользователь</string>
+  <string name="BotDAU_few">{0} пользователя</string>
+  <string name="BotDAU_many">{0} пользователей</string>
+  <string name="BotDAU_other">{0} пользователя</string>
+  <string name="BotStarsTransactionsMore">Показать ещё операции</string>
   <string name="BusinessLinksFooterNoUsername">Также можно использовать обычную ссылку на чат с Вами — {0}.</string>
   <string name="BusinessLinksFooterWithUsername">Также можно использовать обычную ссылку на чат с Вами: {0} или {1}.</string>
   <string name="ChangeNameColor">Изменить цвет имени</string>
@@ -10049,27 +10535,29 @@
   <string name="RetrievingInformation">Загрузка информации...</string>
   <string name="SaveAs">Сохранить как...</string>
   <string name="SavePhoto">Сохранить фотографию</string>
+  <string name="SendAsMedia">Отправить как медиа</string>
+  <string name="SendAsPhoto">Отправить как фотографию</string>
+  <string name="SendAsPhotos">Отправить как фотографии</string>
+  <string name="SendAsVideo">Отправить как видео</string>
+  <string name="SendAsVideos">Отправить как видео</string>
   <string name="SendByEnter2">Отправка сообщений по</string>
   <string name="SendByEnterCtrl">Ctrl+Enter</string>
   <string name="SendByEnterKey">Enter</string>
   <string name="SensitiveDisableFiltering">Выключить ограничения</string>
   <string name="SensitiveInfo">Отображать материалы деликатного характера в публичных каналах на всех устройствах.</string>
   <string name="SensitiveTitle">Материалы деликатного характера</string>
+  <string name="ShortTimeNow">сейчас</string>
   <string name="ShowInChat2">Показать в чате</string>
   <string name="ShowInFolder">Открыть папку с файлом</string>
   <string name="ShowTrayIcon">Показывать иконку в трее</string>
   <string name="Spelling">Проверка орфографии</string>
   <string name="StarsBuyMore">Купить больше звёзд</string>
   <string name="StarsYourBalance">"Ваш баланс "</string>
-  
   <string name="StoriesRemovedFromProfile_one">{0} история удалена из Вашего профиля.</string>
-  
   <string name="StoriesRemovedFromProfile_few">{0} истории удалены из Вашего профиля.</string>
   <string name="StoriesRemovedFromProfile_many">{0} историй удалено из Вашего профиля.</string>
   <string name="StoriesRemovedFromProfile_other">{0} историй удалено из Вашего профиля.</string>
-  
   <string name="StoriesSavedToProfile_one">{0} история опубликована в Вашем профиле.</string>
-  
   <string name="StoriesSavedToProfile_few">{0} истории опубликованы в Вашем профиле.</string>
   <string name="StoriesSavedToProfile_many">{0} историй опубликовано в Вашем профиле.</string>
   <string name="StoriesSavedToProfile_other">{0} историй опубликовано в Вашем профиле.</string>
@@ -10110,148 +10598,4 @@
   <string name="VoipPlatformUnsupportedTitle">Функция не поддерживается</string>
   <string name="VoipStreamWith">Трансляция с помощью...</string>
   <string name="YourNameColor">Цвет имени</string>
-  <string name="ChannelRemoveUser">Удалить из канала</string>
-  <string name="StarsTransactionDate">Дата</string>
-  <string name="StarsTransactionID">ID операции</string>
-  <string name="StarsTransactionIDCopied">Идентификатор операции скопирован</string>
-  <string name="StarsTransactionRecipient">От</string>
-  <string name="StarsTransactionSource">Через</string>
-  <string name="StarsTransactionTOS">Прочесть **условия** покупки и использования звёзд.</string>
-  <string name="ShortTimeNow">сейчас</string>
-  <string name="AddToGroupOrChannel">Добавить в группу или канал</string>
-
-  <string name="CaptionAbove">Перенести подпись наверх</string>
-  <string name="CaptionBelow">Перенести подпись вниз</string>
-  <string name="SendAsPhoto">Отправить как фотографию</string>
-  <string name="SendAsPhotos">Отправить как фотографии</string>
-  <string name="SendAsVideo">Отправить как видео</string>
-  <string name="SendAsVideos">Отправить как видео</string>
-  <string name="SendAsFile">Отправить без сжатия</string>
-  <string name="SendAsFiles">Отправить без сжатия</string>
-  <string name="SendAsMedia">Отправить как медиа</string>
-
-  <string name="ChooseBot">Выбрать бота</string>
-  <string name="ChooseUser">Выбрать пользователя</string>
-  <string name="ChooseUsers">Выбрать пользователей</string>
-  <string name="ChooseGroup">Выбрать группу</string>
-  <string name="ChooseChannel">Выбрать канал</string>
-
-  <string name="BotMultiContactsSelectorLimit_one">Можно выбрать не более {0} пользователя.</string>
-  <string name="BotMultiContactsSelectorLimit_other">Можно выбрать не более {0} пользователей.</string>
-  
-  
-  <string name="BotMultiContactsSelectorLimit_few">Можно выбрать не более {0} пользователей.</string>
-  <string name="BotMultiContactsSelectorLimit_many">Можно выбрать не более {0} пользователей.</string>
-
-  <string name="StoryOpenLink">Открыть ссылку &gt;</string>
-
-  <string name="BotPublicLink">Публичная ссылка</string>
-  <string name="StarsBalance">Баланс</string>
-
-  <string name="BotStarsAvailableBalance">Доступно</string>
-  <string name="BotStarsButtonWithdrawAll">Вывести всё через Fragment</string>
-  <string name="BotStarsButtonWithdrawUntil">Вывести через Fragment</string>
-  <string name="BotStarsButtonWithdraw_one">Вывести {0}&#11088;&#65039; через Fragment</string>
-  <string name="BotStarsButtonWithdraw_other">Вывести {0}&#11088;&#65039; через Fragment</string>
-  <string name="BotStarsChartRevenue">Поступления</string>
-  <string name="BotStarsOverview">Поступления</string>
-  <string name="BotStarsOverviewAvailableBalance">Доступный баланс</string>
-  <string name="BotStarsOverviewInfo">Покупка рекламы и получение вознаграждений за звёзды возможны не ранее чем через 21 день после поступления звёзд на баланс.</string>
-  <string name="BotStarsOverviewTotalBalance">Всего поступлений</string>
-  <string name="BotStarsTransactionsMore">Показать ещё операции</string>
-  <string name="BotStarsWithdrawInfo">Вы можете обменять звёзды на вознаграждение с помощью Fragment или оплатить ими рекламу своего бота. **Подробнее &gt;**</string>
-  <string name="BotStarsWithdrawInfoLink">https://telegram.org/privacy</string>
-  <string name="BotStarsWithdrawMinLimit_other">Вывести можно не менее **{0} звезды**.</string>
-  <string name="BotStarsWithdrawPlaceholder">Укажите количество для вывода</string>
-  <string name="BotStarsWithdrawalToast">Вывод будет доступен через **{0}**.</string>
-
-  <string name="StarsTransactionWithdrawFragment">Вывод через Fragment</string>
-  <string name="StarsFailed">Ошибка</string>
-  <string name="StarsRefunded">Возврат</string>
-  <string name="StarsPending">В обработке</string>
-  <string name="Fragment">Fragment</string>
-
-  <string name="PleaseEnterCurrentPasswordWithdraw">Для вывода вознаграждения введите пароль.</string>
-
-  <string name="BotWebViewToS">Условия использования</string>
-  <string name="BotWebViewToSLink">https://telegram.org/tos/mini-apps</string>
-
-  <string name="UnlockPaidContent_one">Раскрыть за &#11088;&#65039;{0}</string>
-  <string name="UnlockPaidContent_other">Раскрыть за &#11088;&#65039;{0}</string>
-
-  <string name="PaidMediaButton">Сделать контент платным</string>
-  <string name="PaidMediaPriceButton">Изменить цену</string>
-
-  <string name="PaidContentButton">Сделать просмотр платным</string>
-  <string name="PaidContentClearButton">Оставить просмотр бесплатным</string>
-  <string name="PaidContentInfo">Пользователи смогут просмотреть этот контент после отправки указанного количества звёзд Вашему каналу. **Подробнее &gt;**</string>
-  <string name="PaidContentInfoLink">https://telegram.org/tos/stars/ru</string>
-  <string name="PaidContentPriceTitle">Стоимость доступа</string>
-  <string name="PaidContentTitle">Платный контент</string>
-  <string name="PaidContentUpdateButton">Сохранить цену</string>
-
-  <string name="StarMediaPurchase">Покупка медиаконтента</string>
-  <string name="StarsTransactionMedia">Медиаконтент</string>
-
-  <string name="StarsConfirmPurchaseMedia1">Раскрыть {0} в **{1}** за **{2}**?</string>
-  <string name="StarsConfirmPurchaseMedia2">Раскрыть {0} и {1} в **{2}** за **{3}**?</string>
-  <string name="StarsConfirmPurchaseMedia_Photos_one">**{0} фото**</string>
-  <string name="StarsConfirmPurchaseMedia_Photos_other">**{0} фото**</string>
-  <string name="StarsConfirmPurchaseMedia_SinglePhoto">**фотографию**</string>
-  <string name="StarsConfirmPurchaseMedia_SingleVideo">**видеозапись**</string>
-  <string name="StarsConfirmPurchaseMedia_Videos_one">**{0} видео**</string>
-  <string name="StarsConfirmPurchaseMedia_Videos_other">**{0} видео**</string>
-
-  <string name="GifSavedHint">Добавлено в сохранённые GIF.</string>
-  <string name="AddedToFavorites">Стикер добавлен в избранные.</string>
-  <string name="RemovedFromFavorites">Стикер удалён из избранных</string>
-
-  <string name="AppsTab">Приложения</string>
-  <string name="SearchAppsMine">Используемые приложения</string>
-  <string name="SearchAppsPopular">Популярные приложения</string>
-  <string name="BotDAU_one">{0} пользователь</string>
-  <string name="BotDAU_other">{0} пользователя</string>
-
-  <string name="ProfileBotOpenApp">Открыть приложение</string>
-  <string name="ProfileBotOpenAppInfo">Открывая это мини-приложение, Вы принимаете **Условия использования мини-приложений**.</string>
-  <string name="ProfileBotOpenAppInfoLink">https://telegram.org/tos/mini-apps/ru</string>
-  <string name="ProfileBotPreviewTab">Предпросмотр</string>
-
-  <string name="ActionRefunded">Возвращено {0} от un1</string>
-
-  <string name="ActionGiftPremiumSubtitle">на {0}</string>
-  <string name="ActionGiftPremiumTitle">Telegram Premium</string>
-  <string name="ActionGiftPremiumView">Подробнее</string>
-  <string name="ActionGiftStarsSubtitle">Звёзды позволяют **{0}** открывать контент и получать услуги в Telegram.</string>
-  <string name="ActionGiftStarsSubtitleYou">Используйте звёзды, чтобы открывать контент и получать услуги в Telegram.</string>
-  <string name="ActionGiftStarsTitle_one">{0} звезда</string>
-  <string name="ActionGiftStarsTitle_other">{0} звезды</string>
-  <string name="ActionGiftStarsView">Посмотреть</string>
-
-  <string name="StarsGiftReceived">Подарок Вам</string>
-  <string name="StarsGiftSent">Подарок от Вас</string>
-
-  <string name="TelegramStarsGift">Подарить звёзды друзьям</string>
-  <string name="GiftStarsSubtitle">Звёзды позволят **{0}** открывать контент и получать услуги в Telegram.</string>
-  <string name="GiftStarsSubtitleLinkName">**Примеры &gt;**</string>
-  <string name="GiftStarsTitle">Подарить звёзды</string>
-
-
-  <!-- new from translations.telegram.org -->
-
-  <string name="ActionGiftStarsTitle_few">{0} звезды</string>
-  <string name="ActionGiftStarsTitle_many">{0} звёзд</string>
-  <string name="BotDAU_few">{0} пользователя</string>
-  <string name="BotDAU_many">{0} пользователей</string>
-  <string name="BotStarsButtonWithdraw_few">Вывести {0}&#11088;&#65039; через Fragment</string>
-  <string name="BotStarsButtonWithdraw_many">Вывести {0}&#11088;&#65039; через Fragment</string>
-  <string name="BotStarsWithdrawMinLimit_one">Вывести можно не менее **{0} звезды**.</string>
-  <string name="BotStarsWithdrawMinLimit_few">Вывести можно не менее **{0} звёзд**.</string>
-  <string name="BotStarsWithdrawMinLimit_many">Вывести можно не менее **{0} звёзд**.</string>
-  <string name="StarsConfirmPurchaseMedia_Photos_few">**{0} фото**</string>
-  <string name="StarsConfirmPurchaseMedia_Photos_many">**{0} фото**</string>
-  <string name="StarsConfirmPurchaseMedia_Videos_few">**{0} видео**</string>
-  <string name="StarsConfirmPurchaseMedia_Videos_many">**{0} видео**</string>
-  <string name="UnlockPaidContent_few">Раскрыть за &#11088;&#65039;{0}</string>
-  <string name="UnlockPaidContent_many">Раскрыть за &#11088;&#65039;{0}</string>
 </resources>

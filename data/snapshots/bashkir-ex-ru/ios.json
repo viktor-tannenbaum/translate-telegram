@@ -435,7 +435,7 @@
   "AutoremoveSetup.TimerInfoChat": "Был әңгәмәгә ебәрелгән яңы хәбәрҙәр һайланған ваҡыттан һуң автоматик рәүештә юйыласаҡ.",
   "AutoremoveSetup.TimerValueAfter": "%@ һуң",
   "AutoremoveSetup.TimerValueNever": "Бер ҡасан да",
-  "AutoremoveSetup.Title": "Автоюҡ итеү",
+  "AutoremoveSetup.Title": "Автоюйыу",
   "Autosave.AddException": "Айырманы өҫтәргә",
   "Autosave.DeleteAllExceptions": "Бөтә айырмаларҙы юйырға",
   "Autosave.Exception": "Айырма",

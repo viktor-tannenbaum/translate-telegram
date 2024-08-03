@@ -630,7 +630,7 @@
     <string name="ChannelMessageLiveLocation">В канале «%1$s» новая трансляция геопозиции</string>
     <string name="ChannelMessageDocument">В канале «%1$s» новый файл</string>
     <string name="ChannelMessageGIF">В канале «%1$s» новый GIF</string>
-    <string name="ChannelMessageFew">%1$s опубликовал(а) %2$s</string>
+    <string name="ChannelMessageFew">Канал «%1$s» опубликовал %2$s</string>
     <string name="ChannelMessageAlbum">В канале «%1$s» новый альбом</string>
     <string name="ChannelMessageAudio">В канале «%1$s» новое голосовое сообщение</string>
     <string name="ChannelMessageRound">В канале «%1$s» новое видеосообщение</string>
@@ -682,7 +682,7 @@
     <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
     <string name="EditCantEditPermissions">Вы не можете менять это разрешение.</string>
     <string name="EditCantEditPermissionsPublic">В публичных группах нельзя разрешить это действие.</string>
-    <string name="UserRemovedBy">Исключил(а) %1$s</string>
+    <string name="UserRemovedBy">Исключил(а): %1$s</string>
     <string name="UserRestrictions">Разрешения</string>
     <string name="UserRestrictionsCanDo">Пользователю разрешено:</string>
     <string name="UserRestrictionsCanDoUsers_zero">%1$s пользователей разрешено:</string>
@@ -1552,7 +1552,7 @@
     <string name="ViewThread">Просмотреть ответы</string>
     <string name="ChooseDate">Выбрать дату</string>
     <string name="RepliesChatInfo">Этот чат поможет отслеживать ответы на Ваши комментарии в каналах.</string>
-    <string name="ChannelPostDeleted">Этот пост был удален из группы для обсуждения.</string>
+    <string name="ChannelPostDeleted">Этот пост был удалён из группы для обсуждения.</string>
     <string name="UnpinAllMessages">Открепить все сообщения</string>
     <string name="HidePinnedMessages">Скрыть закреплённые сообщения</string>
     <string name="PinnedMessagesHidden">Панель скрыта</string>
@@ -1671,7 +1671,7 @@
     <string name="NotificationChatMessagePaidMedia_other">%2$s  опубликовал(а) в группе %3$s сообщение стоимостью %1$d звезды</string>
     <string name="NotificationInvitedToGroup">%1$s пригласил(а) вас в «%2$s»</string>
     <string name="NotificationEditedGroupName">%1$s переименовал(а) группу %2$s</string>
-    <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фото группы на %2$s</string>
+    <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фотографию группы в %2$s</string>
     <string name="NotificationEditedGroupVideo">%1$s изменил(а) фотографию группы в «%2$s»</string>
     <string name="NotificationGroupAddMember">%1$s пригласил(а) %3$s в группу %2$s</string>
     <string name="NotificationGroupInvitedToCall">%1$s пригласил(а) %3$s в видеочат в %2$s</string>
@@ -4145,7 +4145,7 @@
     <string name="PermissionNoCameraWithHint">Telegram требуется доступ к камере, чтобы Вы могли делать фотографии и снимать видео. Для этого включите опцию **Камера** в настройках телефона &gt; Разрешения.</string>
     <string name="PermissionNoCameraMicVideo">Telegram требуется доступ к камере и микрофону, чтобы Вы могли отправлять видеосообщения. Для этого включите **микрофон** и  **камеру** в настройках телефона &gt; Разрешения.</string>
     <string name="PermissionNoLocation">Telegram требуется доступ к геопозиции, чтобы Вы могли отправлять её друзьям.</string>
-    <string name="PermissionNoLocationStory">Telegram требуется доступ к геопозиции, чтобы Вы могли добавить в историю виджет погоды.</string>
+    <string name="PermissionNoLocationStory">Telegram требуется доступ к геопозиции, чтобы Вы могли добавлять в истории виджет погоды.</string>
     <string name="PermissionNoLocationPosition">Telegram требуется доступ к геопозиции.</string>
     <string name="PermissionNoLocationFriends">Telegram требуется доступ к геопозиции, чтобы Вы могли делиться ею с друзьями. Для этого включите **Геопозиция** в настройках телефона &gt; Разрешения.</string>
     <string name="PermissionNoLocationPeopleNearby">Telegram требуется доступ к геопозиции, чтобы Вы могли искать людей рядом с Вами. Для этого включите **Геопозиция** в настройках телефона &gt; Разрешения.</string>
@@ -5362,12 +5362,12 @@
     <string name="PhotosSelected_few">Выбраны %1$d фотографии</string>
     <string name="PhotosSelected_many">Выбрано %1$d фотографий</string>
     <string name="PhotosSelected_other">Выбрано %1$d фотографий</string>
-    <string name="VideosSelected_zero">выбрано %1$d видео</string>
-    <string name="VideosSelected_one">выбрано %1$d видео</string>
-    <string name="VideosSelected_two">выбрано %1$d видео</string>
-    <string name="VideosSelected_few">выбрано %1$d видео</string>
-    <string name="VideosSelected_many">выбрано %1$d видео</string>
-    <string name="VideosSelected_other">выбрано %1$d видео</string>
+    <string name="VideosSelected_zero">Выбрано %1$d видео</string>
+    <string name="VideosSelected_one">Выбрано %1$d видео</string>
+    <string name="VideosSelected_two">Выбрано %1$d видео</string>
+    <string name="VideosSelected_few">Выбрано %1$d видео</string>
+    <string name="VideosSelected_many">Выбрано %1$d видео</string>
+    <string name="VideosSelected_other">Выбрано %1$d видео</string>
     <string name="MediaSelected_zero">Выбрано %1$d медиафайлов</string>
     <string name="MediaSelected_one">Выбран %1$d медиафайл</string>
     <string name="MediaSelected_two">Выбрано %1$d медиафайлов</string>
@@ -5856,9 +5856,9 @@
     <string name="ForwardsRestrictedInfoChannel">Копирование и пересылка из канала запрещены.</string>
     <string name="ForwardsRestrictedInfoGroup">Копирование и пересылка из группы запрещены.</string>
     <string name="ForwardsRestrictedInfoBot">Копирование и пересылка от этого бота запрещены.</string>
-    <string name="TopicContainsEmojiPackSingle">В этой теме используются **%s**</string>
+    <string name="TopicContainsEmojiPackSingle">Тема содержит эмодзи из набора **%s**</string>
     <string name="MessageContainsEmojiPackSingle">В этом сообщении эмодзи из набора **%s**</string>
-    <string name="StoryContainsEmojiPackSingle">Эта история содержит **%s**</string>
+    <string name="StoryContainsEmojiPackSingle">Эта история содержит эмодзи из набора **%s**</string>
     <string name="MessageContainsEmojiPack">В этом сообщении эмодзи из набора %s.</string>
     <string name="MessageContainsEmojiPacks_other">В этом сообщении эмодзи из **%d** наборов.</string>
     <string name="MessageContainsEmojiPacks_two">В этом сообщении эмодзи из **%d** наборов.</string>
@@ -9234,7 +9234,7 @@
     <string name="InappBrowser">Встроенный браузер</string>
     <string name="InappBrowserInfo">Открывать ссылки в приложении</string>
     <string name="BrowserSettingsSearchEngine">Поисковая система</string>
-    <string name="BrowserSettingsSearchEngineInfo">Поисковая система используется для поиска в интернете и автозаполнения в адресной строке.</string>
+    <string name="BrowserSettingsSearchEngineInfo">Вы можете выбрать систему для поиска в интернете и автозаполнения в адресной строке.</string>
     <string name="BrowserExternalTitle">Открыть в браузере</string>
     <string name="BrowserExternalText">Открыть эту ссылку в браузере по умолчанию?</string>
     <string name="BrowserExternalCheck">Всегда открывать ссылки на **%s** в браузере</string>

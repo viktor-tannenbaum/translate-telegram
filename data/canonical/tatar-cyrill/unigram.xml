@@ -157,6 +157,8 @@
     <string name="SetEmojiStatus">Эмоҗи-статусны билгеләргә</string>
     <string name="ChangeEmojiStatus">Статусны үзгәртергә</string>
     <string name="Settings">Көйләүләр</string>
+    
+    
     <string name="Contacts">Контактлар</string>
     <string name="NewGroup">Яңа төркем</string>
     
@@ -255,10 +257,10 @@
     <string name="HiddenName">Бетерелгән аккаунт</string>
     
     
+    <string name="ChooseUser">Кулланучыны сайларга</string>
     
-    
-    
-    
+    <string name="ChooseGroup">Төркемне сайларга</string>
+    <string name="ChooseChannel">"Каналны сайларга "</string>
     
     
     
@@ -548,6 +550,7 @@
     
     
     
+    
     <string name="ChannelDeleteMenu">Каналны бетерергә</string>
     <string name="ChannelDeleteAlert">Мөһим! Канал бетерелсә, андагы барлык язылучылар һәм барлык хәбәрләр югалачак. Барыбер бетерергәме?</string>
     
@@ -612,7 +615,7 @@
     <string name="ChannelJoined">Сез бу каналга язылдыгыз</string>
     
     <string name="ChannelMegaJoined">Сез бу төркемгә кушылдыгыз</string>
-    
+    <string name="ChannelRemoveUser">Каналдан алырга</string>
     
     
     
@@ -752,6 +755,7 @@
     <string name="TypePrivate">Хосусый</string>
     <string name="TypePublic">Ачык</string>
     <string name="TypePrivateGroup">Хосусый</string>
+    
     
     
     
@@ -1142,6 +1146,7 @@
     <string name="OpenChannel">КАНАЛГА КЕРЕРГӘ</string>
     <string name="OpenMessage">ХӘБӘРНЕ КАРАРГА</string>
     
+    
     <string name="SponsoredMessage">реклама</string>
     
     
@@ -1238,6 +1243,8 @@
     
     <string name="OpenInExternalApp">Башкача ачырга:</string>
     
+    
+    <string name="SendAsFile">Кысмыйча җибәрү</string>
     
     <string name="OpenUrlTitle">Сылтаманы ачырга</string>
     <string name="OpenUrlAlert2">{0} сылтамасын ачыргамы?</string>
@@ -1652,6 +1659,16 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="NotificationInvitedToGroup">{0} Сезне «{1}» төркеменә чакырды</string>
     
     
@@ -1877,6 +1894,8 @@
     
     <string name="EditContact">Контактны үзгәртү</string>
     <string name="DeleteContact">Контактны бетерү</string>
+    
+    
     
     
     
@@ -2561,10 +2580,9 @@
     <string name="SecretChat">Яшерен чатлар</string>
     
     
-    
-    
     <string name="Emoji">Эмоҗи</string>
     <string name="LargeEmoji">Зур эмоҗиләр</string>
+    
     
     
     
@@ -3358,9 +3376,6 @@
     <string name="ClearSearchAlert">Эзләү тарихын чистартыргамы?</string>
     
     
-    
-    
-    
     <string name="ClearSearchAlertTitle">Эзләү тарихын чистарту</string>
     
     <string name="ClearSearchSingleAlertTitle">Эзләүләр тарихы</string>
@@ -3785,8 +3800,8 @@
     
     <string name="BotWebViewSettings">Көйләүләр</string>
     <string name="BotWebViewOpenBot">Ботны күрсәтергә</string>
-    
-    
+    <string name="BotWebViewToS">"Куллану шартлары "</string>
+    <string name="BotWebViewToSLink">https://telegram.org/tos/mini-apps</string>
     <string name="BotWebViewReloadPage">Битне яңартырга</string>
     <string name="BotWebViewDeleteBot">Менюдан алырга</string>
     <string name="BotWebViewRequestAllow">Рөхсәт итәргә</string>
@@ -3859,6 +3874,7 @@
     <string name="ActionTTLDisabled">un1 таймер буенча бетерелүне сүндерде</string>
     <string name="ActionTTLYouDisabled">Сез таймер буенча бетерүне сүндердегез</string>
     <string name="ActionInviteUser">un1 чакыру-сылтама аркылы төркемгә кушылды</string>
+    
     
     
     
@@ -4122,6 +4138,7 @@
     <string name="TosUpdateDecline">Кызганычка, бүтән вариантлар юк. Башка сервислардан аермалы буларак, без Сезнең шәхси мәгълүматыгызны реклама өчен һәм башка сәүдәгәрлек максатлары өчен кулланмыйбыз. Telegram серверларында Сезгә Telegramны тулы кулланырга мөмкинлек бирүче мәгълүмат кына саклана. Сез шәхси мәгълүматыгызны карау рөхсәтләрен кушымта көйләүләрендә, Шәхсилек һәм иминлек бүлегендә билгели аласыз.\n\nСез таләп ителгән минималь мәгълүматыгызны бирергә теләмисез икән, кызганычка, без Telegramның эшләвен тәэмин итә алмыйбыз.</string>
     <string name="TosDeclineDeleteAccount">Игътибар: бу очракта Сезнең Telegram аккаунтыгыз Telegram серверларында сакланган мәгълүматыгыз белән бергә эзсез бетереләчәк.\n\nБу мөһим: Сез бетерүне туктатып баштан аккаунтыгыз мәгълүматын саклап калу өчен аны иңли аласыз. (Моның өчен Telegramның иң яңа санак версиясен ачып «Көйләүләр &gt; Telegramнан бирелмәләрне иңләү» дигәненә керергә кирәк.)</string>
     <!--permissions-->
+    
     
     
     
@@ -5804,7 +5821,7 @@
     
     
     
-    
+    <string name="AddToGroupOrChannel">Төркемгә яки каналга өстәргә</string>
     
     
     
@@ -6102,6 +6119,14 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="UnlockPremiumStickers">Эксклюзив стикерларны куллана башларга</string>
     
     
@@ -6347,6 +6372,8 @@
     <string name="PremiumPreviewEmojiStatusDescription">Меңләгән эмоҗилар арасыннан берсен сайлап, аны исемегез янына статус иттереп куегез.</string>
     <string name="PremiumPreviewTranslations">Реаль вакытта тәрҗемә</string>
     <string name="PremiumPreviewTranslationsDescription">Чатларда һәм каналларда чит телләрдәге хәбәрләрне динамик рәвештә тәрҗемә итү.</string>
+    
+    
     <string name="PremiumPreviewWallpaper">Сез һәм әңгәмәдәшегез өчен артсурәт</string>
     <string name="PremiumPreviewWallpaperDescription">Шәхси чатларда үзегез һәм әңгәмәдәшегез өчен махсус артсурәт билгеләү мөмкинлеге.</string>
     <string name="PremiumPreviewProfileColor">Исем һәм профильнең төсе</string>
@@ -7030,11 +7057,12 @@
     
     <string name="BotSettingsChangedAlert">Сез бот көйләүләрен үзгәрттегез. Үзгәртүләрне сафка кертергәме?</string>
     
-    
+    <string name="BotPublicLink">"Ачык сылтама "</string>
     
     
     <string name="BotEditIntro">"Сәламләүне үзгәртергә "</string>
     <string name="BotEditCommands">Командаларны үзгәртергә</string>
+    
     <string name="BotChangeSettings">"Бот көйләүләрен үзгәртергә "</string>
     
     
@@ -7246,6 +7274,8 @@
     
     
     
+    
+    
     <string name="NoArchivedStoriesTitle">Әлегә хикәяләр юк...</string>
     <string name="NoArchivedStoriesSubtitle">Яңа хикәя йөкләгез — \nул монда күрсәтеләчәк.</string>
     
@@ -7370,6 +7400,7 @@
     <string name="StoryContactsHint">Хикәяне бары тик **{0}** контактлары гына күрә.</string>
     <string name="ExpiredViewsStub">Хикәяне күрсәтү тәмамланганнан соң **24 сәгать** дәвамында караганнар исемлеген карап булачак.</string>
     <string name="ArchivedStories">Хикәяләр архивы</string>
+    
     
     
     
@@ -7560,6 +7591,7 @@
     
     <string name="SortByTime">Баштан соңгылары</string>
     <string name="StoryViewsSortDescription">Караганнарны күрсәтү тәртибен билгеләгез.</string>
+    
     
     
     
@@ -8713,6 +8745,23 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="EditProfileBio">Үзем турында</string>
     <string name="EditProfileChannel">Сезнең каналыгыз</string>
     <string name="EditProfileChannelTitle">"Шәхси канал "</string>
@@ -8892,10 +8941,16 @@
     
     
     
+    
+    
+    
+    
+    
     <string name="MenuTelegramStars">Сезнең йолдызларыгыз</string>
     <string name="TelegramStars">Telegram йолдызлары</string>
     
     <string name="TelegramStarsChoose">"Күләмне сайлагыз "</string>
+    
     <string name="StarsCount_one">{0} йолдыз</string>
     <string name="StarsCount_other">{0} йолдыз</string>
     
@@ -8905,16 +8960,300 @@
     
     
     
+    
+    
     <string name="StarsTransactionBot">Йолдызлар сатып алу боты</string>
+    
+    
     
     
     
     
     <string name="StarsPurchaseCompleted">Сатып алуыгыз өчен рәхмәт!</string>
     
+    
+    
+    
     <string name="StarsConfirmPurchaseTitle">Сатып алуны раслау</string>
     <string name="StarsConfirmPurchaseText_one">Сез чынлап та **{2}** ботыннан **{0} йолдызга** «**{1}**» сатып алырга телисезме?</string>
     <string name="StarsConfirmPurchaseText_other">Сез чынлап та **{2}** ботыннан **{0} йолдызга** «**{1}**» сатып алырга телисезме?</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="StarsTransactionSource">Нәрсә аркылы</string>
+    
+    
+    
+    
+    
+    
+    <string name="StarsTransactionDate">Дата</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="StarsTransactionMedia">Медиаконтент</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -8954,6 +9293,10 @@
 
   <!-- new from translations.telegram.org -->
 
+  
+  
+  
+  
   
   
   
@@ -9302,6 +9645,35 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="BusinessHoursProfileOpensInDays_few">{0} көннән ачылачак</string>
   <string name="BusinessHoursProfileOpensInDays_many">{0} көннән ачылачак</string>
   
@@ -9365,6 +9737,8 @@
   
   
   
+  
+  
   <string name="ClearHistoryMessageMultiple_one">Сез чынлап та {0} чат хәбәрләрен Сакланганнардан бетерергә телисезме?</string>
   
   <string name="ClearHistoryMessageMultiple_few">Сез чынлап та {0} чат хәбәрләрен Сакланганнардан бетерергә телисезме?</string>
@@ -9376,6 +9750,9 @@
   <string name="ClearHistoryTitleMultiple_many">"{0} чат хәбәрләрен бетерергә "</string>
   <string name="ClearHistoryTitleSingle">{0} җибәргән хәбәрләрне бетерергә</string>
   <string name="ClearRecentEmoji">Соңгы эмоҗиләрне бетерергәме?</string>
+  
+  
+  
   
   
   
@@ -9456,6 +9833,14 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="GpsDisabledAlert">Сезнең GPS сүндерелгән ахрысы. Кушымтада геопозиция функциясен куллану өчен аны кабызыгызчы.</string>
   
   
@@ -9480,8 +9865,29 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="KeepMediaInfo">Бу вакыт эчендә Сез **мөрәҗәгать итмәгән** фотолар, видеолар һәм башка файллар җиһазыгызда урынны алып тормас өчен бетереләчәк.\n\nБарлык медиа Telegram болытында сакланачак. Кирәк булса, Сез аларны яңадан иңли алачаксыз.</string>
   <string name="KickFromSupergroup">Хокукларны чикләргә</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -9531,7 +9937,31 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="OpenUrlAlert">{0} сылтамасын ачаргамы?</string>
+  
+  
+  
+  
   
   
   
@@ -9556,6 +9986,7 @@
   
   
   
+  
   <string name="PollOptions">Җавап вариантлары</string>
   
   
@@ -9574,6 +10005,10 @@
   
   <string name="ProfileBirthdayValueYear_few">{1} ({0} яшь)</string>
   <string name="ProfileBirthdayValueYear_many">{1} ({0} яшь)</string>
+  
+  
+  
+  
   <string name="ProfileMyStories">"Хикәяләрем "</string>
   
   
@@ -9737,12 +10172,44 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="StarsConfirmPurchaseText_few">Сез чынлап та **{2}** ботыннан **{0} йолдызга** «**{1}**» сатып алырга телисезме?</string>
   <string name="StarsConfirmPurchaseText_many">Сез чынлап та **{2}** ботыннан **{0} йолдызга** «**{1}**» сатып алырга телисезме?</string>
   
   
   <string name="StarsCount_few">{0} йолдыз</string>
   <string name="StarsCount_many">{0} йолдыз</string>
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -9776,6 +10243,11 @@
   
   <string name="StoriesPinnedText_few">Хәзер алар һәрвакыт исемлекнең иңбашында булачак.</string>
   <string name="StoriesPinnedText_many">Хәзер алар һәрвакыт исемлекнең иңбашында булачак.</string>
+  
+  
+  
+  
+  
   
   
   
@@ -9889,9 +10361,18 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="UnsupportedMedia">Хәбәр сезнең Telegram версиясендә эшләми. Аны карар өчен кушымтаны яңартыгызчы: https://telegram.org/update</string>
   
   <string name="UserReplyIconHint">Сез хәбәрләрегезгә җавапларны артлыкка куелган махсус эмоҗилар ярдәмендә билгели аласыз.</string>
+  
   
   
   
@@ -9918,41 +10399,20 @@
 
   <!-- new from translations.telegram.org -->
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="AccDescrStoryBy">{0} хикәясе</string>
-  
   <string name="AdaptiveLayout">Киң экраннар өчен тигезләү</string>
-  
   <string name="ApplyBackgroundForAllChats">Барлык чатларда кулланырга</string>
   <string name="ArchiveMoveToChatList">Чатлар исемлегенә күчертергә</string>
   <string name="ArchiveMoveToMainMenu">Төп менюга күчертергә</string>
   <string name="ArchiveMoveToMainMenuInfo">Архив төп менюга күчте!\nАны чатлар исемлегенә кайтару өчен архив төймәсенә уң клавиш белән басыгыз.</string>
-  
   <string name="AutoStart">Система эшли башлаганда Unigramны кабызу</string>
   <string name="AutoStartDisabledInfo">Система белән кабыну Windows көйләүләрендә сүндерелгән.\n\nСез аны кушымталар кабыну көйләүләрендә Telegram Desktop өчен кабыза аласыз.</string>
   <string name="AutoStartMinized">Төрелгән вакытта да күрсәтергә</string>
   <string name="BizBotStatusAccess">бот бу чатны карый ала</string>
-  
-  
-  
-  
-  
-  
   <string name="ChangeNameColor">"Исем төсен үзгәртергә "</string>
   <string name="ChannelColor">Канал төсе</string>
-  
-  
   <string name="ChatQuickActions">Свайп буенча гамәлләр</string>
   <string name="ChatThemes">Чат темалары</string>
-  
   <string name="ChatsAndContacts">Чатлар һәм контактлар</string>
   <string name="CheckForUpdates">Яңартулар барлыгын тикшерергә</string>
   <string name="CheckForUpdatesInfo">Сездә Telegramның иң яңа версиясе урнаштырылган.</string>
@@ -9966,32 +10426,26 @@
   <string name="CopySelectedMessages">Текст итеп күчермәләү</string>
   <string name="CopySelectedText">Сайланган текстны күчермәләү</string>
   <string name="Cut">Кисеп чыгару</string>
-  
   <string name="DeleteSelected">Сайланганны бетерергә</string>
   <string name="DeletedMessage">Бетерелгән хәбәр</string>
   <string name="DeviceName">Җиһаз исеме</string>
   <string name="DiagnosticsShowPeerIds">Профильдә чатларның IDсы</string>
-  
   <string name="DisableProxy">Проксины сүндерергә</string>
   <string name="DownloadFolder">Иңләү бөклеме</string>
   <string name="DownloadFolderDefault">"Килешенгәнчә "</string>
   <string name="DownloadPath">Иңләү урыны</string>
-  
   <string name="EditInformation">Мәгълүматны үзгәртергә</string>
   <string name="EditProfile">Профильны үзгәртергә</string>
   <string name="EmojiSet">Эмоҗи стиле</string>
   <string name="EnableFullScreenGallery">Тулы-экранлы галерея</string>
   <string name="ExperimentalSettings">Эксперименталь көйләүләр</string>
   <string name="ExperimentalSettingsHint">Игътибар! бу көйләүләр эксперименталь. Аларның кайберәүләре эшләмәскә яки кушымта эшчәнлегенә комачауларга мөмкин. Киләсе версиядә бу көйләүләрнең теләсә кайсысы юкка чыгарга мөмкин. Нәрсә эшләгәнегезне яңлап бетермәсәгез, аларны кулланмагыз.</string>
-  
   <string name="FolderLinkExpiredAlert">Папкага сылтама искерде.</string>
   <string name="Formatting">Бизәнеш</string>
   <string name="ForwardSelected">Сайланганны таратырга</string>
   <string name="GroupUpgradedFrom">Төркем супертөркемгә әверелде. Хәбәрләр тарихын карар өчен монда басыгыз.</string>
-  
   <string name="InAppPreviewInfo">Күрсәрне чат өстенә юнәлткәч, соңгы хәбәр күренә.</string>
   <string name="InstallBetaUpdates">Бета-яңартуларны урнаштыру</string>
-  
   <string name="LiteOptionsTransparencyEffects">Үтәкүренмәлек</string>
   <string name="LoginWithQrCode">QR-код буенча тиз керү</string>
   <string name="LoginWithQrCodeSkip">"Телефон номеры белән керү "</string>
@@ -9999,21 +10453,7 @@
   <string name="LoginWithQrCodeStep2">Керегез: Көйләүләр &gt; Җайланмалар &gt; Җайланманы тоташтыру</string>
   <string name="LoginWithQrCodeStep3">Раслау өчен телефон камерасын бу экранга юнәлтегез.</string>
   <string name="LoginWithQrCodeTitle">QR-код ярдәмендә тиз керү</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="News">Яңалыклар</string>
-  
-  
-  
   <string name="NotificationExceptionsAlwaysOff">Сүндерергә</string>
   <string name="NotificationExceptionsAlwaysOn">Кабызырга</string>
   <string name="NotificationExceptionsPreviewAlwaysOff">Сүндерергә</string>
@@ -10021,55 +10461,33 @@
   <string name="NotificationExceptionsPreviewHide">Текстны яшерергә</string>
   <string name="NotificationExceptionsPreviewShow">Текстны алкарау</string>
   <string name="NotificationExceptionsSoundCustom">Тавыш: бүтән</string>
-  
-  
   <string name="OpenImageUnsupported">Бу сурәтне эшкәртергә мөмкин түгел.</string>
   <string name="OpenInNewWindow">Аерым тәрәздә ачарга</string>
-  
   <string name="OpenTelegram">Telegramны ачырга</string>
   <string name="OpenWith">Ачарга:</string>
-  
-  
-  
   <string name="PrivacyVoiceMessagesPremiumOnly2">Тавышхатларны һәм видеохатларны кемнән кабул итәргә/итмәскә икәнен сайлау өчен Telegram Premium абүнәсен тоташтырыгыз.\n\n**Telegram Premium турында күбрәк**</string>
-  
   <string name="ProxyCredentials">Таныклау мәгълүматы</string>
   <string name="ProxyCredentialsOptional">Хисап мәгълүматы (опциональ)</string>
-  
   <string name="QuickReaction">Икеләтә басу белән җавап</string>
   <string name="QuickReactionInfo">Хәбәргә икеләтә баскач, аңа тиз җаваплар чыгачак.</string>
   <string name="QuitTelegram">Telegramны ябарга</string>
   <string name="Redo">Кабатлау</string>
-  
   <string name="RenameCurrentDevice">Бу җиһазның исемен үзгәртергә</string>
   <string name="ReplaceEmoji">Эмоҗины автоалмаштыру</string>
-  
-  
-  
   <string name="RetrievingInformation">Мәгълүмат яңартыла...</string>
   <string name="SaveAs">Сакларга:</string>
-  
-  
-  
-  
   <string name="SensitiveDisableFiltering">Күрсәтергә</string>
   <string name="SensitiveInfo">Четерекле материалларны ачык каналларда Сезнең барлык Telegram җиһазларында күрсәтергә.</string>
   <string name="SensitiveTitle">Четерекле тәшкиләт</string>
-  
   <string name="ShowInFolder">Файл белән папка</string>
   <string name="ShowTrayIcon">Трәйдә тамгачыкны күрсәтү</string>
   <string name="Spelling">Орфографияне тикшерү</string>
-  
   <string name="StarsYourBalance">Сезнең балансыгыз</string>
-  
   <string name="StoriesRemovedFromProfile_one">{0} хикәя Сезнең профилегездән бетерелде.</string>
-  
   <string name="StoriesRemovedFromProfile_few">{0} хикәя Сезнең профилегездән бетерелде.</string>
   <string name="StoriesRemovedFromProfile_many">{0} хикәя Сезнең профилегездән бетерелде.</string>
   <string name="StoriesRemovedFromProfile_other">{0} хикәя Сезнең профилегездән бетерелде.</string>
-  
   <string name="StoriesSavedToProfile_one">{0} хикәя профилегездә күрсәтелә.</string>
-  
   <string name="StoriesSavedToProfile_few">{0} хикәя профилегездә күрсәтелә.</string>
   <string name="StoriesSavedToProfile_many">{0} хикәя профилегездә күрсәтелә.</string>
   <string name="StoriesSavedToProfile_other">{0} хикәя профилегездә күрсәтелә.</string>
@@ -10087,14 +10505,9 @@
   <string name="TabsViewInfo">Бөклемнәр күп булса, аслыкны сулга тартып карагыз.</string>
   <string name="TabsViewOnLeft">Аслык сулда</string>
   <string name="TabsViewOnTop">Аслык өстә</string>
-  
-  
-  
   <string name="TransparentTcpConnection">Үтә күренмәле TCP-тоташу</string>
   <string name="TransparentTcpConnectionInfo">Сервер HTTP CONNECT ярдәмендә үтә күренмәле TCP-тоташу белән эшли белсә,  кабызыгыз.</string>
   <string name="TransparentTcpConnectionInfo2">Мөмкин булганда, ул тоташу тизлеген сизерлек арттыра ала. Прокси эшләмәсә, бу көйләүне үзгәртеп карагыз.</string>
-  
-  
   <string name="UpdateTelegramInfo">Барлык яңа мөмкинлекләрне файдалану өчен кушымтаны яңартыгызчы.</string>
   <string name="UpdatesFrequency">Яңартулар ешлыгы</string>
   <string name="UpgradeStories">Хикәяләрне яхшыртырга</string>
@@ -10102,138 +10515,7 @@
   <string name="UseSystemProxySettings">Системаның прокси көйләүләрен кулланырга</string>
   <string name="UseSystemSpellChecker">Орфографияне система чаралары тикшерә</string>
   <string name="VersionAndUpdates">Версия һәм яңартулар</string>
-  
   <string name="VoipDeviceCamera">Камера</string>
-  
   <string name="VoipDeviceOutput">Сөйләткечләр һәм колакчыннар</string>
-  
-  
-  
   <string name="YourNameColor">Исем төсе</string>
-  <string name="ChannelRemoveUser">Каналдан алырга</string>
-  <string name="StarsTransactionDate">Дата</string>
-  
-  
-  
-  <string name="StarsTransactionSource">Нәрсә аркылы</string>
-  
-  
-  <string name="AddToGroupOrChannel">Төркемгә яки каналга өстәргә</string>
-
-  
-  
-  
-  
-  
-  
-  <string name="SendAsFile">Кысмыйча җибәрү</string>
-  
-  
-
-  
-  <string name="ChooseUser">Кулланучыны сайларга</string>
-  
-  <string name="ChooseGroup">Төркемне сайларга</string>
-  <string name="ChooseChannel">"Каналны сайларга "</string>
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  <string name="BotPublicLink">"Ачык сылтама "</string>
-  <string name="StarsBalance">Баланс</string>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  <string name="BotWebViewToS">"Куллану шартлары "</string>
-  <string name="BotWebViewToSLink">https://telegram.org/tos/mini-apps</string>
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-
-  
-  <string name="StarsTransactionMedia">Медиаконтент</string>
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-
 </resources>

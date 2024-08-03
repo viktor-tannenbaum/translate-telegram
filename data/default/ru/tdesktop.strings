@@ -1448,9 +1448,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_topic_title" = "Информация о теме";
 "lng_profile_enable_notifications" = "Уведомления";
 "lng_profile_send_message" = "Отправить сообщение";
-
-
-
+"lng_profile_open_app" = "Открыть приложение";
+"lng_profile_open_app_about" = "Открывая это мини-приложение, Вы принимаете {terms}.";
+"lng_profile_open_app_terms" = "Условия использования мини-приложений";
 "lng_info_add_as_contact" = "Добавить контакт";
 "lng_profile_shared_media" = "Общие медиа";
 "lng_profile_suggest_photo" = "Предложить фото профиля";
@@ -1848,7 +1848,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_webview_data_done" = "Вы успешно передали данные боту кнопкой «{text}».";
 "lng_action_gift_received" = "{user} отправил(а) Вам подарок стоимостью {cost}";
 "lng_action_gift_received_me" = "Вы отправили пользователю {user} подарок стоимостью {cost}";
-
+"lng_action_gift_received_anonymous" = "Неизвестный пользователь отправил Вам подарок стоимостью {cost}";
 "lng_action_suggested_photo_me" = "Вы предложили {user} добавить эту фотографию в профиль.";
 "lng_action_suggested_photo" = "{user} предлагает Вам добавить эту фотографию в профиль.";
 "lng_action_suggested_photo_button" = "Посмотреть фото";
@@ -2346,7 +2346,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_summary_history_tab_out" = "Списания";
 "lng_credits_summary_history_entry_inner_in" = "Покупка в приложении";
 "lng_credits_summary_balance" = "Баланс";
-
+"lng_credits_gift_button" = "Подарить звёзды друзьям";
 "lng_credits_box_out_title" = "Подтверждение покупки";
 "lng_credits_box_out_sure#one" = "Вы точно хотите приобрести «{text}» у **{bot}** за **{count} звезду**?";
 "lng_credits_box_out_sure#other" = "Вы точно хотите приобрести «{text}» у **{bot}** за **{count} звезды**?";
@@ -2362,7 +2362,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_box_out_confirm#one" = "Подтвердить и заплатить {emoji} {count} звезду";
 "lng_credits_box_out_confirm#other" = "Подтвердить и заплатить {emoji} {count} звезды";
 "lng_credits_box_out_about" = "Прочесть {link} покупки и использования звёзд.";
-
+"lng_credits_box_out_about_link" = "https://telegram.org/tos/stars/ru";
 "lng_credits_media_done_title" = "Вы получили доступ к медиаконтенту";
 "lng_credits_media_done_text#one" = "**{count} звезда** отправлена {chat}.";
 "lng_credits_media_done_text#other" = "**{count} звезды** отправлено {chat}.";
@@ -2375,13 +2375,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_box_history_entry_play_market" = "Play Store";
 "lng_credits_box_history_entry_app_store" = "App Store";
 "lng_credits_box_history_entry_fragment" = "Fragment";
-
-
-
-
-
-
-
+"lng_credits_box_history_entry_anonymous" = "Неизвестный пользователь";
+"lng_credits_box_history_entry_gift_name" = "Подарок Вам";
+"lng_credits_box_history_entry_gift_sent" = "Подарок от Вас";
+"lng_credits_box_history_entry_gift_out_about" = "Звёзды позволят **{user}** открывать контент и получать услуги в Telegram.\n{link}";
+"lng_credits_box_history_entry_gift_in_about" = "Используйте звёзды, чтобы открывать контент и получать услуги в Telegram. {link}";
+"lng_credits_box_history_entry_gift_about_link" = "Примеры {emoji}";
+"lng_credits_box_history_entry_gift_about_url" = "https://telegram.org/blog/telegram-stars/ru";
 "lng_credits_box_history_entry_ads" = "Рекламную платформу";
 "lng_credits_box_history_entry_premium_bot" = "Покупка звёзд";
 "lng_credits_box_history_entry_via_premium_bot" = "Premium Bot";
@@ -2397,7 +2397,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_small_balance_about" = "Купите **звёзды** для оплаты в **{bot}** и других мини-приложениях.";
 "lng_credits_purchase_blocked" = "Этот товар нельзя купить за «Звёзды Telegram».";
 
-
+"lng_credits_gift_title" = "Подарить Звёзды Telegram";
 
 "lng_location_title" = "Адрес";
 "lng_location_about" = "Адрес и точка на карте в Вашем профиле.";
@@ -2869,10 +2869,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_link_pending_toast" = "Ссылка видна только получателю.";
 "lng_gift_link_pending_footer" = "Эта ссылка ещё не активирована.";
 
-
-
-
-
+"lng_gift_stars_title#one" = "{count} звезда";
+"lng_gift_stars_title#other" = "{count} звезды";
+"lng_gift_stars_outgoing" = "Звёзды позволят {user} открывать контент и получать услуги в Telegram.";
+"lng_gift_stars_incoming" = "Используйте звёзды, чтобы открывать контент и получать услуги в Telegram.";
 
 "lng_accounts_limit_title" = "Достигнут лимит";
 "lng_accounts_limit1#one" = "Одновременно можно подключить не больше **{count}** аккаунта.";
@@ -2949,13 +2949,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_masks_has_been_archived" = "Набор масок отправлен в архив.";
 "lng_masks_installed" = "Набор масок установлен.";
 "lng_emoji_nothing_found" = "Эмодзи не найдены";
-
-
-
-
-
+"lng_stickers_context_reorder" = "Изменить порядок";
+"lng_stickers_context_edit_name" = "Переименовать";
+"lng_stickers_context_delete" = "Удалить стикер";
+"lng_stickers_context_delete_sure" = "Вы точно хотите удалить этот стикер из Вашего набора?";
+"lng_stickers_box_edit_name_title" = "Переименовать набор";
 "lng_stickers_box_edit_name_about" = "Придумайте название для набора.";
-
+"lng_stickers_creator_badge" = "изменить";
 
 "lng_in_dlg_photo" = "Фотография";
 "lng_in_dlg_album" = "Альбом";
@@ -5319,6 +5319,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_iv_window_title" = "Быстрый просмотр";
 "lng_iv_wrong_layout" = "Ошибка в превью?";
 
+
 "lng_limit_download_title" = "Скорость скачивания ограничена";
 "lng_limit_download_subscribe" = "С подпиской {link} можно скачивать файлы и медиа {increase} быстрее.";
 "lng_limit_download_increase_times#one" = "в **{count}** раз";
@@ -6031,6 +6032,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forwards_tooltip#few" = "Поделились {count} раза";
 "lng_forwards_tooltip#many" = "Поделились {count} раз";
 "lng_gif_error" = "Ошибка при воспроизведении GIF-анимации.";
+"lng_gift_stars_title#few" = "{count} звезды";
+"lng_gift_stars_title#many" = "{count} звёзд";
 "lng_giveaway_award_chosen#few" = "{count} получателя >";
 "lng_giveaway_award_chosen#many" = "{count} получателей >";
 "lng_giveaway_channels_select#one" = "Выберите до {count} канала";
