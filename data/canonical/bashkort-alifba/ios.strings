@@ -284,7 +284,7 @@
 
 
 // Common
-"Common.OK" = "ОҠ";
+"Common.OK" = "OK";
 "Common.Cancel" = "Кире ҡағыу";
 "Common.Edit" = "Үҙг.";
 
@@ -464,7 +464,7 @@
 
 // Dialog List
 
-"DialogList.Title" = "Чаттар";
+"DialogList.Title" = "Әңгәмәләр";
 "DialogList.SearchLabel" = "Әңгәмәләр буйынса эҙләү";
 
 "DialogList.NoMessagesTitle" = "Әлегә һеҙҙең хәбәрҙәрегеҙ юҡ";
@@ -487,7 +487,7 @@
 
 // Compose
 
-"Compose.NewMessage" = "Хәбәр яҙыу";
+"Compose.NewMessage" = "Яңы хәбәр";
 "Compose.NewGroup" = "Яңы төркөм";
 "Compose.NewGroupTitle" = "Яңы төркөм";
 "Compose.NewEncryptedChat" = "Яңы серле әңгәмә";
@@ -4582,7 +4582,7 @@ Sorry for the inconvenience.";
 
 
 
-
+"AddContact.StatusSuccess" = "%@ бәйләнеш исемлегенә өҫтәлде.";
 
 
 
@@ -5515,11 +5515,11 @@ Sorry for the inconvenience.";
 
 
 
+"Stats.GroupTopPosterMessages_1" = "%@ хәбәр";
 
-
-
-
-
+"Stats.GroupTopPosterMessages_3_10" = "%@ хәбәр";
+"Stats.GroupTopPosterMessages_many" = "%@ хәбәр";
+"Stats.GroupTopPosterMessages_any" = "%@ хәбәр";
 
 
 
@@ -6832,11 +6832,11 @@ Sorry for the inconvenience.";
 
 
 
+"Conversation.ForwardOptions.Title_1" = "%@ хәбәр";
 
-
-
-
-
+"Conversation.ForwardOptions.Title_3_10" = "%@ хәбәр";
+"Conversation.ForwardOptions.Title_any" = "%@ хәбәр";
+"Conversation.ForwardOptions.Title_many" = "%@ хәбәр";
 
 
 

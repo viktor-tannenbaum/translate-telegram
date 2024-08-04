@@ -1930,7 +1930,7 @@
     <string name="MobileHiddenExceptionInfo">Номер телефона будет виден, когда %1$s добавит Вас в контакты.</string>
     <string name="MobileVisibleInfo">Когда Вы нажмёте **ГОТОВО**, %1$s начнёт видеть Ваш номер телефона.</string>
     <string name="SharePhoneNumberWith">Показать %1$s мой номер телефона</string>
-    <string name="NowInContacts">%1$s теперь в списке Ваших контактов.</string>
+    <string name="NowInContacts">%1$s бәйләнеш исемлегенә өҫтәлде.</string>
     <string name="Info">"Мәғлүмәт "</string>
     <string name="Phone">Телефон</string>
     <string name="SharedContent">"Дөйөм материалдар "</string>
@@ -3839,7 +3839,7 @@
     <string name="FromGalley">Йыйынтыҡтан</string>
     <string name="DeletePhoto">Удалить фото</string>
     <string name="Set">Установить</string>
-    <string name="OK">Ярай</string>
+    <string name="OK">OK</string>
     <string name="Stop">"Туҡтатырға "</string>
     <string name="WaitMore">Подождать ещё</string>
     <string name="Continue">Дауам итергә</string>
