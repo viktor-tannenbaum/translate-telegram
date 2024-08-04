@@ -57,6 +57,7 @@ ba = Dictionary(
         Snippet("anonymous", "анонимный", "имзаһыҙ"),
         Snippet("block", "блокировать", "бикләргә"),
         Snippet("ban", "заблокировать", "тыйырға"),
+        Snippet("preview", "предпросмотр", "алҡарау"),
     ),
 )
 
