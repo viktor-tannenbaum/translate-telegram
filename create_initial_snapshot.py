@@ -1,7 +1,10 @@
 import argparse
-import json
+import pathlib
 
 import util.helpers as helpers
+
+
+Path = pathlib.Path
 
 
 def make_xml(translation: list[tuple[str, str]]) -> str:
@@ -25,27 +28,29 @@ def make_strings(translation: list[tuple[str, str]]) -> str:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--default_data_dir", type=str, required=True)
+    parser.add_argument("--default_data_dir", type=Path, required=True)
     parser.add_argument("--default_languague_code", type=str, required=True)
-    parser.add_argument("--canonical_data_dir", type=str, required=True)
+    parser.add_argument("--canonical_data_dir", type=Path, required=True)
     parser.add_argument("--canonical_languague_code", type=str, required=True)
     parser.add_argument("--platform", type=str, required=True)
-    parser.add_argument("--snapshots_dir", type=str, required=True)
-    parser.add_argument("--output_language_code", type=str, required=True)
+    parser.add_argument("--snapshots_dir", type=Path, required=True)
+    parser.add_argument("--telegram_language_code", type=str, required=True)
     args = parser.parse_args()
 
     canonical_phrases: list[helpers.Phrase] = helpers.load_phrases(
-        args.canonical_data_dir, args.platform, args.canonical_languague_code
+        args.canonical_data_dir, args.canonical_languague_code, args.platform
     )
     default_phrases: list[helpers.Phrase] = helpers.load_phrases(
-        args.default_data_dir, args.platform, args.default_languague_code
+        args.default_data_dir, args.default_languague_code, args.platform
     )
 
     canonical_phrases = {phrase.name: phrase for phrase in canonical_phrases}
     default_phrases = {phrase.name: phrase for phrase in default_phrases}
 
-    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.output_language_code}.json"
-    snapshot = helpers.Snapshot(snapshot_path)
+    snapshot = helpers.Snapshot(
+        args.snapshots_dir, args.telegram_language_code, args.platform
+    )
+    assert len(snapshot.phrases) == 0, "Snapshot already exists"
 
     for name, phrase in canonical_phrases.items():
         default_phrase = default_phrases[name]

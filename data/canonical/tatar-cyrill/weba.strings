@@ -1,0 +1,1353 @@
+"Month1" = "Гыйнвар";
+"Month2" = "Февраль";
+"Month3" = "Март";
+"Month4" = "Апрель";
+"Month5" = "Май";
+"Month6" = "Июнь";
+"Month7" = "Июль";
+"Month8" = "Август";
+"Month9" = "Сентябрь";
+"Month10" = "Октябрь";
+"Month11" = "Ноябрь";
+"Month12" = "Декабрь";
+"GroupLeaveGroup" = "Төркемнән чыгарга";
+"DeleteChatUser" = "Чатны бетерергә";
+"AccDescrGroup" = "Төркем";
+"AccDescrChannel" = "Канал";
+"ChatServiceGroupUpdatedPinnedMessage1" = "{user} «{message}» хәбәрен беркетте";
+"MessagePinnedGenericMessage" = "{user} хәбәрне беркетте";
+"Nothing" = "Берни дә";
+"UserTyping" = "{user} нидер яза";
+"SendActionRecordVideo" = "видео яздыра";
+"SendActionUploadVideo" = "видео җибәрә";
+"SendActionRecordAudio" = "тавышхат яздыра";
+"SendActionUploadAudio" = "тавышхат җибәрә";
+"SendActionUploadPhoto" = "фото җибәрә";
+"SendActionUploadFile" = "файл җибәрә";
+"PlayingGame" = "уйный";
+"SendActionRecordRound" = "видеохат яздыра";
+"SendActionUploadRound" = "видеохат җибәрә";
+"SendActionChooseSticker" = "стикер сайлый";
+"UserActionWatchingAnimations" = "карый: {emoji}";
+"SetUrlAvailable" = "{url} сылтамасын кулланып була.";
+"SetUrlInUse" = "Кызганычка, сылтаманы кемдер инде куллана.";
+"UsernameAvailable" = "{username} исемен кулланырга мөмкин.";
+"UsernameInUse" = "Бу исемне инде кемдер куллана.";
+"CreateGroupError" = "Sorry, you can\'t create a group with these users because of their privacy settings.";
+"PasscodeControllerErrorCurrent" = "серсүз дөрес түгел";
+"LimitReachedChatInFolders" = "Sorry, you can\'t add more than **{limit}** chats to a folder. You can increase this limit to **{limit2}** by subscribing to **Telegram Premium**.";
+"LimitReachedFileSize" = "Документны җибәреп булмый, чөнки файлның күләме **{limit}**тан зуррак. **Telegram Premium** абүнәсен сатып алып, файлның максималь күләмен **{limit2}**ка кадәр зурайтырга була.";
+"LimitReachedFolders" = "Сезнең инде **{limit}** папка бар. Бу максималь сан. **Telegram Premium** абүнәсен кабызсагыз, бу санны **{limit2}** кадәр зурайтырга була.";
+"LimitReachedPinDialogs" = "You can\'t pin more than {limit} chats to the top. Unpin some that are currently pinned – or subscribe to **Telegram Premium** to double the limit to **{limit2}** chats.";
+"LimitReachedPublicLinks" = "Сез артык күп ачык сылтама кулланасыз. Сезнең төркем яки группага сылтамаларыгызның берәрсен арындырыгыз яки **Telegram Premium** абүнәсен сатып алыгыз. Абүнә бу чикләүне **{limit2}** кадәр арттырачак.";
+"LimitReachedCommunities" = "Сез инде **{limit}** төркемдә һәм каналда катнашасыз. Яңаларына кушылу өчен берничәсеннән чыгыгыз яки **Telegram Premium** абүнәсен сатып алыгыз. Абүнә бу чикләүне **{limit2}** кадәр арттырачак.";
+"LimitReachedChatInFoldersLocked" = "Кызганычка, папкада {limit} артык чат була алмый. Яңа папка ясагызчы. Без киләчәктә күбрәк чат өстәргә мөмкин булу өстендә эшлибез.";
+"LimitReachedFileSizeLocked" = "Документны җибәреп булмый, чөнки аның күләме **{limit}**тан артты. Без киләчәктә чикләүне арттыру өстендә эшлибез.";
+"LimitReachedFoldersLocked" = "Сезнең бу аккаунтыгызда инде **{limit}** бөклем бар. Яңаларын өстәп булмый. Без киләчәктә бу чикләүне зурайту өстендә эшлибез.";
+"LimitReachedPinDialogsLocked" = "Кызганычка, {limit} артык чат беркетергә булмый. Баштан кирәкмәгәннәрен беркетүдән алыгызчы. Без киләчәктә күбрәк чат беркетергә мөмкин булу өстендә эшлибез.";
+"LimitReachedPublicLinksLocked" = "Сез артык күп ачык сылтама кулланасыз. Сезнең төркем яки группага сылтамаларыгызның берәрсен арындырып карагыз. Без киләчәктә бу чикләүне зурайту өстендә эшлибез.";
+"LimitReachedCommunitiesLocked" = "Сез инде **{limit}** төркемдә һәм каналда катнашасыз. Яңаларына кушылу өчен берничәсеннән чыгыгызчы. Без киләчәктә бу чикләүне зурайту өстендә эшлибез.";
+"LimitReachedChatInFoldersPremium" = "Кызганычка, папкада **{limit}** артык чат була алмый. Яңа папка ясагызчы.";
+"LimitReachedFileSizePremium" = "Документны җибәреп булмый, чөнки аның күләме рөхсәт ителгәннән (**{limit}**) артты.";
+"LimitReachedFoldersPremium" = "Сезнең бу аккаунтыгызда инде **{limit}** бөклем бар. Яңаларын өстәп булмый.";
+"LimitReachedPinDialogsPremium" = "Sorry, you can\'t pin more than {limit} chats to the top. Unpin some that are currently pinned.";
+"LimitReachedPublicLinksPremium" = "Сез һәркемгә ачык булган артык күп сылтамаларны кулланасыз. Баштан үзегезнең төркемнәрегезгә яки каналларыгызга сылтамаларның берәрсен арындырыгыз.";
+"LimitReachedCommunitiesPremium" = "Сез инде **{limit}** төркемдә һәм каналда катнашасыз. Яңаларына кушыла алу өчен боларның берничәсеннән чыгыгызчы.";
+"PremiumPreviewLimits" = "Икеләйтелгән лимитлар";
+"PremiumPreviewReactions" = "Уникаль реакцияләр";
+"PremiumPreviewStickers" = "Эксклюзив стикерлар ";
+"PremiumPreviewNoAds" = "Рекламаны сүндерү";
+"PremiumPreviewVoiceToText" = "Тавышны тану";
+"PremiumPreviewProfileBadge" = "Язылучы билгесе";
+"PremiumPreviewDownloadSpeed" = "Тизләтелгән иңләү";
+"PremiumPreviewUploads" = "Чикләнмәгән саклагыч";
+"PremiumPreviewAdvancedChatManagement" = "Чатлар белән идарәләү";
+"PremiumPreviewAnimatedProfiles" = "Актив видеоаватарлар";
+"PremiumPreviewLimitsDescription" = "{limit1} кадәр канал, {limit2} бөклем, {limit3} беркетелгән чат, {limit4} ачык сылтама, {limit5} аккаунт һәм башка күп нәрсәләр.";
+"PremiumPreviewReactionsDescription" = "Хәбәрләргә куела торган анимацияләнгән өстәмә реакцияләр, бары тик Premiun абүнәсен кулланучылар өчен генә.";
+"PremiumPreviewStickersDescription" = "Уникаль анимацияле зур стикерлар. Коллекция ай саен тулылана.";
+"PremiumPreviewNoAdsDescription" = "Telegram платформасы аркылы урнаштырылган рекламаны ачык каналларда яшерү.";
+"PremiumPreviewVoiceToTextDescription" = "Килгән тавышхатларны бер мизгелдә текстка күчерү.";
+"PremiumPreviewProfileBadgeDescription" = "Исем янында Premium-язылучы эксклюзив билгесе.";
+"PremiumPreviewDownloadSpeedDescription" = "Фото, видео һәм башка файлларны чикләнмәгән тизлектә иңләү.";
+"PremiumPreviewUploadsDescription" = "4ГБка кадәр файлларны саклау, чатларыгыз һәм медиа өчен чикләнмәгән саклагыч.";
+"PremiumPreviewAdvancedChatManagementDescription" = "Килешенгәнчә кулланылучы бөклем. Контакт булмаганнар белән яңа чатларны автоархивлау һәм яшерү.";
+"PremiumPreviewAnimatedProfilesDescription" = "Үз-үзеңне күрсәтү өчен видеоаватарлар куллану. Алар чатлар эчендә һәм чатлар исемлегендә уйнатыла.";
+"SendMessage" = "Язарга";
+
+"AccDescrVoiceMessage" = "Войс яздырырга";
+"BotSettings" = "Көйләүләр";
+"Privacy" = "Хосусыйлык көйләүләре";
+"BotHelp" = "Ярдәм";
+"ContextCopyImage" = "Сурәтне күчереп алу";
+"ContextCopyMessageLink" = "Хәбәргә сылтама";
+"ProfileCopyPhone" = "Телефонны күчереп алырга";
+"ContextCopySelected" = "Сайланган текстны күчермәләү";
+"ContextCopyText" = "Текстны күчермәләү";
+"CallMessageVideoIncomingDeclined" = "Төшерелгән видеошалтырату";
+"CallMessageVideoOutgoingMissed" = "Кире кагылган шалтырату";
+"CallMessageVideoIncomingMissed" = "Алынмаган шалтырату";
+"CallMessageVideoOutgoing" = "Чыгучы шалтырату";
+"CallMessageVideoIncoming" = "Керүче шалтырату";
+"CallMessageIncomingDeclined" = "Кире кагылган шалтырату";
+"CallMessageOutgoingMissed" = "Җавапсыз шалтырату";
+"CallMessageIncomingMissed" = "Алынмаган шалтырату";
+"CallMessageOutgoing" = "Чыгучы шалтырату";
+"CallMessageIncoming" = "Керүче шалтырату";
+
+"QuizPoll" = "Викторина";
+"AnonymousQuizPoll" = "Аноним викторина";
+"PublicPoll" = "Сорашу";
+
+"AccDescrReactionMentionDown" = "Киләсе реакцияләргә күчәргә";
+"AccDescrMentionDown" = "Киләсе искә алуга күчәргә";
+"AccDescrPageDown" = "Ахырга күчәргә";
+"ChannelPrivate" = "Шәхси канал";
+"ChannelPrivateInfo" = "Шәхси каналларга чакыру-сылтама аркылы гына язылырга була.";
+"ChannelPublic" = "Ачык канал";
+"ChannelPublicInfo" = "Ачык каналларны эзләү аша табарга мөмкин, аларга теләсә нинди кулланучы  кушыла ала.";
+"MegaPrivate" = "Шәхси төркем";
+"MegaPrivateInfo" = "Шәхси төркемнәргә чакыру яки чакыру сылтамасы ярдәмендә генә кушылырга була.";
+"MegaPublic" = "Ачык төркем";
+"MegaPublicInfo" = "Ачык төркемнәрне эзләү аша табып була, чатның тарихы хәркемгә дә ачык һәм төркемгә һәркем кушыла ала.";
+"ChannelType" = "Канал төре";
+"GroupType" = "Төркем төре";
+
+"MegaPrivateLinkHelp" = "Бу сылтама аша төркемегезгә кушылырга була. Сез сылтаманы теләсә кайсы вакытта торгыза аласыз.";
+
+
+"UserRestrictionsNoSend" = "can\'t send messages";
+
+
+"UserRestrictionsNoEmbedLinks" = "сылтамаларны алкараусыз";
+"UserRestrictionsNoSendPolls" = "сорашуларсыз";
+"UserRestrictionsNoChangeInfo" = "can\'t change Info";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"WrongNumber" = "Номер дөрес түгел?";
+"SentAppCode" = "We\'ve sent the code to the **Telegram** app on your other device.";
+"LoginJustSentSms" = "Без раслау коды белән SMS җибәрдек. Аны югарыда кертегезче.";
+"Code" = "Код";
+"LoginHeaderPassword" = "Серсүзне кертегез";
+"LoginEnterPasswordDescription" = "Сез ике-адымлы чынраслауны кабыздыгыз. Хәзер Сезнең аккаунтыгыз өстәмә болыт серсүзе белән саклана.";
+"StartText" = "Ил кодын тикшерегез һәм телефон номерыгызны кертегез.";
+"LoginPhonePlaceholder" = "Телефон номерыгыз";
+"LoginNext" = "Дәвам итәргә";
+"LoginQRLogin" = "QR-код буенча керү";
+"LoginQRTitle" = "QR-код ярдәмендә тиз керү";
+"LoginQRHelp1" = "Telegramны телефонда ачыгыз";
+"LoginQR2Help2" = "Керегез: **Көйләүләр** > **Җайланмалар** > **Җайланманы тоташтыру**";
+"LoginQRHelp3" = "Раслау өчен телефон камерасын бу экранга юнәлтегез.";
+"LoginQRCancel" = "Телефон номеры белән керү";
+"YourName" = "Сезнең исемегез";
+"LoginRegisterDesc" = "Исемегезне кертегез һәм фото йөкләгез.";
+"LoginRegisterFirstNamePlaceholder" = "Исем";
+"LoginRegisterLastNamePlaceholder" = "Фамилия";
+"Next" = "Алга";
+"LoginSelectCountryTitle" = "Ил";
+"CountryNone" = "Ил табылмады ";
+"VoipGroupVoiceChat" = "Видеочат";
+"AccDescrMoreOptions" = "Өстәмә көйләүләр";
+"AccExitFullscreen" = "Тулыэкранлы режимнан чыгарга";
+"AccSwitchToFullscreen" = "Тулыэкранлы режимга күчәргә";
+"VoipChatStopScreenCapture" = "Экранны күрсәтмәскә";
+"VoipChatStartScreenCapture" = "Экранны күрсәтергә";
+"VoipGroupLeaveAlertEndChat" = "Видеочат тәмам";
+"VoipSpeaker" = "Динамик";
+
+"VoipGroupLeave" = "Чыгарга";
+"VoipGroupEndAlertTitle" = "Видеочатны тәмамларга";
+"VoipGroupLeaveAlertTitle" = "Чаттан чыгу";
+"VoipGroupEndAlertText" = "Сез чынлап та бу видеочатны тәмамларга телисезме?";
+"VoipGroupLeaveAlertText" = "Сез чынлап та бу видеочаттан чыгарга телисезме?";
+"VoipGroupEndChat" = "Видеочатны тәмамларга";
+"VoipGroupEnd" = "Тәмамларга";
+"Cancel" = "Кире кагу";
+"ThisIsYou" = "бу Сез";
+"VoipGroupMutedForMe" = "Сезнең өчен тавышсыз";
+"WantsToSpeak" = "сүз сорый";
+"SpeakingWithVolume" = "{volume}% сөйли";
+"Speaking" = "сөйли";
+"Listening" = "тыңлый";
+"VoipGroupInviteMember" = "Кешеләрне чакыру";
+"VoipGroupCancelRaiseHand" = "Сүз сорамаска";
+"VoipGroupOpenProfile" = "Профильне ачырга";
+"VoipGroupAllowToSpeak" = "Сөйләшергә рөхсәт";
+"VoipMute" = "Тавышсыз";
+"VoipGroupUnmuteForMe" = "Минем өчен тавышлы";
+"VoipGroupMuteForMe" = "Тыңлыйсым килми";
+"VoipGroupUserRemove" = "Алырга";
+"Back" = "Артка";
+"Participants_one" = "{count} катнашучы";
+"Participants_other" = "{count} катнашучы";
+"VoipChatJoin" = "Кушылырга";
+"CallStatusHanging" = "тәмамлану...";
+"CallStatusRequesting" = "мөрәҗәгать...";
+"CallStatusRinging" = "шалтырату...";
+"CallStatusIncoming" = "Сезгә шалтырата...";
+"CallStatusWaiting" = "көтү...";
+"CallStatusExchanging" = "шифрлау ачкычларын алышу... ";
+"CallEmojiKeyTooltip" = "{user} Сезнең белән бер үк эмоҗиларны күрсә, шалтырату чит кешеләрдән 100% сакланган.";
+"CallMuteAudio" = "Тавышсыз";
+"CallUnmuteAudio" = "Мкр. кбз.";
+"CallStopVideo" = "Видеоны сүнд.";
+"CallStartVideo" = "Видеоны кбз.";
+"VoipFlip" = "Борырга";
+"CallScreencast" = "Экран";
+"CallAccept" = "Алырга";
+"CallDecline" = "Кире кагу";
+"CallEndCall" = "Тәмамларга";
+"CallRateLabel" = "Шалтырату сыйфатын бәяләгезче";
+"CallRateComment" = "Өстәмә шәрех";
+"Send" = "Җибәрергә";
+"SponsoredMessageInfo" = "Реклама хәбәрләре ничек эшли?";
+"SponsoredMessageInfoDescription1" = "Башка кушымталардан аермалы буларак, Telegram рекламаны таргетлау өчен Сезнең шәхси мәгълүматыгызны кулланмый. Telegramдагы реклама хәбәрләре шул реклама күрсәтелә торган ачык каналларның тематикасына гына бәйле. Кулланучыларның шәхси мәгълүматлары реклама күрсәтер өчен җыелмый һәм анализланмый. Теге яки бу каналны караучы барлык кулланучылар бертөсле реклама хәбәрләрен күрә.";
+"SponsoredMessageInfoDescription2" = "Unlike other apps, Telegram doesn\'t track whether you tapped on a sponsored message and doesn\'t profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can’t spy on our users. We believe that everyone has the right to privacy, and technological platforms should respect that.";
+
+"SponsoredMessageAlertLearnMoreUrl" = "https://promote.telegram.org";
+"SponsoredMessageInfoDescription4" = "Реклама хәбәрләре хәзерге вакытта тестлау рәвешендә эшли. Алар тулысынча эшли башлап, Telegramга чыгымнарын ябарга мөмкинлек бирә башлагач, без рекламадан килә торган керемнәрне реклама хәбәрләре күрсәтелә торган ачык каналлар хуҗалары белән бүлә ашларбыз.\n\nИнтернеттагы реклама кулланучыларның конфиденциальлеген бозуның синонимы булудан туктарга тиеш. Әйдәгез, технологик компанияларның эшләү рәвешен үзгәртә башлыйбыз.";
+"Close" = "Ябарга";
+"ConversationScheduleMessageSendToday" = "Бүген {time} вакытта җибәрергә";
+"ConversationScheduleMessageSendOn" = "Җибәрү вакыты {date} {time}";
+"Phone" = "Телефон";
+"Username" = "Кулланучы исеме";
+"UserBio" = "Үзем турында";
+"Info" = "Мәгълүмат";
+"SetUrlPlaceholder" = "Сылтама";
+"Notifications" = "Белдермәләр";
+"SavedMessagesInfo" = "Хәбәрне саклап калу өчен аны монда җибәрегез";
+"BlockedListNotFound" = "Кулланучылар табылмады.";
+"TextCopied" = "Текст алмашу буферында.";
+"Copy" = "Күчермә";
+"ChatListDeleteAndLeaveGroupConfirmation" = "Сез чынлап та {chat} төркеменнән чыгып аны бетерергә телисезме?";
+"ChannelLeaveAlertWithName" = "Сез чынлап та **{chat}** чатыннан чыгарга телисезме?";
+"ChatListDeleteChatConfirmation" = "Сез чынлап та {chat} белән чатны\nбетерергә телисезме?";
+"DeleteAndStop" = "Бетерергә һәм туктатырга";
+"ChatListDeleteForEveryone" = "{user} һәм минем өчен бетерергә";
+"DeleteForAll" = "Барлык кулланучыларда да бетерергә";
+"DeleteSingleMessagesTitle" = "Хәбәрне бетерергә";
+"AreYouSureDeleteSingleMessage" = "Сез бу хәбәрне чынлап та бетерергә телисезме?";
+"DeleteForMeChatHint_one" = "Хәбәрләр Сездә генә бетереләчәк. Чатның башка катнашучыларында күчермә сакланып калачак.";
+"DeleteForMeChatHint_other" = "Хәбәрләр Сездә генә бетереләчәк. Чатның башка катнашучыларында күчермә сакланып калачак.";
+"DeleteForEveryoneHint_one" = "Хәбәрләр бу чаттагы һәр кулланучы өчен бетереләчәк.";
+"DeleteForEveryoneHint_other" = "Хәбәрләр бу чаттагы һәр кулланучы өчен бетереләчәк.";
+"ConversationDeleteMessagesFor" = "{user} һәм минем өчен бетерергә";
+
+"ChatListDeleteForCurrentUser" = "Минем өчен генә бетерергә";
+"Delete" = "Бетерергә";
+"FakeMessage" = "FAKE";
+"ScamMessage" = "SCAM";
+"SendWithoutSound" = "Тавышланмыйча җибәрергә";
+"SetReminder" = "Искәртүне билгеләргә";
+"ScheduleMessage" = "Аннары җибәрергә";
+"Updating" = "Яңартылу…";
+
+
+"Subscribers_one" = "{count} язылучы";
+"Subscribers_other" = "{count} язылучы";
+"NMembers_one" = "{count} катнашучы";
+"NMembers_other" = "{count} катнашучы";
+"SelectChat" = "Чатны сайлагыз";
+"PinMessageAlertChannel" = "Бу хәбәрне каналда беркетергәме?";
+
+"PinMessageAlertChat" = "Бу хәбәрне чатта беркетергәме?";
+"PinMessageAlertTitle" = "Хәбәрне беркетү";
+"DialogPin" = "Беркетергә";
+"ConversationPinMessagesFor" = "{user} һәм минем өчен беркетергә";
+"ConversationPinMessageAlertPinAndNotifyMembers" = "Беркетү һәм барысын да искәртү";
+"SavedMessages" = "Сакланган хәбәрләр";
+"AccDescrPrevious" = "Артка";
+"ReportReasonSpam" = "Спам";
+"ReportReasonViolence" = "Золым";
+"ReportReasonPornography" = "Порнография";
+"ReportReasonChildAbuse" = "Балалар белән порнография";
+"ReportPeerReasonCopyright" = "Авторлык хокуклары";
+"ReportReasonOther" = "Башкасы";
+
+"ReportPeerReport" = "Шикаять";
+"ReportReasonDescription" = "Тәфсилләү";
+"ReportButton" = "Җибәрергә ";
+"StickersRemoveFromFavorites" = "Сакланганнардан алырга";
+"StickersAddToFavorites" = "Сакларга";
+"ViewPackPreview" = "Җыелманы карарга";
+"DeleteFromRecent" = "Соңгылардан алырга";
+"AccDescrStickerSet" = "Стикерлар җыелмасы";
+"ChatPanelUnpinAllMessages" = "Барлык хәбәрләрне беркетүдән алырга";
+
+
+"DialogUnpin" = "Беркетмәскә";
+"ArchivedChats" = "Архив";
+"FilterAddTo" = "Папкага өстәргә";
+"Draft" = "Каралама";
+"FilterAllChatsShort" = "Һәммәсе";
+"FilterAllChats" = "Барлык чатлар";
+"CreateNewContact" = "Яңа контакт ясарга";
+"FilterNoChatsToDisplay" = "Чатлар юк";
+"ChatListEmptyChatListFilterText" = "Бу папкада әлегә чатлар юк.";
+
+"ChatListEmptyChatListEditFilter" = "Бөклемне көйләргә";
+"UpdateTelegram" = "Telegramны яңарту";
+"AccDescrOpenMenu2" = "Менюны ачарга";
+"SettingsTipsUsername" = "TelegramTips";
+"SearchFriends" = "Контактларны эзләү";
+"Search" = "Эзләү";
+"Contacts" = "Контактлар";
+"Settings" = "Көйләүләр";
+"MenuNightMode" = "Төнге режим";
+"SettingsDisableNightTheme" = "Төнге режимны сүндерергә";
+"SettingsEnableNightTheme" = "Төнге режимны кабызырга";
+"TelegramPremium" = "Telegram Premium";
+"New" = "Яңа";
+"TelegramFeatures" = "Telegram мөмкинлекләре";
+"ShortcutsControllerOthersLockByPasscode" = "Кушымтаны бикләү";
+"GroupAddMembers" = "Катнашучыларны өстәргә";
+"SendMessageTo" = "Хәбәр җибәрергә...";
+"NewChannel" = "Яңа канал";
+"NewGroup" = "Яңа төркем";
+"AddPhoto" = "Яңа фото билгеләү";
+"EnterChannelName" = "Канал исеме";
+"GroupName" = "Төркем исеме";
+"DescriptionOptionalPlaceholder" = "Тасвирлама (опциональ)";
+"DescriptionInfo" = "Каналыгызга өстәмә тасвирлама билгеләргә була.";
+"GroupInfoParticipantCount_one" = "{count} катнашучы";
+"GroupInfoParticipantCount_other" = "{count} катнашучы";
+"ChannelIntroCreateChannel" = "Канал төзергә";
+"NewMessageTitle" = "Яңа хәбәр";
+"ChatListSearchNoResults" = "Нәтиҗәсез";
+"ChatListSearchNoResultsDescription" = "Бернәрсә дә табылмады.\nЯңадан эзләп карагыз.";
+"ChatListSearchShowLess" = "Әзрәк күрсәтергә";
+"ChatListSearchShowMore" = "Күбрәк күрсәтергә";
+"DialogListSearchSectionDialogs" = "Чатлар һәм контактлар";
+"DialogListSearchSectionGlobal" = "Глобаль эзләү";
+"SearchMessages" = "Хәбәрләр";
+"Recent" = "Баягылар";
+"BlockedUsersBlockUser" = "Кулланучыны тыярга:";
+"FilterChatTypes" = "Чат төрләре";
+"FilterChats" = "Чатлар";
+"FilterIncludeInfo" = "Бу папкада күрсәтелергә кирәк булган чатларны яки чат төрләрен сайлагыз.";
+"FilterNameHint" = "Бөклем исеме";
+"FilterInclude" = "Сайланган чатлар";
+"FilterAddChats" = "Чатларны өстәргә";
+"FilterExclude" = "Күрсәтергә кирәкмәгән чатлар";
+"CreateNewFilterInfo" = "Сез кирәкле чатларны бөклемнәргә җыеп алар арасында җиңел күчә аласыз.";
+"CreateNewFilter" = "Яңа бөклем ясарга";
+"Filters" = "Чат бөклемнәре";
+"FilterRecommended" = "Тәкъдим ителгән бөклемнәр";
+"Add" = "Өстәргә";
+"EnterNewPasscode" = "Яңа код-серсүзне кертегез";
+"Continue" = "Дәвам итәргә";
+"ReEnterYourPasscode" = "Код-серсүзне яңадан кабатлагыз";
+"PasscodeControllerCurrentPlaceholder" = "Хәзерге код-серсүзне кертегез";
+"PleaseEnterNewFirstPassword" = "Яңа серсүз кертегез";
+"PasscodeControllerReEnterPasscodePlaceholder" = "Яңа код-серсүзне кабатлагыз";
+"PasscodeChange" = "Код-серсүзне үзгәртергә";
+"PasscodeTurnOff" = "Код-серсүзне сүндерергә";
+"EnablePasscode" = "Код-серсүзне кабызу";
+"SessionPreviewTitle" = "Сеанс";
+"SessionPreviewTerminateSession" = "Сеансны тәмамларга";
+"PrivacySettingsLastSeen" = "Керү вакыты";
+"SessionPreviewApp" = "Кушымта";
+"SessionPreviewIp" = "IP-адрес";
+"SessionPreviewLocation" = "Геопозиция";
+"SessionPreviewIpDesc" = "Геопозиция турындагы мәгълүмат IP-адреска нигезләнгән һәм төгәл булмаска мөмкин.";
+"AuthSessionsViewAcceptTitle" = "Бу җиһазда кабул итәргә";
+"SessionPreviewAcceptSecret" = "Яңа яшерен чатлар";
+"SessionPreviewAcceptCalls" = "Керүче шалтыратулар";
+"Weeks_one" = "{count} атна";
+"Weeks_other" = "{count} атна";
+"Months_one" = "{count} ай";
+"Months_other" = "{count} ай";
+"AuthSessionsCurrentSession" = "БУ ҖИҺАЗ";
+"TerminateAllSessions" = "Башка сеансларны туктатырга";
+"OtherSessions" = "Актив сеанслар";
+"TerminateOldSessionHeader" = "Сеансларны автомат рәвештә тәмамларга";
+"IfInactiveFor" = "Сеанс актив булмаганда:";
+"AreYouSureSessions" = "Сез чынлап та бу сеанстан кала башкаларын тәмамларга телисезме?";
+"WebSessionsTitle" = "Расланган сайтлар";
+"AuthSessionsLogOut" = "Чыгарга";
+"AuthSessionsViewBrowser" = "Гизгеч";
+"AuthSessionsViewLocationInfo" = "Геопозиция турында бирелмәләр IP-адреска нигезләнгән һәм төгәл булмаска мөмкин.";
+"AuthSessionsLogOutApplications" = "Барча сайтларны сүндерү";
+"ClearOtherWebSessionsHelp" = "Сез аккаунтыгызны Telegram аркылы керүне кулланучы сайтларда үзегезне таныту өчен куллана аласыз.";
+"AreYouSureWebSessions" = "Сез Telegram аркылы кергән барлык сайтлардан чынлап та чыгарга телисезме?";
+"AutodownloadSizeLimitUpTo" = "{limit}ка кадәр";
+"FileSizeMB" = "{count} МБ";
+"AutoDownloadMaxFileSize" = "Файлның максималь зурлыгы";
+"AutoDownloadSettingsContacts" = "Контактлар";
+"AutoDownloadSettingsPrivateChats" = "Башка шәхси чатлар";
+"AutoDownloadSettingsGroupChats" = "Төркемнәр";
+"AutoDownloadSettingsChannels" = "Каналлар";
+"AutoDownloadPhotosTitle" = "Фотоларны автоиңләү";
+"AutoDownloadVideosTitle" = "Видео һәм GIFларны автоиңләү";
+"AutoDownloadFilesTitle" = "Файлларны автоиңләү";
+"AutoplayMedia" = "Медианы автоуйнату";
+"GifsTab2" = "GIF";
+"DataAndStorageAutoplayVideos" = "Видеолар";
+"FirstName" = "Исем (мәҗбүри)";
+"LastName" = "Фамилия";
+"SettingsAboutBio" = "Теләсә нинди мәгълүмат, мәсьәлән: яшьләр саны, шөгыль яисә шәһәр.\nМисал: 23 яшь, биюче, Казаннан.";
+"UsernameHelp" = "Сез **Telegram**да ачык исем сайлый аласыз. Билгеләсәгез, башка кулланучылар телефоныгызны белмәсәләр дә Сезне шул исем буенча таба алырлар.\n\nИсем өчен **a–z**, **0–9** символларын һәм ассызыклау кулланырга була. Минималь озынлык - **5** символ.";
+"UsernameLink" = "Бу сылтама буенча Сезнең белән чат ачыла:";
+"SettingsExperimentalAbout" = "Игътибар! бу көйләүләр эксперименталь. Аларның кайберәүләре эшләмәскә яки кушымта эшчәнлегенә комачауларга мөмкин. Киләсе версиядә бу көйләүләрнең теләсә кайсысы юкка чыгарга мөмкин. Нәрсә эшләгәнегезне яңлап бетермәсәгез, аларны кулланмагыз.";
+"EmptyChatAppearanceLight" = "Якты";
+"EmptyChatAppearanceDark" = "Караңгы";
+"EmptyChatAppearanceSystem" = "Авто";
+"SettingsSendEnter" = "Enter белән җибәрү";
+"SettingsSendCmdenter" = "Cmd+Enter буенча җибәрү";
+"SettingsSendCtrlenter" = "Ctrl+Enter белән җибәрү";
+"TextSize" = "Текст зурлыгы";
+"ChatBackground" = "Чатлар артсурәтләре";
+"Theme" = "Тема";
+"VoiceOverKeyboard" = "Төймәсар";
+"AccDescrStickers" = "Стикерлар";
+"DoubleTapSetting" = "Тиз реакция";
+"SuggestStickers" = "Эмоҗи тәкъдимнәре";
+"LoopAnimatedStickers" = "Анимацияне кабатларга";
+"UploadImage" = "Сурәтне йөкләргә";
+"SetColor" = "Төсне билгеләргә";
+"ThemeResetToDefaults" = "Килешенгәнчәсенә кайтару";
+"BackgroundBlurred" = "Юылу";
+"SettingsInformation" = "Профильне үзгәртергә";
+"General" = "Төп";
+"DataSettings" = "Бирелмәләр һәм хәтер";
+"PrivacySettings" = "Шәхсилек һәм иминлек";
+"Language" = "Тел";
+"SettingsExperimental" = "Эксперименталь көйләүләр";
+"PrivacyPhone" = "Телефон номеры";
+"PrivacyLastSeen" = "Соңгы активлык";
+"PrivacyProfilePhoto" = "Профиль фотолары";
+"PrivacyForwards" = "Хәбәрләрне тарату ";
+"AutodownloadGroupChats" = "Төркемнәр";
+"AlwaysShareWith" = "Һәрвакыт күрсәтергә";
+"NeverShareWith" = "Беркайчан да күрсәтмәскә";
+"SessionsTitle" = "Актив сеанслар";
+"OtherWebSessions" = "Тоташтырылган сайтлар";
+"BlockedUsers" = "Тыю исемлеге";
+"TwoStepVerification" = "Болыт серсүзе";
+"PleaseEnterCurrentPassword" = "Серсүзне кертегез ";
+"PleaseReEnterPassword" = "Серсүзне кабатлагыз";
+"PasswordHint" = "Ярдәм";
+"RecoveryEmailTitle" = "Электрон почта";
+"TwoStepVerificationPasswordSet" = "Серсүз билгеләнде!";
+"Passcode" = "Код-серсүз";
+"PasscodeControllerDisableTitle" = "Код-серсүзне сүндерергә";
+"PasscodeControllerChangeTitle" = "Код-серсүзне үзгәртү";
+"FilterNew" = "Яңа папка";
+"FilterEdit" = "Папканы көйләү";
+"AutoDeleteConfirm" = "Кулланырга";
+"LogOutTitle" = "Чыгу";
+"AccDescrGoBack" = "Артка";
+"SureLogout" = "Сез чынлап та чыгарга телисезме?";
+"AccountSettingsLogout" = "Чыгарга";
+"TelegramGeneralSettingsViewController" = "Гомуми көйләүләр";
+"UserInfoNotificationsEnabled" = "Кабызылган";
+"UserInfoNotificationsDisabled" = "Сүнд.";
+"AutodownloadPrivateChats" = "Шәхси чатлар";
+"NotificationsForPrivateChats" = "Шәхси чатлардан белдермәләр";
+"MessagePreview" = "Хәбәрләрне алкарау";
+"FilterGroups" = "Төркемнәр";
+"NotificationsForGroups" = "Төркемнәрдән белдермәләр";
+"FilterChannels" = "Каналлар";
+"NotificationsForChannels" = "Каналлардан белдермәләр";
+"PhoneOther" = "Башкасы";
+"ContactJoined" = "Контакт Telegramга кушылды";
+"P2PEverybody" = "Барысы да";
+"P2PContacts" = "Минем контактларым";
+"P2PNobody" = "Кулланмаска";
+"Users_one" = "{count} кулланучы";
+"Users_other" = "{count} кулланучы";
+"PrivacySettingsWebSessions" = "Актив сайтлар";
+"PasswordOn" = "Кбз.";
+"PasswordOff" = "Сүнд.";
+"PrivacyTitle" = "Хосусыйлык";
+"PrivacyPhoneTitle" = "Минем телефон номерымны кем күрә?";
+"LastSeenTitle" = "Соңгы керү вакытыгызны кем күрә?";
+"PrivacyProfilePhotoTitle" = "Профилемдәге фотоны кем күрә? ";
+"WhoCanCallMe" = "Кем миңа шалтырата ала";
+"PrivacyP2P" = "Peer-to-Peer шалтыратулар";
+"PrivacyForwardsTitle" = "Хәбәрләрне таратканда, кем минем аккаунтыма сылтый ала?";
+"WhoCanAddMe" = "Кем мине төркемнәргә өсти ала?";
+"NewChatsFromNonContacts" = "Ят кешеләр белән яңа чатлар";
+"ArchiveAndMute" = "Архивка һәм белдермәләрсез";
+"ArchiveAndMuteInfo" = "Контактларыгызда булмаган кулланучылардан килгән яңа чатлар, төркемнәр һәм каналлар турындагы белдермәләрне автомат рәвештә сүндерергә һәм архивка кертергә.";
+"SettingsSensitiveTitle" = "Четерекле тәшкиләт";
+"SettingsSensitiveDisableFiltering" = "Күрсәтергә";
+"SettingsSensitiveAbout" = "Четерекле материалларны ачык каналларда Сезнең барлык Telegram җиһазларында күрсәтергә.";
+"BlockedUsersInfo" = "Blocked users can\'t send you messages or add you to groups. They will not see your profile pictures, online and last seen status.";
+"NoBlocked" = "Әлегә тыелган кулланучылар юк";
+"BlockContact" = "Тыярга";
+"CustomHelp" = "You won\'t see Last Seen or Online statuses for people with whom you don\'t share yours. Approximate times will be shown instead (recently, within a week, within a month).";
+"PrivacyExceptions" = "Чыгармалар";
+"AlwaysAllow" = "Рөхсәт бирергә";
+"EditAdminAddUsers" = "Катнашучыларны өстәү";
+"NeverAllow" = "Рөхсәт бирмәскә";
+"AlwaysAllowPlaceholder" = "Һәрвакыт рөхсәт бирергә...";
+"NeverAllowPlaceholder" = "Һәрвакыт рөхсәт бирмәскә...";
+"StickerPackStickerCount_one" = "{count} стикер";
+"StickerPackStickerCount_other" = "{count} стикер";
+"PleaseEnterPassword" = "Яңа серсүзне кертегез ";
+"PasswordHintPlaceholder" = "Ярдәм мәгълүматы";
+"TwoStepVerificationPasswordSetInfo" = "Бу серсүзне яңа җиһаздан танытылганда SMS коды белән өстәмә итеп кертергә кирәк.";
+"TwoStepVerificationPasswordReturnSettings" = "Көйләүләргә кайтырга";
+"YourEmailCode" = "Хаттагы код";
+"EnabledPasswordText" = "You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.";
+"ChangePassword" = "Серсүзне үзгәртергә";
+"TurnPasswordOff" = "Серсүзне сүндерергә";
+"SetRecoveryEmail" = "Кайтару emailын билгеләргә";
+"YourEmailSkip" = "Үтеп китәргә";
+"YourEmailSkipWarning" = "Игътибар";
+"YourEmailSkipWarningText" = "Бу бик әһәмиятле.\n\nСерсүзегезне онытсагыз, Сез аккаунтыгызга керә алмаячаксыз. Аны сафка кайтарырга бернинди ысул булмас.";
+"SetAdditionalPasswordInfo" = "Сез яңа җиһаздан кергәндә килә торган SMS кодына өстәмә итеп серсүз дә билгели аласыз. Яңа җиһаздан кергәндә аны кертергә кирәк була.";
+"EditAdminTransferSetPassword" = "Серсүзне урнаштырырга";
+
+"BotOpenPageTitle" = "Битне ачаргамы?";
+"BotPermissionGameAlert" = "{bot} ботына шул бот ача торган сайтларга Telegram исемегезне һәм id (телефон номерыгызны түгел) җибәрергә рөхсәт бирергәме?";
+"BotOpenPageMessage" = "**{bot}** веб-кушымтаны ачарга тәкъдим итә.\n\nБот Сезнең **IP-адресыгызны** һәм җайланмагыз турында төп мәгълүматны карый алачак.";
+"FilterDeleteAlert" = "Сез чынлап та бу бөклемне бетерергә телисезме? Аның эчендәге чатларыгыз бетерелмәячәк.";
+
+
+
+"JoinGroup" = "ТӨРКЕМГӘ КУШЫЛЫРГА";
+
+
+
+
+"ShareYouPhoneNumberTitle" = "Телефон номерыгызны күрсәтергәме?";
+"AreYouSureShareMyContactInfoBot" = "Бот Сезнең телефон номерыгызны беләчәк. Бу башка сервислар белән интеграция өчен файдалы булырга мөмкин.";
+"OK" = "ОК";
+"ForwardTo" = "Таратырга...";
+"AttachGame" = "Уен";
+"JumpToDate" = "Датага күчәргә";
+"FloodWait" = "Артык күп гамәл эшләнде. Соңрак кабатлап карагыз.";
+"PasscodeWrong" = "Дөрес булмаган код-серсүз";
+"PasscodeEnterPasscodePlaceholder" = "Код-серсүзне кертегез";
+"MobileHidden" = "Номер яшерелгән";
+"NewContactPhoneHiddenText" = "{user} телефон номерыгызны сезне контактларга өстәгәч кенә күрә алачак.";
+"NewContactShare" = "Тел. номерымны күрсәтү";
+"AddContactSharedContactExceptionInfo" = "Сез {user} кулланучысына телефон номерыгызны күрергә рөхсәт бирә аласыз.";
+"ContactPhone" = "Телефон номеры";
+"NewContact" = "Яңа контакт";
+"Done" = "Әзер";
+"FileSizeGB" = "{count} ГБ";
+"LimitReached" = "Чикләү ирешелде";
+"IncreaseLimit" = "Чикләүне арттыру";
+"LimitFree" = "Бушлай";
+"LimitPremium" = "Premium белән";
+"SubscribeToPremium" = "Аена {price} бәягә кабызырга";
+"TelegramPremiumUserDialogTitle" = "**{user}** кулланучысы\nTelegram Premium куллана.";
+"TelegramPremiumSubscribedTitle" = "Бар да әзер!";
+"AboutPremiumDescription" = "Telegramның бушлай версиясе кулланучыларга теләсә нинди башка хәбәрткечтән күбрәк функционал бирә. Ә **Telegram Premium** кулланганда Сезнең мөмкинлекләр тагын да артачак.";
+"AboutPremiumDescription2" = "Күпчелек премиум-функцияләр өстәмә чыгымнар таләп итә. Моңа дата-үзәкләрне файдалану һәм серверларны сатып алу да керә. Шуңа күрә без **Telegram Premium** абүнәсен түләүле ясадык. Кулланучыларның кертеме безгә шул чыгымнарны ябарга булыша һәм барлык кулланучыларга да Telegramны бушлай кулланырга мөмкинлек бирә.";
+"OpenUrlTitle" = "Сылтаманы ачырга";
+"OpenUrlAlert2" = "{url} сылтамасын ачыргамы?";
+"ConversationOpenBotLinkLogin" = "**{url}** эчендә {user} итеп чынрасланырга";
+"ConversationOpenBotLinkAllowMessages" = "**{bot}** чыганагына миңа хәбәр язарга рөхсәт бирергә";
+"BotWebViewOpenBot" = "Ботны күрсәтергә";
+
+
+
+"AccActionDownload" = "Иңләү";
+"Forward" = "Таратырга";
+"MediaZoomOut" = "Кечерәйтү";
+"MediaZoomIn" = "Зурайту";
+"PeerInfoReportProfileVideo" = "Профиль фотосына шикаять бирү";
+"PeerInfoReportProfilePhoto" = "Фотога шикаять бирергә";
+"MediaviewProfilePhoto" = "Профиль фотосы";
+"AccActionPlay" = "Уйнатырга";
+"AttachAudio" = "Тавышхат";
+"NewContactAdd" = "Контакты өстәргә";
+"NewContactBlock" = "Тыярга";
+"ReportSpamAndLeave" = "Спамга шикаять бирергә һәм чыгарга";
+"BlockUserTitle" = "Тыярга: {user}";
+
+
+"Block" = "ТЫЕРГА";
+
+
+"PreviewSenderSendPhoto_one" = "{count} фото";
+"PreviewSenderSendPhoto_other" = "{count} фото";
+"PreviewSenderSendVideo_one" = "{count} видео";
+"PreviewSenderSendVideo_other" = "{count} видео";
+"PreviewSenderSendAudio_one" = "{count} аудиофайл";
+"PreviewSenderSendAudio_other" = "{count} аудиофайл";
+"PreviewSenderSendFile_one" = "{count} файл";
+"PreviewSenderSendFile_other" = "{count} файл";
+"PreviewDraggingAddItems_one" = "Өстәргә ";
+"PreviewDraggingAddItems_other" = "Өстәргә";
+"Caption" = "Язма";
+"AttachmentMenuPhotoOrVideo" = "Фото яки видео";
+"AttachDocument" = "Файл";
+"Poll" = "Сорашу";
+"SlowModeHint" = "Әкрен режим кабызылган. Сез {time} узуга яза алырсыз";
+
+"Message" = "Хәбәр";
+"RecentStickers" = "Яңа гына кулланылган";
+
+"PollsChooseAnswers" = "Җавапның кимендә ике вариантын билгеләргә кирәк.";
+"NewPoll" = "Яңа сорашу";
+"Create" = "Ясарга";
+"OptionHint" = "Җавап";
+"CreatePollAddOption" = "Җавап өстәргә";
+"PollsChooseCorrect" = "Дөрес җавап сайлагызчы.";
+"AskAQuestion" = "Сорау бирергә";
+"PollOptions" = "Җавап вариантлары";
+"PollAnonymous" = "Аноним сорашу";
+"PollMultiple" = "Берничә җавап сайлау";
+"PollQuiz" = "Викторина режимы";
+"PollsSolutionTitle" = "Аңлатма";
+"CreatePollExplanationInfo" = "Катнашучылар дөрес җавап сайласалар, бу текстны күрәчәк (мәгариф максатлары өчен файдалы).";
+
+"FavoriteStickers" = "Сакланганнар";
+"PremiumStickers" = "Premium-стикерлар";
+"GroupStickers" = "Төркем стикерлары";
+
+"NoStickers" = "Әлегә стикерлар юк";
+"ClearRecentEmoji" = "Соңгы эмоҗиләрне бетерергәме?";
+"TextFormatAddLinkTitle" = "Сылтама өстәү";
+"Save" = "Сакларга";
+"ConversationEmptyPlaceholder" = "Әлегә хәбәрләр юк...";
+"ConversationGreetingText" = "Хәбәр җибәрегез яки түбәндәге сәламләүгә басыгыз.";
+"ConversationDeleteManyMessages" = "Хәбәрләрне бетерергә ";
+"AreYouSureDeleteFewMessages" = "Сез чынлап та бу хәбәрләрне бетерергә телисезме?";
+"ProfileJoinChannel" = "Кушылырга";
+
+
+
+"BotRestart" = "Ботны яңадан кабызу";
+
+
+"AddContact" = "Контакт өстәү";
+"Call" = "Шалтыратырга";
+"VideoCall" = "Видешалтырату";
+"ChatsUnmute" = "Белдермәле итү";
+"ChatsMute" = "Тавышсыз";
+"StartVoipChat" = "Видеочат башлау";
+"VoipGroupJoinCall" = "Видеочатка кушылырга";
+
+
+"ReportSelectMessages" = "Хәбәрләрне сайлагыз";
+"Statistics" = "Статистика";
+"EventLogFilterPinnedMessages" = "Беркетелгән хәбәрләр ";
+"UnpinMessageAlertTitle" = "Хәбәрне беркетмәскә";
+"PinnedMessage" = "Беркетелгән хәбәр";
+"Comments_one" = "{count} шәрех";
+"Comments_other" = "{count} шәрех";
+
+"PollsStopWarning" = "Сорашу туктатылса, анда бүтән беркем дә катнаша алмаячак. Бу гамәлнең нәтиҗәләрен кире кагып булмый.";
+
+
+"AttachLiveLocation" = "Геопозицияне күрсәтү";
+"NoWordsRecognized" = "Сөйләүне танып булмады.";
+"ViaBot" = "via";
+
+"ForwardedMessage" = "Таратылган хәбәр";
+"ContextForwardMsg" = "Таратырга";
+
+"MessageScheduleSend" = "Хәзер җибәрергә";
+"MessageScheduleEditTime" = "Вакытны үзгәртергә";
+"Reply" = "Җавап бирергә";
+"Edit" = "Үзгәртү";
+"AddToFavorites" = "Сакланганнарга өстәү";
+"ContextSaveGif" = "GIFны сакларга";
+"PollsRetract" = "Тавышны алу";
+"PollsStop" = "Сорашуны туктату";
+"ContextCancelDownload" = "Иңләүне кире кагарга";
+"MediaDownload" = "Иңләргә";
+"CommonSelect" = "Сайларга";
+"ContextReportMsg" = "Шикаять";
+"ChatContextReactionCount_one" = "{count} реакция";
+"ChatContextReactionCount_other" = "{count} реакция";
+"ConversationContextMenuSeen_one" = "{count} карау";
+"ConversationContextMenuSeen_other" = "{count} карау";
+"ConversationContextMenuNoViews" = "Караулар юк";
+
+"EditedDate" = "Үзгәртелгән: {date}";
+"ForwardedDate" = "Баштагы: {date}";
+"EditedMessage" = "үзгәртелгән";
+"CallAgain" = "Кабат шалтыратырга";
+"CallBack" = "Кире шалтыратырга";
+"CallMessageWithDuration" = "{time} ({duration})";
+"PollSubmitVotes" = "ТАВЫШ БИРЕРГӘ";
+"PollViewResults" = "НӘТИҖӘЛӘР";
+
+
+"Answer_one" = "{count} җавап";
+"Answer_other" = "{count} җавап";
+
+
+"SponsoredMessage" = "реклама";
+"PremiumStickerTooltip" = "Premium-стикер бу җыелмадан.";
+"ViewAction" = "Карау";
+"Loading" = "Йөкләү...";
+"NoMessages" = "Монда әлегә бернәрсә дә юк...";
+"BotInfoTitle" = "Бу бот нәрсә эшли ала?";
+"UnreadMessages" = "Укылмаган хәбәрләр";
+"DiscussionStarted" = "Фикерләшү башланды";
+"MessageScheduledUntilOnline" = "Челтәргә кергәндә җибәрү";
+
+"VoiceOverChatMessagesSelected_one" = "{count} хәбәр сайланган";
+"VoiceOverChatMessagesSelected_other" = "{count} хәбәр сайланган";
+"ChatForwardActionHeader" = "Хәбәрләрне таратырга";
+
+"ContextCopySelectedItems" = "Сайланганны текст итеп күчермәләү";
+"EditAdminGroupDeleteMessages" = "Хәбәрләрне бетерү";
+"ChatPinnedUnpinAll_one" = "{count} хәбәрне беркетүдән алырга";
+"ChatPinnedUnpinAll_other" = "{count} хәбәрне беркетүдән алырга";
+
+
+"PinnedMessagesCount_one" = "{count} беркетелгән хәбәр";
+"PinnedMessagesCount_other" = "{count} беркетелгән хәбәр";
+"Reminders" = "Искәртүләр";
+"Messages_one" = "{count} хәбәр";
+"Messages_other" = "{count} хәбәр";
+"ScheduledMessagesEmptyPlaceholder" = "Әлегә монда кичектереп җибәрелә торган хәбәрләр юк...";
+"ConversationCloudStorageInfoTitle" = "Сезнең болыт саклауханәгез";
+"ConversationClousStorageInfoDescription1" = "• Хәбәрләрне монда таратыгыз";
+"ConversationClousStorageInfoDescription2" = "• Фото һәм видеоларны монда саклагыз";
+"ConversationClousStorageInfoDescription3" = "• Чат бөтен җайланмадан ирешелмәле";
+"ConversationClousStorageInfoDescription4" = "• Кирәкле әйберне эзләүдә табыгыз";
+
+
+
+
+
+
+"Reactions" = "Реакцияләр";
+"MarkAllAsRead" = "Барысы да укылган";
+"PaymentCardNumber" = "Кәрт номеры";
+"PaymentCheckoutAcceptRecurrent" = "Мин {bot} белән *Кулланучы килешүен* кабул итәм.";
+
+"PaymentCheckoutMethod" = "Түләү ысулы";
+
+"PaymentShippingAddress" = "Китерү адресы";
+"PaymentCheckoutName" = "Исем";
+
+"PaymentCheckoutShippingMethod" = "Китерү ысулы";
+"CheckoutWebConfirmationTitle" = "Түләүне тәмамлау";
+
+"PaymentCardTitle" = "Түләү картагыз";
+"CheckoutNewCardCardholderNamePlaceholder" = "Кәрт хуҗасының исеме";
+
+
+"PaymentShippingCountry" = "Ил";
+"PaymentShippingZipPlaceholder" = "Индекс";
+
+"PaymentShippingInfo" = "Китерү";
+
+"PaymentCardInfo" = "Түләү мәгълүматы";
+"PaymentCheckout" = "Түләү";
+"CheckoutPayPrice" = "Түләргә: {amount}";
+"PaymentReceipt" = "Чек";
+"PaymentShippingAddress1Placeholder" = "Адрес 1 (урам)";
+"PaymentShippingAddress2Placeholder" = "Адрес 2 (урам)";
+"PaymentShippingCityPlaceholder" = "Шәһәр";
+"PaymentShippingStatePlaceholder" = "Өлкә";
+
+"PaymentShippingName" = "Тулы исем";
+
+
+
+"PaymentShippingSaveInfo" = "Сез китерү адресыгызны саклый аласыз. Киләчәктә ул яңадан кулланылачак.";
+
+
+
+"BoxRemove" = "Бетерергә";
+"NoGIFsFound" = "GIFлар табылмады";
+
+
+
+"DescriptionPlaceholder" = "Тасвирлама";
+"TypePublic" = "Ачык";
+"TypePrivate" = "Хосусый";
+"Discussion" = "Фикерләшү";
+
+
+"ChannelSignMessages" = "Хәбәрләрне имзаларга";
+
+
+
+
+"LeaveChannel" = "Каналдан чыгарга";
+"ChannelDeleteAlert" = "Мөһим! Канал бетерелсә, андагы барлык язылучылар һәм барлык хәбәрләр югалачак. Барыбер бетерергәме?";
+
+
+
+
+"EventLog" = "Соңгы гамәлләр ";
+
+
+
+
+"ChannelVisibilityForwardingDisabled" = "Таратуны тыярга";
+"RevokeLink" = "Сылтаманы арындыру ";
+
+"RevokeButton" = "Арындыру";
+
+"ChannelVisibilityForwardingGroupTitle" = "Бу төркемнән тарату";
+
+
+
+"Unblock" = "Тыюны туктатырга";
+"NoBlockedChannel2" = "Users removed from the channel by admins can\'t rejoin via invite links.";
+"NoBlockedGroup2" = "Users removed from the group by admins can\'t rejoin via invite links.";
+
+
+
+
+
+
+
+
+
+
+"ChannelSettingsJoinTitle" = "Кем хәбәрләр җибәрә ала?";
+"ChannelSettingsJoinToSend" = "Катнашучылар гына";
+"ChannelSettingsJoinRequest" = "Кушылу хәбәрләре";
+
+
+
+"ChannelPermissions" = "Рөхсәтләр";
+"GroupMembers" = "Катнашучылар";
+"ChatHistory" = "Яңа катнашучылар өчен чат тарихы";
+"DeleteMega" = "Төркемне бетерергә";
+
+
+
+
+
+
+"EditAdminPostMessages" = "Хәбәрләрне җибәрергә";
+
+"EditAdminDeleteMessages" = "Башкаларның хәбәрләрен бетерергә";
+
+
+
+
+
+"ChannelEditAdminCannotEdit" = "Сез бу админның хокукларын үзгәртә алмыйсыз.";
+
+"EditAdminRemoveAdmin" = "Админнардан алырга";
+
+"ChannelPermissionsHeader" = "Катнашучылар мөмкинлекләре:";
+"UserRestrictionsSend" = "Хәбәрләрне җибәрергә ";
+"UserRestrictionsSendMedia" = "Медиафайлларны җибәрү";
+"UserRestrictionsSendStickers" = "Стикерларны һәм GIFларны җибәрергә";
+
+"UserRestrictionsEmbedLinks" = "Сылтамалар өчен алкарау";
+
+
+"EventLogAllEvents" = "Барлык гамәлләр";
+"EventLogFilterNewAdmins" = "Идарәчеләр хокуклары";
+"EventLogFilterNewMembers" = "Яңа катнашучылар ";
+"EventLogFilterChannelInfo" = "Канал тасвирламасы ";
+"EventLogFilterDeletedMessages" = "Бетерелгән хәбәрләр";
+"EventLogFilterEditedMessages" = "Үзгәртелгән хәбәрләр";
+"EventLogFilterLeavingMembers" = "Катнашучылар чыга";
+
+"EventLogAllAdmins" = "Барлык идарәчеләр";
+
+
+"ApproveNewMembers" = "Кушылуга гаризалар";
+"ApproveNewMembersDescription" = "Яңа катнашучылар аларның гаризалары идарәчеләр тарафыннан хупланганнан соң гына кушыла алачак.";
+"LinkNameHint" = "Сылтама исеме (опциональ)";
+"LinkNameHelp" = "Бу исемне идарәчеләр генә күрә алыр.";
+"LimitByPeriod" = "Вакыт буенча чикләү";
+"Hours_one" = "{count} сәгать";
+"Hours_other" = "{count} сәгать";
+"Days_one" = "{count} көн";
+"Days_other" = "{count} көн";
+"NoLimit" = "∞";
+
+"TimeLimitHelp" = "Сез бу сылтаманың искерү вакытын билгели аласыз.";
+
+
+
+
+"CreateLink" = "Сылтама өстәргә";
+"LinkCopied" = "Сылтама алмашу буферына копияләнде.";
+
+
+
+
+
+"NoOneJoinedYet" = "Әлегә беркем дә кушылмады";
+"CopyLink" = "Сылтаманы күчермәләү";
+
+
+
+
+
+
+"JoinRequests_one" = "{count} кушылу гаризасы";
+"JoinRequests_other" = "{count} кушылу гаризасы";
+
+
+
+
+
+
+
+
+
+"CreateNewLink" = "Сылтама ясарга";
+
+
+
+
+"DeleteAll" = "Барчасын бетерергә";
+
+
+
+
+
+"UserInfoFirstNamePlaceholder" = "Исем";
+"UserInfoLastNamePlaceholder" = "Фамилия";
+"DeleteContact" = "Контактны бетерү";
+"AreYouSureDeleteContact" = "Сез бу контактны чынлап та бетерергә телисезме?";
+
+
+"NoGroupsInCommon" = "Уртак төркемнәр юк";
+"MediaFileEmpty" = "Әлегә монда файллар юк";
+"MediaLinkEmpty" = "Монда әле сылтамалар белән уртаклашмадылар";
+"MediaSongEmpty" = "Монда әлегә музыка юк";
+"MediaAudioEmpty" = "Монда әлегә тавышхатлар юк";
+"SharedMediaEmptyTitle" = "Монда әлегә медиафайллар юк";
+"PollResults" = "Нәтиҗәләр";
+"ChannelAddSubscribers" = "Язылучыларны өстәргә";
+"ChannelTypeHeader" = "Канал төре";
+"GroupTypeHeader" = "Төркем төре";
+
+
+"SetAsAdmin" = "Идарәче итеп куярга";
+"UserRestrictions" = "Кулланучы хокуклары";
+
+
+
+"InviteLink" = "Чакыру сылтамасы ";
+"SearchStickersHint" = "Стикерларны эзләү";
+"SearchGifsTitle" = "GIF эзләү";
+
+
+
+"SharedMedia" = "Гомуми медиа";
+"CommonBack" = "Артка";
+"CommonClose" = "Ябарга";
+"DlgSearchForMessages" = "Хәбәрләрдә эзләү";
+"SearchNoResults" = "Хәбәрләр табылмады";
+
+
+"StatisticOverview" = "Гомуми күзәтү";
+"ChannelStatsViewsCount_one" = "{count} карау";
+"ChannelStatsViewsCount_other" = "{count} карау";
+
+
+"Stickers" = "Стикерлар";
+"StickersInstalled" = "ӨСТӘЛГӘННӘР";
+"StickersInstall" = "ӨСТӘРГӘ";
+"CropImage" = "Сурәтне кисү";
+"ReportPeerAlertSuccess" = "Рәхмәт!\nШикаятегез тикшереләчәк.";
+"UsernameByPhoneNotFound" = "{phone} кулланучыны табылмады.";
+
+"LimitReachedFavoriteGifs" = "{count} GIFтан артык саклап булмый";
+"LimitReachedFavoriteGifsSubtitlePremium" = "Элегрәк сакланган GIF монысы белән алмаштырылды.";
+"LimitReachedFavoriteGifsSubtitle" = "Сез бер GIFны алмаштырдыгыз. Чикләүне {count} данәгә кадәр алмаштырырга була.";
+"LimitReachedFavoriteStickers" = "Иң күбе {count} стикер саклап була";
+"LimitReachedFavoriteStickersSubtitlePremium" = "Моңарчы сакланган стикер бетерелгән булган.";
+"LimitReachedFavoriteStickersSubtitle" = "Сез стикерларның берсен алмаштырдыгыз. **Лимитны {count} кадәр зурайтырга була**.";
+"StickerPackErrorNotFound" = "Гафу итегез, андый стикерлар җыелмасы юк, ахрысы.";
+"ContactsPhoneNumberNotRegistred" = "Андый телефон номерлы кулланучы әлегә Telegramда теркәлмәгән.";
+"VoipPeerIncompatible" = "**{user}**\'s app is using an incompatible protocol. They need to update their app before you can call them.";
+"NoUsernameFound" = "Андый исемле аккаунт юк.";
+"HiddenName" = "Бетерелгән аккаунт";
+"ChannelPersmissionDeniedSendMessagesForever" = "Төркем идарәчеләре Сезгә аның эченә язуны тыйганнар.";
+
+"Chats" = "Чатлар";
+"FilterBots" = "Ботлар";
+"FilterContacts" = "Контактлар";
+"FilterNonContacts" = "Контакт булмаганнар";
+"FromYou" = "Сез";
+"InDlgAlbum" = "Альбом";
+"AttachPhoto" = "Фото";
+"AttachGif" = "GIF";
+"AttachVideo" = "Видео";
+"AttachSticker" = "Стикер";
+"AttachMusic" = "Музыка";
+"AttachContact" = "Контакт";
+"MessageLocation" = "Геопозиция";
+"MessageLiveLocation" = "Геопозция трансляциясе";
+"ServiceNotifications" = "сервис белдермәләре";
+"Bot" = "бот";
+"ALongTimeAgo" = "күптән булды";
+"WithinAMonth" = "бу айда булды";
+"WithinAWeek" = "бу атнада онлайнда булды";
+"LastSeenOffline" = "күптән булды";
+"LastSeenJustNow" = "әле генә булды";
+"LastSeenMinutesAgo_one" = "{count} минут элек булды";
+"LastSeenMinutesAgo_other" = "{count} минут элек булды";
+"LastSeenHoursAgo_one" = "{count} сәгать элек булды";
+"LastSeenHoursAgo_other" = "{count} сәгать элек булды";
+"LastSeenTodayAt" = "бүген {time} вакытта булды";
+"LastSeenYesterdayAt" = "кичә {time} вакытта булды";
+"LastSeenAtDate" = "{date} булды";
+"Online" = "онлайнда";
+"Lately" = "күптән түгел булды";
+"VoipMutedTapedForSpeak" = "Сез сүз сорадыгыз";
+"VoipMutedByAdmin" = "Сез — тыңлаучы";
+
+"VoipTapToMute" = "You\'re live";
+"Weekday1" = "Дүш";
+"Weekday2" = "Сиш";
+"Weekday3" = "Чәр";
+"Weekday4" = "Пнҗ";
+"Weekday5" = "Җом";
+"Weekday6" = "Шим";
+"Weekday7" = "Якш";
+"WeekdayMonday" = "дүшәмбе";
+"WeekdayTuesday" = "сишәмбе";
+"WeekdayWednesday" = "чәршәмбе";
+"WeekdayThursday" = "пәнҗешәмбе";
+"WeekdayFriday" = "җомга";
+"WeekdaySaturday" = "шимбә";
+"WeekdaySunday" = "якшәмбе";
+"WeekdayToday" = "Бүген";
+"WeekdayYesterday" = "Кичә";
+"User" = "Кулланучы";
+"SecretChat" = "Яшерен чат";
+
+"FormatDateAtTime" = "{date} көнне {time} вакытта";
+"StickerPackRemoveStickerCount_one" = "{count} стикерны бетерергә";
+"StickerPackRemoveStickerCount_other" = "{count} стикерны бетерергә";
+"StickerPackAddStickerCount_one" = "{count} стикерны өстәргә";
+"StickerPackAddStickerCount_other" = "{count} стикерны өстәргә";
+"ChatListFilterErrorEmpty" = "Бу бөклем өчен аерым чатларны яки чат төрләрен сайлагыз.";
+"ChatListFilterErrorTitleEmpty" = "Бөклемнең исемен билгеләгезче";
+"FilterMuted" = "Белдермәләрсез";
+"FilterRead" = "Укылганнар";
+"FilterArchived" = "Архивланганнар";
+"GroupsAndChannelsLimitTitle" = "Төркемнәр һәм каналлар";
+"PinChatsLimitTitle" = "Беркетелгән чатлар";
+"PublicLinksLimitTitle" = "Ачык сылтамалар";
+"SavedGifsLimitTitle" = "Сакланган GIFлар";
+"FavoriteStickersLimitTitle" = "Сакланган стикерлар";
+"BioLimitTitle" = "«Үзем турында» бүлеге";
+"CaptionsLimitTitle" = "Язмалар";
+"FoldersLimitTitle" = "Чатлар белән бөклемнәр";
+"ChatPerFolderLimitTitle" = "Чатлар белән бөклемнәрнең сыйдырышлыгы";
+"GroupsAndChannelsLimitSubtitle" = "{count} кадәр канал һәм зур төркем";
+"PinChatsLimitSubtitle" = "{count} кадәр чатны төп исемлектә беркетү";
+"PublicLinksLimitSubtitle" = "t.me/username кебек {count} кадәр сылтаманы куллану";
+"SavedGifsLimitSubtitle" = "{count} кадәр GIFны Сакланган GIFлар арасына өстәү";
+"FavoriteStickersLimitSubtitle" = "{count} кадәр стикерны Сакланган стикерлар арасына өстәү";
+"BioLimitSubtitle" = "Профилегездә күбрәк символлар һәм сылтамалар өстәү";
+"CaptionsLimitSubtitle" = "Фото һәм видеолар өчен озынрак тасвирламалар";
+"FoldersLimitSubtitle" = "{count} бөклем ярдәмендә чатларны тәртипләү";
+"ChatPerFolderLimitSubtitle" = "Һәр бөклемгә {count} кадәр чат өстәү";
+"TelegramPremiumUserDialogSubtitle" = "**Telegram Premium** кулланучыларының өстәмә эксклюзив мөмкинлекләре бар.";
+"TelegramPremiumSubscribedSubtitle" = "**Telegram Premium** абүнәсен сатып алуыгыз өчен рәхмәт! Хәзер Сезгә эксклюзив мөмкинлекләр ачылды:";
+"TelegramPremiumSubtitle" = "**Telegram Premium** абүнәсе белән **яңа мөмкинлекләр** һәм **дистәләгән яңа функция** кулланыгыз.";
+"EditMessageAriaLabel" = "Үзгәртелгән хәбәрне сакларга";
+"Emoji1" = "Смайллар һәм кешеләр";
+"Emoji2" = "Хайваннар һәм табигать";
+"Emoji3" = "Ризык һәм эчемлекләр";
+"Emoji4" = "Активлык";
+"Emoji5" = "Сәяхәт итү һәм урыннар";
+"Emoji6" = "Әйберләр";
+"Emoji7" = "Символлар";
+"Emoji8" = "Байраклар";
+"GroupInfoDeleteAndExit" = "Бетерергә һәм чыгарга";
+"HidAccount" = "Кулланучы үзенең аккаунтын яшерде";
+"ChatOutgoingContextMixedReactionCount" = "{count}/{total} реакция";
+"ConversationViewBot" = "БОТКА КҮЧӘРГӘ";
+"ConversationViewPost" = "КАРАУ";
+"ConversationViewChannel" = "КАНАЛГА КЕРЕРГӘ";
+"Telegram" = "Telegram";
+"ChatListFilterAddToFolder" = "Бөклемгә өстәргә:";
+"UnpinFromTop" = "Беркетмәскә";
+"PinToTop" = "Беркетергә";
+"MarkAsRead" = "Укылган итеп билгеләү";
+"MarkAsUnread" = "Укылмаган дип билгеләү";
+"Unarchive" = "Кайтару";
+"Archive" = "Архивка";
+"WaitingForNetwork" = "Челтәрне көтү...";
+"ScheduleSendWhenOnline" = "Онлайнда күренгәч";
+"VoipIncoming" = "Керүче шалтырату";
+"FileSizeB" = "{count} Б";
+"FileSizeKB" = "{count} КБ";
+"Years_one" = "{count} ел";
+"Years_other" = "{count} ел";
+"MessageTimerShortHours" = "{count} сәг.";
+"MessageTimerShortDays" = "{count} к.";
+"LiveLocationUpdatedJustNow" = "яңа гына яңартылды";
+"LiveLocationUpdatedMinutesAgo_one" = "{count} минут элек яңартылды";
+"LiveLocationUpdatedMinutesAgo_other" = "{count} минут элек яңартылды";
+"LiveLocationUpdatedTodayAt" = "{time} яңартылды";
+"Seconds_one" = "{count} секунд";
+"Seconds_other" = "{count} секунд";
+"Minutes_one" = "{count} минут";
+"Minutes_other" = "{count} минут";
+"AudioPause" = "Пауза";
+"AudioPlay" = "Уйнатырга";
+"ToggleUserNotifications" = "Белдермәләрне кабызу/сүндерү";
+"ToggleChatNotifications" = "Белдермәләрне кабызу/сүндерү";
+
+
+"AriaPasswordToggle" = "Серсүзне күрсәтергә/яшерергә";
+"NothingFound" = "Берни дә табылмады";
+"SetUrlShort" = "Озынрак сылтама кирәк";
+"SetUrlLong" = "Сылтама артык озын";
+"SetUrlInvalid" = "Сылтамада ярамаган символлар бар ";
+"UsernameShort" = "Кулланучы исеме озынрак булырга тиеш";
+"UsernameLong" = "Кулланучы исеме артык озын";
+"UsernameInvalid" = "Кулланучы исемендә ярамаган символлар бар";
+"AriaCodeWordWrap" = "Сүзләрне күчерү";
+
+"NoContactsFound" = "Контактлар табылмады";
+"ContactListEmpty" = "Контактлар исемлеге буш";
+"AriaNewChannelContinue" = "Канал тасвирламасына күчергә";
+"AriaNewGroupContinue" = "Төркем турындагы мәгълүматка күчәргә";
+
+
+"NewChatTooManyUsers" = "Кызганычка, супергруппалар төзү әлегә эшләми";
+"AriaCreateGroup" = "Төркем төзү";
+"SearchAllMessagesTab" = "Барлык хәбәрләр";
+"SearchMediaTab" = "Медиа";
+"SearchLinksTab" = "Сылтамалар";
+"SearchGifsTab" = "GIF";
+"SearchFilesTab" = "Файллар";
+"SearchMusicTab" = "Музыка";
+"SearchVoiceTab" = "Тавышхатлар";
+"SearchGroupsTab" = "Төркемнәр";
+"RecentChatsClear" = "Соңгы чатлар исемлеген чистарту";
+"EditProfileNoFirstName" = "Исемегезне билгеләгезче";
+"AriaEditProfilePhoto" = "Профиль фотосын үзгәртергә ";
+"LaunchConfetti" = "Конфетти яңгыры!";
+"SettingsAnimations" = "Анимация";
+"SettingsAnimationsDescription" = "Анимация параметрларын сайлагыз";
+"SettingsAnimationsLow" = "Ресурсларны экономияләү";
+"SettingsAnimationsMedium" = "Баланс";
+"SettingsAnimationsHigh" = "Иң күп анимация";
+"Settings12HourFormat" = "12-сәгатьле";
+"Settings24HourFormat" = "24-сәгатьле";
+"SettingsSendEnterDescription" = "Shift + Enter буенча яңа юл";
+"SettingsSendCtrlEnterDescription" = "Enter буенча яңа юл";
+"AriaMoreButton" = "Өстәмә гамәлләр";
+"RecoveryEmailCode" = "Хаттагы код";
+"NotificationsWeb" = "Веб-белдермәләр";
+"NotificationsOffline" = "Артлыктагы белдермәләр";
+"NotificationsSound" = "Тавышың катылыгы";
+"SettingsPasswordEqual" = "Серсүзләр тәңгәл килергә тиеш";
+"SettingsSaveChanges" = "Үзгәртүләрне сакларга";
+"SettingsFolderCreate" = "Бөклем ясарга";
+"SettingsFoldersEmpty" = "Әлегә бөклемнәр юк";
+"SettingsPasscodeSuccess" = "Саклау кабызылды!\nСез җайланмагыздагы кушымтаны бикләүдән ачу өчен код-серсүзне урнаштырдыгыз.";
+"SettingsPasscodeEnabled" = "Код-серсүз кабызылды";
+"SettingsPasscodeStart1" = "Код-серсүзне билгеләгәннән соң чатлар исемлегеннән югарыда Telegram WebZ кушымтасын бикләүче һәм ачучы йозак барлыкка киләчәк.";
+"SettingsPasscodeStart2" = "Мөһим: код-серсүзегезне онытсагыз, Telegram WebZ кушымтасыннан чыгып. аңарда кире вәкаләтләнергә кирәк булачак.";
+"CurrentPasswordPlaceholder" = "Хәзерге серсүз";
+"TooManyTabsTitle" = "Артык күп кыстыргыч, гафу итегез";
+"TooManyTabsDescription" = "Telegram бары тик бер генә актив тәрәзәдә эшли ала.\nШул тәрәзәдә калырга теләсәгез, битне яңартыгызчы яки аны ябыгызчы.";
+"TooManyTabsReload" = "Битне яңартырга";
+"SlowmodeEnabled" = "Әкрен режим кабызылды";
+"SomethingWentWrong" = "Нәрсәдер дөрес эшләмәде";
+"MediaViewDownloading" = "Йөкләү {count}%...";
+"VideoPlayerBuffering" = "Буферлау...";
+"VideoPlayerFullscreen" = "Бөтен экранга";
+"PlayerVolume" = "Тавыш катылыгы";
+"PlayerPlaybackRate" = "Уйнату тизлеге";
+"AudioPlayerPrevious" = "Алдагы трәк";
+"AudioPlayerNext" = "Киләсе трәк";
+"AudioPlayerClose" = "Ябырга";
+"DeleteForMeDescription" = "Хәбәрләр Сезнең өчен генә бетереләчәк, чатның башка кулланучыларында күчермә сакланачак";
+"DeleteForEveryoneDescription" = "Хәбәрләр чатның барлык кулланучылары өчен дә бетереләчәк";
+"AriaSearchInChat" = "Чатта эзләү";
+"PinnedConfirmUnpin" = "Сез бу хәбәрне беркетүдән алырга телисезме?";
+
+
+"BotInfoImageAlt" = "Бот турында мәгълүмат";
+"AriaExitMessageSelection" = "Сайлау режимыннан чыгу";
+"AriaSearchByDate" = "Дата буенча эзләү";
+"AriaCloseAttachmentModal" = "Кертмәләрне алу";
+"AriaAddAttachment" = "Кертмә өстәргә";
+"AttachMenuMediaBlocked" = "Бу төркемдә медиафайллар җибәрү тыелган.";
+"AriaOpenBotMenu" = "Бот менюсын ачырга";
+"AriaOpenSymbolMenu" = "Эмоҗи, стикер яисә GIF сайлагыз";
+"AriaComposerOpenScheduled" = "Планлаштырылган хәбәрләрне ачырга";
+"AriaComposerCancelVoice" = "Яздыруны туктату";
+"PreviewForwardedMessage_one" = "{count} таратылучы хәбәр";
+"PreviewForwardedMessage_other" = "{count} таратылучы хәбәр";
+"PreviewEditMessage" = "Хәбәрне үзгәртү";
+"FileDropZoneTitle" = "Файлларны монда тартыгыз";
+"FileDropZoneQuick" = "тиз җибәрү өчен";
+"FileDropZoneNoCompression" = "кысмыйча җибәрү өчен";
+"GifPickerBlocked" = "Бу чатта GIF җибәрү тыелган";
+"GifPickerEmpty" = "Әлегә сакланган GIFлар юк.";
+
+"AriaLabelSearchStickers" = "Стикерлар эзләү";
+"AriaLabelSearchGifs" = "GIF эзләү";
+"FormattingSpoilerAria" = "Яшерелгән ";
+"FormattingBoldAria" = "Калын";
+"FormattingItalicAria" = "Курсив";
+"FormattingMonospaceAria" = "Монокиңлекле";
+"FormattingUnderlineAria" = "Ассызыклы";
+"FormattingStrikethroughAria" = "Сызылган";
+"FormattingEnterUrl" = "Сылтаманы языгыз...";
+"PreviewWebPageClose" = "Битне алкарауны өстәмәскә";
+"MediaLocaltionImageAlt" = "Геопозиция";
+
+"GeneralError" = "Хата барлыкка килде";
+
+
+"NoMembersFound" = "Катнашучылар табылмады";
+"Profile" = "Профиль";
+"SearchMessagesFound_one" = "{count} хәбәр табылды";
+"SearchMessagesFound_other" = "{count} хәбәр табылды";
+
+
+
+
+
+
+"NoSubscribersFound" = "Язылучылар табылмады";
+
+"NoLinksFound" = "Сылтамалар табылмады";
+
+
+
+
+
+"AvatarChangeTitle" = "Профилегез фотосын үзгәртергә";
+"PleaseWait" = "Көтегезче...";
+"GeneralConfirm" = "Хупларга";
+"ImageCropTitle" = "Сурәтне урыныннан күчерергә була";
+"NewChatReturnBackAria" = "Катнашучыларны сайлауга кайтырга";
+"FoldersAllChatsDesc" = "Архивланмаган барлык чатлар";
+"RemoveSymbol" = "Эмоҗины бетерү";
+"FocusMessage" = "Баштагы хәбәргә күчәргә";
+"ShowMoreChats_one" = "Тагын {count} күрсәтергә";
+"ShowMoreChats_other" = "Тагын {count} күрсәтергә";
+"ShowMoreVoters_one" = "Тагын {count} тавыш биргән кешене күрсәтергә";
+"ShowMoreVoters_other" = "Тагын {count} тавыш биргән кешене күрсәтергә";
+"HiddenSendersNameDescription" = "Җибәрүчеләр исемнәре яшерелгән";
+"ShowSenderNames" = "Җибәрүчеләр исемнәрен күрсәтергә";
+"ShowSendersName" = "Җибәрүче исемен күрсәтергә";
+"HideSenderNames" = "Җибәрүчеләр исемнәрен яшерергә";
+"HideSendersName" = "Җибәрүче исемен яшерергә";
+"ConversationForwardOptionsShowCaption" = "Имзаларны күрсәтергә";
+"ShowCaption" = "Имзаны күрсәтергә";
+"ConversationForwardOptionsHideCaption" = "Имзаларны яшерергә ";
+"HideCaption" = "Имзаны яшерергә";
+"ChangeRecipient" = "Кабул итүчене үзгәртергә";
+"DragToSortAria" = "Тәртипне үзгәртү өчен тартыгыз";
+"SettingsTimeFormat" = "Вакыт форматы";
+
+
+
+
+
+
+/* new from translations.telegram.org */
+
+"Answer_few" = "{count} җавап";
+"Answer_many" = "{count} җавап";
+"ChannelStatsViewsCount_few" = "{count} карау";
+"ChannelStatsViewsCount_many" = "{count} карау";
+"ChatContextReactionCount_few" = "{count} реакция";
+"ChatContextReactionCount_many" = "{count} реакция";
+"ChatPinnedUnpinAll_few" = "{count} хәбәрне беркетүдән алырга";
+"ChatPinnedUnpinAll_many" = "{count} хәбәрне беркетүдән алырга";
+"Comments_few" = "{count} шәрех";
+"Comments_many" = "{count} шәрех";
+"ConversationContextMenuSeen_few" = "{count} карау";
+"ConversationContextMenuSeen_many" = "{count} карау";
+"Days_few" = "{count} көн";
+"Days_many" = "{count} көн";
+"DeleteForEveryoneHint_few" = "Хәбәрләр бу чаттагы һәр кулланучы өчен бетереләчәк.";
+"DeleteForEveryoneHint_many" = "Хәбәрләр бу чаттагы һәр кулланучы өчен бетереләчәк.";
+"DeleteForMeChatHint_few" = "Хәбәрләр Сездә генә бетереләчәк. Чатның башка катнашучыларында күчермә сакланып калачак.";
+"DeleteForMeChatHint_many" = "Хәбәрләр Сездә генә бетереләчәк. Чатның башка катнашучыларында күчермә сакланып калачак.";
+"GroupInfoParticipantCount_few" = "{count} катнашучы";
+"GroupInfoParticipantCount_many" = "{count} катнашучы";
+"Hours_few" = "{count} сәгать";
+"Hours_many" = "{count} сәгать";
+"JoinRequests_few" = "{count} кушылу гаризасы";
+"JoinRequests_many" = "{count} кушылу гаризасы";
+"LastSeenHoursAgo_few" = "{count} сәгать элек булды";
+"LastSeenHoursAgo_many" = "{count} сәгать элек булды";
+"LastSeenMinutesAgo_few" = "{count} минут элек булды";
+"LastSeenMinutesAgo_many" = "{count} минут элек булды";
+"LiveLocationUpdatedMinutesAgo_few" = "{count} минут элек яңартылды";
+"LiveLocationUpdatedMinutesAgo_many" = "{count} минут элек яңартылды";
+"Messages_few" = "{count} хәбәр";
+"Messages_many" = "{count} хәбәр";
+"Minutes_few" = "{count} минут";
+"Minutes_many" = "{count} минут";
+"Months_few" = "{count} ай";
+"Months_many" = "{count} ай";
+"NMembers_few" = "{count} катнашучы";
+"NMembers_many" = "{count} катнашучы";
+"Participants_few" = "{count} катнашучы";
+"Participants_many" = "{count} катнашучы";
+"PinnedMessagesCount_few" = "{count} беркетелгән хәбәр";
+"PinnedMessagesCount_many" = "{count} беркетелгән хәбәр";
+"PreviewDraggingAddItems_few" = "Өстәргә";
+"PreviewDraggingAddItems_many" = "Өстәргә";
+"PreviewForwardedMessage_few" = "{count} таратылучы хәбәр";
+"PreviewForwardedMessage_many" = "{count} таратылучы хәбәр";
+"PreviewSenderSendAudio_few" = "{count} аудиофайл";
+"PreviewSenderSendAudio_many" = "{count} аудиофайл";
+"PreviewSenderSendFile_few" = "{count} файл";
+"PreviewSenderSendFile_many" = "{count} файл";
+"PreviewSenderSendPhoto_few" = "{count} фото";
+"PreviewSenderSendPhoto_many" = "{count} фото";
+"PreviewSenderSendVideo_few" = "{count} видео";
+"PreviewSenderSendVideo_many" = "{count} видео";
+"SearchMessagesFound_few" = "{count} хәбәр табылды";
+"SearchMessagesFound_many" = "{count} хәбәр табылды";
+"Seconds_few" = "{count} секунд";
+"Seconds_many" = "{count} секунд";
+"ShowMoreChats_few" = "Тагын {count} күрсәтергә";
+"ShowMoreChats_many" = "Тагын {count} күрсәтергә";
+"ShowMoreVoters_few" = "Тагын {count} тавыш биргән кешене күрсәтергә";
+"ShowMoreVoters_many" = "Тагын {count} тавыш биргән кешене күрсәтергә";
+"StickerPackAddStickerCount_few" = "{count} стикерны өстәргә";
+"StickerPackAddStickerCount_many" = "{count} стикерны өстәргә";
+"StickerPackRemoveStickerCount_few" = "{count} стикерны бетерергә";
+"StickerPackRemoveStickerCount_many" = "{count} стикерны бетерергә";
+"StickerPackStickerCount_few" = "{count} стикер";
+"StickerPackStickerCount_many" = "{count} стикер";
+"Subscribers_few" = "{count} язылучы";
+"Subscribers_many" = "{count} язылучы";
+"Users_few" = "{count} кулланучы";
+"Users_many" = "{count} кулланучы";
+"VoiceOverChatMessagesSelected_few" = "{count} хәбәр сайланган";
+"VoiceOverChatMessagesSelected_many" = "{count} хәбәр сайланган";
+"Weeks_few" = "{count} атна";
+"Weeks_many" = "{count} атна";
+"Years_few" = "{count} ел";
+"Years_many" = "{count} ел";

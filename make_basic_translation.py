@@ -1,13 +1,16 @@
 import argparse
 import concurrent.futures
 import datetime
-import functools
+import pathlib
 import re
 import typing
 
 import util.chatgpt as chatgpt
 import util.helpers as helpers
 import util.dictionaries as dictionaries
+
+
+Path = pathlib.Path
 
 
 class Batch(typing.NamedTuple):
@@ -62,12 +65,12 @@ def process_batch(
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_dir", type=str, required=True)
+    parser.add_argument("--defaults_dir", type=Path, required=True)
     parser.add_argument("--platform", type=str, required=True)
     parser.add_argument("--telegram_language_code", type=str, required=True)
     parser.add_argument("--iso_language_code", type=str, required=True)
-    parser.add_argument("--snapshots_dir", type=str, required=True)
-    parser.add_argument("--prompt_template_filname", type=str, required=True)
+    parser.add_argument("--snapshots_dir", type=Path, required=True)
+    parser.add_argument("--prompt_template_filename", type=Path, required=True)
     parser.add_argument("--openai_api_key", type=str, required=True)
     args = parser.parse_args()
 
@@ -75,14 +78,15 @@ def main():
         api_key=args.openai_api_key
     )
 
-    PROMPT_TEMPLATE = open(args.prompt_template_filname).read()
+    PROMPT_TEMPLATE = open(args.prompt_template_filename).read()
     LANGUAGE_NAME = dictionaries.get_language_name(args.iso_language_code)
 
-    snapshot_path = f"{args.snapshots_dir}/snapshot_{args.platform}_{args.telegram_language_code}.json"
-    snapshot = helpers.Snapshot(snapshot_path)
+    snapshot = helpers.Snapshot(
+        args.snapshots_dir, args.telegram_language_code, args.platform
+    )
 
     tasks: list[helpers.Task] = helpers.load_tasks(
-        args.data_dir, args.platform
+        args.defaults_dir, args.platform
     )
 
     tasks = [task for task in tasks if task.text_en.strip()]
@@ -120,7 +124,7 @@ def main():
         )
     print("Batch count:", len(batches))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         future_to_batch = {
             executor.submit(process_batch, batch, chatgpt_client): batch
             for batch in batches
