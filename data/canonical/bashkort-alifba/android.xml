@@ -6203,8 +6203,8 @@
     <string name="GiftPremiumUsersPurchasedMany_one">%2$s и ещё **%1$d** человеку отправлены уведомления о подарках от Вас.</string>
     <string name="GiftPremiumUsersPurchasedMany_other">%2$s и ещё **%1$d** людям отправлены уведомления о подарках от Вас.</string>
     <string name="GiftPremiumUsersGiveAccessManyZero">Подарите %1$s доступ к эксклюзивным функциям Telegram.</string>
-    <string name="GiftPremiumUsersGiveAccessMany_one">%2$s и ещё **%1$d** человек получат доступ к эксклюзивным функциям Telegram.</string>
-    <string name="GiftPremiumUsersGiveAccessMany_other">%2$s и ещё **%1$d** человек получат доступ к эксклюзивным функциям Telegram.</string>
+    <string name="GiftPremiumUsersGiveAccessMany_one">Подарите %2$s и ещё **%1$d** человеку доступ к эксклюзивным функциям Telegram.</string>
+    <string name="GiftPremiumUsersGiveAccessMany_other">Подарите %2$s и ещё **%1$d** людям доступ к эксклюзивным функциям Telegram.</string>
     <string name="GiftPremiumGiftsSentStatus">Подписка открывает доступ к эксклюзивным функциям Telegram.</string>
     <string name="GiftPremiumGiftsSentStatusForUser">**%1$s** получил(а) доступ к эксклюзивным функциям Telegram.</string>
     <string name="GiftPremiumFrequentContacts">Частые контакты</string>
@@ -9847,10 +9847,10 @@
   <string name="GiftPremiumGiftsSent_two">Подарки отправлены!</string>
   <string name="GiftPremiumGiftsSent_few">Подарки отправлены!</string>
   <string name="GiftPremiumGiftsSent_many">Подарки отправлены!</string>
-  <string name="GiftPremiumUsersGiveAccessMany_zero">%2$s и ещё **%1$d** человек получат доступ к эксклюзивным функциям Telegram.</string>
-  <string name="GiftPremiumUsersGiveAccessMany_two">%2$s и ещё **%1$d** человек получат доступ к эксклюзивным функциям Telegram.</string>
-  <string name="GiftPremiumUsersGiveAccessMany_few">%2$s и ещё **%1$d** человека получат доступ к эксклюзивным функциям Telegram.</string>
-  <string name="GiftPremiumUsersGiveAccessMany_many">%2$s и ещё **%1$d** человек получат доступ к эксклюзивным функциям Telegram.</string>
+  <string name="GiftPremiumUsersGiveAccessMany_zero">Подарите %2$s и ещё **%1$d** людям доступ к эксклюзивным функциям Telegram.</string>
+  <string name="GiftPremiumUsersGiveAccessMany_two">Подарите %2$s и ещё **%1$d** людям доступ к эксклюзивным функциям Telegram.</string>
+  <string name="GiftPremiumUsersGiveAccessMany_few">Подарите %2$s и ещё **%1$d** людям доступ к эксклюзивным функциям Telegram.</string>
+  <string name="GiftPremiumUsersGiveAccessMany_many">Подарите %2$s и ещё **%1$d** людям доступ к эксклюзивным функциям Telegram.</string>
   <string name="GiftPremiumUsersPurchasedMany_zero">%2$s и ещё **%1$d** людям отправлены уведомления о подарках от Вас.</string>
   <string name="GiftPremiumUsersPurchasedMany_two">%2$s и ещё **%1$d** людям отправлены уведомления о подарках от Вас.</string>
   <string name="GiftPremiumUsersPurchasedMany_few">%2$s и ещё **%1$d** людям отправлены уведомления о подарках от Вас.</string>
