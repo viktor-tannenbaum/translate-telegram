@@ -6498,7 +6498,7 @@
     <string name="ChannelTopicsForbidden_few">Темы можно включить, только если в группе больше **%1$d участников**.</string>
     <string name="ChannelTopicsForbidden_many">Темы можно включить, только если в группе больше **%1$d участников**.</string>
     <string name="ChannelTopicsForbidden_other">Темы можно включить, только если в группе больше **%1$d участника**.</string>
-    <string name="ChannelAntiSpamForbidden_one">Активная защита от спама доступна в группах от **%1$d участников**.</string>
+    <string name="ChannelAntiSpamForbidden_one">Активная защита от спама доступна в группах от **%1$d участника**.</string>
     <string name="ChannelAntiSpamForbidden_few">Активная защита от спама доступна в группах от **%1$d участников**.</string>
     <string name="ChannelAntiSpamForbidden_many">Активная защита от спама доступна в группах от **%1$d участников**.</string>
     <string name="ChannelAntiSpamForbidden_other">Активная защита от спама доступна в группах от **%1$d участников**.</string>
